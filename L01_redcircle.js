@@ -1,11 +1,16 @@
 function setup(){
-    createCanvas(600, 400);
-    background(220);
+    createCanvas(500, 900);
+    background("black");
 }
 
 function draw(){
     fill(255, 0, 0);
+    noStroke();
     ellipse(300,200,200,200);
-    
-    // Todo: Challenge 3 Traffic Light
+    fill("yellow");
+    noStroke();
+    ellipse(300,400,200,200);
+    fill("green");
+    noStroke();
+    ellipse(300,600,200,200);
 }
