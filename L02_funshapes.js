@@ -8,10 +8,7 @@ function setup() {
 
 function draw() {
   // Challenge 1: An eye using ellipse() function
-    fill(255, 0, 0);
-    noStroke();
-    ellipse(100,200,200,200);
-    fill("white");
+    
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
