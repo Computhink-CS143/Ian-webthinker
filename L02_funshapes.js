@@ -2,7 +2,7 @@
 Task 1: Add the setup() function
 */
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 800);
   background("skyblue")
 }
 
