@@ -16,7 +16,7 @@ function draw() {
   fill("white")
   circle(300, 200, 150);
   fill("black")
-  circle(410, 200, 100)
+  circle(425, 200, 100)
   // Challenge 2: A face using circle() function
   
   // Challenge 3: A house using rect() function
