@@ -11,7 +11,7 @@ function draw() {
     fill(255, 0, 0);
     noStroke();
     ellipse(100,200,200,200);
-    fill("yellow");
+    fill("whith");
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
