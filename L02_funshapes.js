@@ -13,7 +13,7 @@ function draw() {
   // ellipse(200, 200, 110, 70);
   // fill("black")
   // ellipse(200, 200, 70, 70);
-  fill()
+  fill(white")
   circle(300, 200, 150);
   fill("black")
   circle(375, 200, 100)
