@@ -12,5 +12,5 @@ function draw(){
     ellipse(100,400,200,200);
     fill("green");
     noStroke();
-    ellipse(300,600,200,200);
+    ellipse(100,600,200,200);
 }
