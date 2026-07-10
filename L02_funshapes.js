@@ -10,9 +10,9 @@ function draw() {
   noStroke();
   fill("white")
   // Challenge 1: An eye using ellipse() function
-  ellipse(200, 200, 100, 70);
+  ellipse(200, 200, 100, 0);
   fill("black")
-  ellipse(200, 200, 70, 80);
+  ellipse(200, 200, 70, 70);
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
