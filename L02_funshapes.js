@@ -22,5 +22,13 @@ function draw() {
 
   // Challenge 7: Create a funny Pokemon
 
-  // 
+  // -----------------------------------------------
+  // fill("white")
+  // circle(300, 200, 150);
+  // fill("black")
+  // circle(425, 200, 100)
+  fill("white");
+  rect(200, 200, 100, 75);
+  fill("black");
+  rect(270, 245, 30, 30);
 }
