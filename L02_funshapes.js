@@ -7,6 +7,7 @@ function setup() {
 }
 
 function draw() {
+  noStroke();
   // Challenge 1: An eye using ellipse() function
   // fill("white")
   // circle(300, 200, 150);
