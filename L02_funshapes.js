@@ -9,14 +9,7 @@ function setup() {
 function draw() {
   noStroke();
   // Challenge 1: An eye using ellipse() function
-  // fill("white")
-  // circle(300, 200, 150);
-  // fill("black")
-  // circle(425, 200, 100)
-  fill("white");
-  rect(200, 200, 100, 75);
-  fill("black");
-  rect(270, 245, 30, 30);
+  
   // Challenge 2: A face using circle() function
   
   // Challenge 3: A house using rect() function
