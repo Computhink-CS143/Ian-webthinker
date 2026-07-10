@@ -6,10 +6,10 @@ function setup(){
 function draw(){
     fill(255, 0, 0);
     noStroke();
-    ellipse(300,200,200,200);
+    ellipse(100,200,200,200);
     fill("yellow");
     noStroke();
-    ellipse(300,400,200,200);
+    ellipse(100,400,200,200);
     fill("green");
     noStroke();
     ellipse(300,600,200,200);
