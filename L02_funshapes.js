@@ -11,8 +11,7 @@ function draw() {
     noStroke();
   fill("white")
   // Challenge 1: An eye using ellipse() function
-  ellipse(200, 200, 80, 50);
-  fill("white")
+  ellipse(200, 200, 100, 50);
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
