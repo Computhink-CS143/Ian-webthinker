@@ -9,10 +9,10 @@ function setup() {
 function draw() {
   noStroke();
   // Challenge 1: An eye using ellipse() function
-  // // fill("white")
-  // // ellipse(200, 200, 110, 70);
-  // // fill("black")
-  // // ellipse(200, 200, 70, 70);
+  fill("white")
+  ellipse(200, 200, 110, 70);
+  fill("black")
+  ellipse(200, 200, 70, 70);
   // fill("white")
   // circle(300, 200, 150);
   // fill("black")
