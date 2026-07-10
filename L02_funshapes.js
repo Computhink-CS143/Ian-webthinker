@@ -18,6 +18,10 @@ function draw() {
   ellipse(500, 200, 110, 70);
   fill("black")
   ellipse(500, 200, 70, 70);
+  fill("white")
+  ellipse(200, 200, 110, 70);
+  fill("black")
+  ellipse(200, 200, 70, 70);
   // Challenge 3: A house using rect() function
 
   // Challenge 4: A rocketship using triangle() function
