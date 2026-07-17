@@ -14,7 +14,7 @@ function draw() {
   for( let red=0; red<256; red+=35){
     fill(0, 0, red);
     rect(50, 50, 50, 50);
-    
+    count = count + 1
   }
   // Task 2: Colour Loop
 
