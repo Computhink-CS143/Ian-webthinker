@@ -18,5 +18,9 @@ function draw() {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-  
+  for( let circleX=1; circleX<7; circleX++){
+    for( let circleY=1; circleY<7; circleY++){
+      circle(circleX*50, circleY*50, 50);
+    }
+  }
 }
