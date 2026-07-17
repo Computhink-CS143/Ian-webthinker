@@ -10,6 +10,7 @@ function draw() {
   circle(150, 50, 50);
   circle(250, 50, 50);
   circle(350, 50, 50);
+  circle(450, 50, 50);
 
   // Task 1: Colour Gradient
 
