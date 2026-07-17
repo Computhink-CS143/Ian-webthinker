@@ -34,6 +34,6 @@ function draw() {
   // triangle(0, 5000, 800, 5000, 0, 0);
   fill("red");
   ellipse(200, 200, 90, 200);
-  fill("red");
-  ellipse(200, 200, 90, 200);
+  fill("blue");
+  circle(200, 200, 90, 200);
 }
