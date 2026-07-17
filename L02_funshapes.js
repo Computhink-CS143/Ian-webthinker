@@ -35,5 +35,7 @@ function draw() {
   fill("red");
   ellipse(200, 200, 90, 200);
   fill("blue");
-  circle(200, 200, 0, 90);
+  circle(200, 200, 40, 40);
+  fill("red");
+  ellipse(200, 200, 90, 200);
 }
