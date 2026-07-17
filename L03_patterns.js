@@ -10,9 +10,11 @@ function draw() {
   //   circle(circleX*50, 50, 50);
   // }
   // Task 1: Colour Gradient
+  let count = 1
   for( let red=0; red<256; red+=35){
     fill(0, 0, red);
     rect(50, 50, 50, 50);
+    
   }
   // Task 2: Colour Loop
 
