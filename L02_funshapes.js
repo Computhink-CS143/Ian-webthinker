@@ -43,5 +43,5 @@ function draw() {
   fill("#bb9351");
   circle(200, 200, 120);
   fill("#bb9351");
-  triangle(150, 180, 120, 200, 100, 100);
+  triangle(10, 150, 120, 200, 100, 100);
  }
