@@ -43,5 +43,5 @@ function draw() {
   fill("#bb9351");
   circle(200, 200, 120);
   fill("#bb9351");
-  circle(200, 200, 120);
+  triangal(200, 200, 120);
  }
