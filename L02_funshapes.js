@@ -32,5 +32,6 @@ function draw() {
   // fill("black");
   // rect(270, 245, 30, 30);
   // triangle(0, 5000, 800, 5000, 0, 0);
-  ellipse(200, 200, 90, 0);
+  
+  ellipse(200, 200, 90, 200);
 }
