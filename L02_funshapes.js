@@ -39,5 +39,5 @@ function draw() {
   fill("yellow");
   rect(155, 280, 90, 40);
   fill("green");
-  triangle(233, 130, 90, 200, 200, 10);
+  triangle(233, 130, 233, 200, 200, 10);
 }
