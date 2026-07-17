@@ -9,7 +9,7 @@ function draw() {
   for( let circleX=1; circleX<7; circleX++){
     for( let circleX=1; circleX<7; circleX++){
       circle(circleX*50, 50, 50);
-    
+    }
   }
   // Task 1: Colour Gradient
 
