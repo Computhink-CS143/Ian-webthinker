@@ -37,5 +37,5 @@ function draw() {
   fill("blue");
   circle(200, 200, 40, 40);
   fill("yellow");
-  ellipse(200, 200, 90, 200);
+  rect(200, 200, 90, 200);
 }
