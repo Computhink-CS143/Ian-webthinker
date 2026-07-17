@@ -40,6 +40,6 @@ function draw() {
 //   rect(146, 280, 110, 30);
 //   fill("green");
   //  triangle(240, 130, 160, 130, 200, 20);
-  fill("#bb9351");
-  circle(200, 200, 120);
+  any
+
  }
