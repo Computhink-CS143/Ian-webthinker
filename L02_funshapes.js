@@ -32,12 +32,13 @@ function draw() {
   // fill("black");
   // rect(270, 245, 30, 30);
   // triangle(0, 5000, 800, 5000, 0, 0);
-  fill("red");
-  ellipse(200, 200, 110, 200);
-  fill("blue");
-  circle(200, 200, 40);
-  fill("yellow");
-  rect(146, 280, 110, 30);
-  fill("green");
-  triangle(240, 130, 160, 130, 200, 20);
-}
+//   fill("red");
+//   ellipse(200, 200, 110, 200);
+//   fill("blue");
+//   circle(200, 200, 40);
+//   fill("yellow");
+//   rect(146, 280, 110, 30);
+//   fill("green");
+//   triangle(240, 130, 160, 130, 200, 20);
+
+ }
