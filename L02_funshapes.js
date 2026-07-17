@@ -38,4 +38,6 @@ function draw() {
   circle(200, 200, 40);
   fill("yellow");
   rect(155, 280, 90, 40);
+  fill("red");
+  ellipse(200, 200, 90, 200);
 }
