@@ -37,7 +37,7 @@ function draw() {
   fill("blue");
   circle(200, 200, 40);
   fill("yellow");
-  rect(155, 280, 120, 40);
+  rect(155, 280, 110, 40);
   fill("green");
   triangle(240, 130, 160, 130, 200, 20);
 }
