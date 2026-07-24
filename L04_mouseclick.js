@@ -32,5 +32,5 @@ function draw() {
 //     shapeColour = color(random(255), random(255), random(255));
 // }
 function mouseMoved() {
-    ellipse()
+    ellipse(mouseX, mouse)
 }
