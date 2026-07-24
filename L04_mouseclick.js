@@ -33,6 +33,6 @@ function setup() {
 // function mouseReleased() {
 //     shapeColour = color(random(255), random(255), random(255));
 // }
-function mouseMoved() {
+function mouseDrag() {
     ellipse(mouseX, mouseY, 5, 5);
 }
