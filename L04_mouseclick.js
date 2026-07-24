@@ -23,7 +23,7 @@ function draw() {
     // }
    
     fill(shapeColour);
-    circle (300, 300, 50);
+    circle (300, 300, 100);
 }
 function mouseReleased() {
     shapeColour = color(random(255), random(255), random(255));
