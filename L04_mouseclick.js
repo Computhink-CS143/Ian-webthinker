@@ -1,6 +1,6 @@
 // write your codes here
 function setup() {
-    createCanvas(600, 600)
-    background(0)
-    noLoop()
+    createCanvas(600, 600);
+    background(0);
+    noLoop();
 }
