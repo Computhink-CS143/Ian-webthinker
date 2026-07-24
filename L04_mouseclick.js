@@ -5,7 +5,7 @@ function setup() {
     createCanvas(900, 900);
     background("#D462FF");
     noStroke()
-    fill(random(255), random(255), random(255))
+    // fill(random(255), random(255), random(255))
     // noLoop();
 }
 
@@ -34,5 +34,6 @@ function setup() {
 //     shapeColour = color(random(255), random(255), random(255));
 // }
 function mouseDragged() {
+    
     ellipse(mouseX, mouseY, 15, 15);
 }
