@@ -22,3 +22,6 @@ function draw() {
     fill("white")
     circle (300, 300, 50)
 }
+function mouseReleased(){
+    
+}
