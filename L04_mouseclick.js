@@ -2,7 +2,7 @@
 
 // write your codes here
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(900, 900);
     background("#D462FF");
     noStroke()
     fill("red")
