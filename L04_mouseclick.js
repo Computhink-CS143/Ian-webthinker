@@ -23,5 +23,5 @@ function draw() {
     circle (300, 300, 50)
 }
 function mouseReleased(){
-    shapeColour = colour(random2)
+    shapeColour = colour(random(255), random())
 }
