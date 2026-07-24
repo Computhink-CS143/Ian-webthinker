@@ -15,5 +15,7 @@ function draw() {
         fill(0, ggcolour, 0)
         circle(xpos, ypos, 50)
         xpos +=50;
+        ypos +=50;
+        
     }
 }
