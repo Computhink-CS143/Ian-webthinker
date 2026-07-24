@@ -6,7 +6,7 @@ function setup() {
     background("#D462FF");
     noStroke()
     fill(random(255), random(255), random(255))
-    //noLoop();
+    // noLoop();
 }
 
 // function draw() {
