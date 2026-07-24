@@ -13,6 +13,6 @@ function draw() {
     let ggcolour = 30
     for(let i = 0; i < 5; i++) {
         fill(0, ggcolour, 0)
-        circle(xpos, ypos, 10)
+        circle(xpos, ypos, 50)
     }
 }
