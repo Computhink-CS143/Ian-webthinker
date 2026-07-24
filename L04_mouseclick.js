@@ -4,6 +4,7 @@
 function setup() {
     createCanvas(600, 600);
     background("#D462FF");
+    noStroke()
     //noLoop();
 }
 
