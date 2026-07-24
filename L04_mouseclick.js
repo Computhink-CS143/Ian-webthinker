@@ -1,3 +1,5 @@
+ shapeColour = "white"
+
 // write your codes here
 function setup() {
     createCanvas(600, 600);
@@ -19,7 +21,7 @@ function draw() {
     //     ypos +=25;
     //     ggcolour +=15;
     // }
-    shapeColour = "white"
+   
     fill(shapeColour);
     circle (300, 300, 50);
 }
