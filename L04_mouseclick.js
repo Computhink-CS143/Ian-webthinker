@@ -10,7 +10,7 @@ function draw() {
     print(height);
     let xpos = 10
     let ypos = 10
-    
+    let ggcolour
     for(let i = 0; i < 5; i++) {
         fill()
     }
