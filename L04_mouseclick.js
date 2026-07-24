@@ -8,7 +8,8 @@ function setup() {
 function draw() {
     print(width);
     print(height);
-    let xpos
+    let xpos = 10
+    
     for(let i = 0; i < 5; i++) {
         fill()
     }
