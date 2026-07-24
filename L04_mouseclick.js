@@ -19,9 +19,10 @@ function draw() {
     //     ypos +=25;
     //     ggcolour +=15;
     // }
-    fill("white")
-    circle (300, 300, 50)
+    shapeColour = "white"
+    fill(shapeColour);
+    circle (300, 300, 50);
 }
 function mouseReleased(){
-    shapeColour = colour(random(255), random(255), random)
+    shapeColour = colour(random(255), random(255), random(255));
 }
