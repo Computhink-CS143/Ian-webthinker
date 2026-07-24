@@ -9,6 +9,7 @@ function draw() {
     print(width);
     print(height);
     let xpos = 10
+    let ypos = 10
     
     for(let i = 0; i < 5; i++) {
         fill()
