@@ -6,8 +6,8 @@ function setup() {
 }
 
 function draw() {
-    print(width);
-    print(height);
+    // print(width);
+    // print(height);
     let xpos = 50;
     let ypos = 50;
     let ggcolour = 0;
@@ -16,6 +16,6 @@ function draw() {
         circle(xpos, ypos, 50)
         xpos +=50;
         ypos +=50;
-        ggcolour +=40;
+        ggcolour +=30;
     }
 }
