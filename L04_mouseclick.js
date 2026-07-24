@@ -2,7 +2,7 @@
 function setup() {
     createCanvas(600, 600);
     background("#D462FF");
-    noLoop();
+    //noLoop();
 }
 
 function draw() {
