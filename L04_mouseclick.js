@@ -5,7 +5,7 @@ function setup() {
     createCanvas(900, 900);
     background("#D462FF");
     noStroke()
-    fill("red")
+    fill(random(255), random(255), random(255))
     //noLoop();
 }
 
