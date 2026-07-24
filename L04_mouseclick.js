@@ -20,5 +20,5 @@ function draw() {
     //     ggcolour +=15;
     // }
     fill("white")
-    circle ()
+    circle (300, 300, 50)
 }
