@@ -10,7 +10,7 @@ function draw() {
     print(height);
     let xpos = 50;
     let ypos = 50;
-    let ggcolour = 30
+    let ggcolour = 30;
     for(let i = 0; i < 5; i++) {
         fill(0, ggcolour, 0)
         circle(xpos, ypos, 50)
