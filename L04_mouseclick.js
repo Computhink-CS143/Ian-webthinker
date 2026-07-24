@@ -7,6 +7,7 @@ function setup() {
     noStroke()
     // fill(random(255), random(255), random(255))
     // noLoop();
+    size = 35
 }
 
 // function draw() {
