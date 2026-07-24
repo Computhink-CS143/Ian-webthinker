@@ -1,7 +1,7 @@
 // write your codes here
 function setup() {
     createCanvas(600, 600);
-    background("#34caeb");
+    background("#375532");
     noLoop();
 }
 
