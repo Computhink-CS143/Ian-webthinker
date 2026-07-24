@@ -7,10 +7,10 @@ function setup() {
     //noLoop();
 }
 
-function draw() {
+// function draw() {
     // print(width);
     // print(height);
-    noStroke()
+    // noStroke()
     // let xpos = 25;
     // let ypos = 25;
     // let ggcolour = 0;
@@ -22,9 +22,9 @@ function draw() {
     //     ggcolour +=15;
     // }
    
-    fill(shapeColour);
-    circle (300, 300, 250);
-}
+//     fill(shapeColour);
+//     circle (300, 300, 250);
+// }
 // function mousePressed() {
 //     shapeColour = color(random(255), random(255), random(255));
 // }
@@ -32,5 +32,5 @@ function draw() {
 //     shapeColour = color(random(255), random(255), random(255));
 // }
 function mouseMoved() {
-    ellipse(mouseX, mouseY, 10, 10)
+    ellipse(mouseX, mouseY, 10, 10);
 }
