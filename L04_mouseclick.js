@@ -25,9 +25,9 @@ function draw() {
     fill(shapeColour);
     circle (300, 300, 250);
 }
-function mousePressed() {
-    shapeColour = color(random(255), random(255), random(255));
-}
-function mouseReleased() {
-    shapeColour = color(random(255), random(255), random(255));
-}
+// function mousePressed() {
+//     shapeColour = color(random(255), random(255), random(255));
+// }
+// function mouseReleased() {
+//     shapeColour = color(random(255), random(255), random(255));
+// }
