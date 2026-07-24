@@ -8,6 +8,7 @@ function setup() {
 function draw() {
     // print(width);
     // print(height);
+    noStroke()
     let xpos = 50;
     let ypos = 50;
     let ggcolour = 0;
