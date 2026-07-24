@@ -10,7 +10,7 @@ function draw() {
     // print(height);
     noStroke()
     let xpos = 50;
-    let ypos = 50;
+    let ypos = 25;
     let ggcolour = 0;
     for(let i = 0; i < 10; i++) {
         fill(0, ggcolour, 0)
