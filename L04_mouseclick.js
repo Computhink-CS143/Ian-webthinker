@@ -8,9 +8,9 @@ function setup() {
 function draw() {
     print(width);
     print(height);
-    let xpos = 10
-    let ypos = 10
-    let ggcolour
+    let xpos = 10;
+    let ypos = 10;
+    let ggcolour = 30
     for(let i = 0; i < 5; i++) {
         fill()
     }
