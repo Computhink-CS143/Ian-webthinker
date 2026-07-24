@@ -4,3 +4,5 @@ function setup() {
     background(0);
     noLoop();
 }
+
+function draw() {}
