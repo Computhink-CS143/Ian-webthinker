@@ -31,3 +31,4 @@ function draw() {
 // function mouseReleased() {
 //     shapeColour = color(random(255), random(255), random(255));
 // }
+function mouseMoved() {}
