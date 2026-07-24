@@ -12,6 +12,7 @@ function draw() {
     let ypos = 10;
     let ggcolour = 30
     for(let i = 0; i < 5; i++) {
-        fill(0, )
+        fill(0, ggcolour, 0)
+        
     }
 }
