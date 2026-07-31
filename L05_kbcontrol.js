@@ -1,5 +1,5 @@
 let size = 50;
-// let showCircle = false;
+let showCircle = false;
 // let showSquare = false;
 // let showRect = false;
 let colour = red
