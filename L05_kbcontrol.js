@@ -10,6 +10,9 @@ function draw() {
     rect(width/2, innerHeight, size, size);
 }
 
+function keyPressed() {
+    
+}
 // function mousePressed() {
 //     fill(random(1, 256), random(1, 256), random(1, 256));
 //     size = 5;
