@@ -18,6 +18,9 @@ function keyPressed() {
     if (key === 'c') {
         showCircle = !showCircle;
     }
+    if (key === '') {
+        showCircle = !showCircle;
+    }
 }
 
 // function keyReleased() {
