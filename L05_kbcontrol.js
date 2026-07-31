@@ -43,7 +43,7 @@ function keyPressed() {
         colour = "green"
     }
     if(keyCode === DOWN_ARROW) {
-        colour = red"
+        colour = "red"
     }
 }
 
