@@ -10,5 +10,5 @@ function draw() {
 }
 
 function mousePressed() {
-    let circlecolou
+    let circlecolour
 }
