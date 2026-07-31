@@ -17,6 +17,9 @@ function draw() {
     if (showSquare){
         rect(width/2, height/2, size, size);
     }
+    if (showRect){
+        rect(width/2, height/2, size, size);
+    }
 }
 
 function keyPressed() {
