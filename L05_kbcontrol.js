@@ -42,7 +42,9 @@ function keyPressed() {
     if(keyCode === UP_ARROW) {
         colour = green
     }
-    
+    if(keyCode === DOWN_ARROW) {
+        colour = red
+    }
 }
 
 // function keyReleased() {
