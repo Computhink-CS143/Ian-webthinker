@@ -6,6 +6,6 @@ function setup() {
 }
 
 function draw() {
-    let 
+    let circleColour
 }
 
