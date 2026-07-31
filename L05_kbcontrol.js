@@ -25,7 +25,7 @@ function draw() {
     // if (showCircle){
     //     circle(width/2, height/2, size);
     // }
-    circle()
+    circle(xpos, height/2,)
 }
 
 function keyPressed() {
