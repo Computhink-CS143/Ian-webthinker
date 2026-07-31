@@ -11,8 +11,7 @@ function draw() {
 }
 
 function mousePressed() {
-    circlecolour = random(1, 256)
-    fill(circlecolour, circlecolour, circlecolour);
+    fill(random, circlecolour, circlecolour);
     size = 5;
 }
 
