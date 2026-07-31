@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
     background("#08bbecfe")
-    if (showCircle){}
+    if (showCircle){
         circle(width/2, height/2, size);
     }
 }
