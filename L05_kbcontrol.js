@@ -4,7 +4,7 @@ function setup() {
     noStroke();
     // noLoop();
     let size
-    let 
+    let circle
 }
 
 function draw() {
@@ -18,5 +18,5 @@ function mousePressed() {
 }
 
 function mouseDragged() {
-    circle(mouseX, )
+    circle(mouseX, mouse)
 }
