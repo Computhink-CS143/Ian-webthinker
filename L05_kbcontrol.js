@@ -11,5 +11,5 @@ function draw() {
 
 function mousePressed() {
     let circlecolour = random(1, 256)
-    FileList()
+    fill(circlecolour)
 }
