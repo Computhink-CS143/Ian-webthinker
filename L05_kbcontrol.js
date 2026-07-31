@@ -26,7 +26,7 @@ function draw() {
     //     circle(width/2, height/2, size);
     // }
     circle(xpos, height/2, size);
-    
+    if(keyIsDown(RIGHT_ARROW)){}
 }
 
 function keyPressed() {
