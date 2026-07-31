@@ -1,5 +1,5 @@
 let size = 50;
-
+let showC
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
