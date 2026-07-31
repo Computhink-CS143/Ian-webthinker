@@ -2,7 +2,7 @@ let size = 50;
 let showCircle = true;
 // let showSquare = false;
 // let showRect = false;
-let colour = red
+let colour = "red"
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
