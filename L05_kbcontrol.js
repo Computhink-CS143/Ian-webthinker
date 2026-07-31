@@ -32,6 +32,7 @@ function keyPressed() {
 //     if (key === 'r') {
 //         showRect = !showRect;
 //     }
+press
 }
 
 // function keyReleased() {
