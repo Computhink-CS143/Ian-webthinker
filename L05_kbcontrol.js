@@ -9,3 +9,4 @@ function draw() {
     let circleColour
 }
 
+function mousePressed() {}
