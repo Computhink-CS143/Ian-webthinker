@@ -7,15 +7,15 @@ function setup() {
 }
 
 function draw() {
-    React(width/2, innerHeight, size, size);
+    rect(width/2, innerHeight, size, size);
 }
 
-function mousePressed() {
-    fill(random(1, 256), random(1, 256), random(1, 256));
-    size = 5;
-}
+// function mousePressed() {
+//     fill(random(1, 256), random(1, 256), random(1, 256));
+//     size = 5;
+// }
 
-function mouseDragged() {
-    circle(mouseX, mouseY, size);
-    size = size + 0.5;
-}
+// function mouseDragged() {
+//     circle(mouseX, mouseY, size);
+//     size = size + 0.5;
+// }
