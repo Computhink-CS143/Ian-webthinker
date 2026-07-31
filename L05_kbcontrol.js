@@ -14,7 +14,9 @@ function keyPressed() {
     size = 200
 }
 
-
+function keyReleased() {
+    
+}
 // function mousePressed() {
 //     fill(random(1, 256), random(1, 256), random(1, 256));
 //     size = 5;
