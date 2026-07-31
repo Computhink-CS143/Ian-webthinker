@@ -6,11 +6,11 @@ function setup() {
 }
 
 function draw() {
-    let circleColour
+    
 }
 
 function mousePressed() {
     let circlecolour = random(1, 256)
-    fill(circlecolour, circlecolour, circlecolour)
-    size = 5
+    fill(circlecolour, circlecolour, circlecolour);
+    size = 5;
 }
