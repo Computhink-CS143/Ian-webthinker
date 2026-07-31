@@ -18,7 +18,7 @@ function draw() {
         rect(width/2, height/2, size, size);
     }
     if (showRect){
-        rect(width/2, height/2, size, size);
+        rect(width/2, height/2, size, size+5);
     }
 }
 
