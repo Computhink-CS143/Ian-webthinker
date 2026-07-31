@@ -34,6 +34,12 @@ function draw() {
     if(keyIsDown(LEFT_ARROW)){
         xpos -= 3;
     }
+    if(keyIsDown(RIGHT_ARROW)){
+        xpos += 3;
+    }
+    if(keyIsDown(LEFT_ARROW)){
+        xpos -= 3;
+    }
 }
 
 // function keyPressed() {
