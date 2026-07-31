@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    React(width/2, height)
+    React(width/2, innerHeight, size)
 }
 
 function mousePressed() {
