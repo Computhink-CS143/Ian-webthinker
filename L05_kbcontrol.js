@@ -3,8 +3,8 @@ let showCircle = true;
 // let showSquare = false;
 // let showRect = false;
 let colour = "red"
-let xpos =  0;
-let ypos = 0;
+let xpos =  300;
+let ypos = 300;
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
