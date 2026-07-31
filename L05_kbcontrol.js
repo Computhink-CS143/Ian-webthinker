@@ -2,7 +2,7 @@
 // let showCircle = false;
 // let showSquare = false;
 // let showRect = false;
-let colour = 
+let colour = red
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
@@ -21,6 +21,7 @@ function draw() {
     // if (showRect){
     //     rect(width/4, height/2, size, size+5);
     // }
+    
 }
 
 function keyPressed() {
