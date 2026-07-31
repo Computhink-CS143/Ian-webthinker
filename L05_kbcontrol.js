@@ -3,6 +3,8 @@ let showCircle = true;
 // let showSquare = false;
 // let showRect = false;
 let colour = "red"
+let xpos =  0;
+let ypos = 0;
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
@@ -27,12 +29,14 @@ function draw() {
     // }
     circle(xpos, height/2, size);
     if(keyIsDown(RIGHT_ARROW)){
-        xpos += 1;
-    
+        xpos += 3;
+    }
+    if(keyIsDown(LEFT_ARROW)){
+        xpos -= 3;
     }
 }
 
-function keyPressed() {
+// function keyPressed() {
 //     if (key === 'c') {
 //         showCircle = !showCircle;
 //     }
@@ -44,13 +48,13 @@ function keyPressed() {
 //     }
     // print(key);
     // print(keyCode);
-    if(keyCode === UP_ARROW) {
-        colour = "green"
-    }
-    if(keyCode === DOWN_ARROW) {
-        colour = "red"
-    }
-}
+//     if(keyCode === UP_ARROW) {
+//         colour = "green"
+//     }
+//     if(keyCode === DOWN_ARROW) {
+//         colour = "red"
+//     }
+// }
 
 // function keyReleased() {
 //     size = 50;
