@@ -34,10 +34,10 @@ function draw() {
     if(keyIsDown(LEFT_ARROW)){
         xpos -= 3;
     }
-    if(keyIsDown(RIGHT_ARROW)){
+    if(keyIsDown(UP_ARROW)){
         xpos += 3;
     }
-    if(keyIsDown(LEFT_ARROW)){
+    if(keyIsDown(DOWN_ARROW)){
         xpos -= 3;
     }
 }
