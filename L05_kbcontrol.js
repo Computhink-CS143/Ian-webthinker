@@ -32,8 +32,9 @@ function keyPressed() {
 //     if (key === 'r') {
 //         showRect = !showRect;
 //     }
-    print(key);
-    print(keyCode);
+    // print(key);
+    // print(keyCode);
+    
 }
 
 // function keyReleased() {
