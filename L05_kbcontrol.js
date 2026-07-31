@@ -1,4 +1,5 @@
 let size = 50;
+
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
