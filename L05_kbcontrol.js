@@ -40,7 +40,8 @@ function draw() {
     if(keyIsDown(DOWN_ARROW)){
         ypos += 3;
     }
-    xpos = constrain(xpos, 0, )
+    xpos = constrain(xpos, 0, width);
+    ypos
 }
 
 // function keyPressed() {
