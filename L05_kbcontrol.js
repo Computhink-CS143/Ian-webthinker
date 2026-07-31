@@ -10,5 +10,5 @@ function draw() {
 }
 
 function mousePressed() {
-    let circlecolour = random
+    let circlecolour = 255
 }
