@@ -18,7 +18,7 @@ function keyPressed() {
     if (key === 'c') {
         showCircle = !showCircle;
     }
-    if (key === '') {
+    if (key === 's') {
         showCircle = !showCircle;
     }
 }
