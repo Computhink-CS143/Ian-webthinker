@@ -20,11 +20,9 @@ function draw() {
     // if (showRect){
     //     rect(width/4, height/2, size, size+5);
     // }
-    print(key);
-    print(keyCode);
 }
 
-// function keyPressed() {
+function keyPressed() {
 //     if (key === 'c') {
 //         showCircle = !showCircle;
 //     }
@@ -34,7 +32,7 @@ function draw() {
 //     if (key === 'r') {
 //         showRect = !showRect;
 //     }
-// }
+}
 
 // function keyReleased() {
 //     size = 50;
