@@ -40,6 +40,7 @@ function draw() {
     if(keyIsDown(DOWN_ARROW)){
         ypos += 3;
     }
+    
 }
 
 // function keyPressed() {
