@@ -1,7 +1,7 @@
-let size = 50;
-let showCircle = false;
-let showSquare = false;
-let showRect = false;
+// let size = 50;
+// let showCircle = false;
+// let showSquare = false;
+// let showRect = false;
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
@@ -35,7 +35,7 @@ function keyPressed() {
     // print(key);
     // print(keyCode);
     if(keyCode === UP_ARROW) {
-        colour = ("green"
+        colour = "green"
     }
 }
 
