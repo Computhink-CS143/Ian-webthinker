@@ -33,7 +33,7 @@ function keyPressed() {
 //         showRect = !showRect;
 //     }
     print(key);
-    print
+    print(keyCode);
 }
 
 // function keyReleased() {
