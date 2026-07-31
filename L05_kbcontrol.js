@@ -42,7 +42,7 @@ function keyPressed() {
     }
 }
 
-// function keyReleased() {
+function keyReleased() {
 //     size = 50;
 // }
 // function mousePressed() {
@@ -53,4 +53,5 @@ function keyPressed() {
 // function mouseDragged() {
 //     circle(mouseX, mouseY, size);
 //     size = size + 0.5;
-// }
+
+}
