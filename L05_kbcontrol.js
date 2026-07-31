@@ -11,28 +11,28 @@ function setup() {
 
 function draw() {
     background("#08bbecfe")
-    if (showCircle){
-        circle(width/2, height/2, size);
-    }
-    if (showSquare){
-        rect(width/2, height/2, size, size);
-    }
-    if (showRect){
-        rect(width/4, height/2, size, size+5);
-    }
+    // if (showCircle){
+    //     circle(width/2, height/2, size);
+    // }
+    // if (showSquare){
+    //     rect(width/2, height/2, size, size);
+    // }
+    // if (showRect){
+    //     rect(width/4, height/2, size, size+5);
+    // }
 }
 
-function keyPressed() {
-    if (key === 'c') {
-        showCircle = !showCircle;
-    }
-    if (key === 's') {
-        showSquare = !showSquare;
-    }
-    if (key === 'r') {
-        showRect = !showRect;
-    }
-}
+// function keyPressed() {
+//     if (key === 'c') {
+//         showCircle = !showCircle;
+//     }
+//     if (key === 's') {
+//         showSquare = !showSquare;
+//     }
+//     if (key === 'r') {
+//         showRect = !showRect;
+//     }
+// }
 
 // function keyReleased() {
 //     size = 50;
