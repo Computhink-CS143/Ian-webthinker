@@ -22,7 +22,7 @@ function draw() {
     //     rect(width/4, height/2, size, size+5);
     // }
     fill(colour)
-    circle(width/2)
+    circle(width/2, height/2, )
 }
 
 function keyPressed() {
