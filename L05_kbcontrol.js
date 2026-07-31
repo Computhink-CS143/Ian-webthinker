@@ -14,3 +14,7 @@ function mousePressed() {
     fill(circlecolour, circlecolour, circlecolour);
     size = 5;
 }
+
+function mouseDragged() {
+    
+}
