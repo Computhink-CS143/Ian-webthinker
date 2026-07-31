@@ -6,7 +6,7 @@ let colour = "red"
 let xpos =  300;
 let ypos = 300;
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(1000, 600);
     background("#08bbecfe")
     // noStroke();
     // noLoop();
