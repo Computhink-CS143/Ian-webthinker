@@ -11,8 +11,10 @@ function draw() {
 }
 
 function keyPressed() {
-    size
+    size = 200
 }
+
+
 // function mousePressed() {
 //     fill(random(1, 256), random(1, 256), random(1, 256));
 //     size = 5;
