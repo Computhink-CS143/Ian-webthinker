@@ -13,7 +13,7 @@ function draw() {
 }
 
 function keyPressed() {
-    size = 200;
+    
 }
 
 // function keyReleased() {
