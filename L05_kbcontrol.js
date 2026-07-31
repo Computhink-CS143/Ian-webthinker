@@ -41,7 +41,7 @@ function draw() {
         ypos += 3;
     }
     xpos = constrain(xpos, 0, width);
-    ypos
+    ypos = constrain(ypos)
 }
 
 // function keyPressed() {
