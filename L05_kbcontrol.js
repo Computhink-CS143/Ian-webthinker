@@ -42,18 +42,16 @@ function keyPressed() {
     if(keyCode === UP_ARROW) {
         colour = green
     }
+    
 }
 
-function keyReleased() {
+// function keyReleased() {
 //     size = 50;
 // }
 // function mousePressed() {
 //     fill(random(1, 256), random(1, 256), random(1, 256));
 //     size = 5;
-    if(keyCode === DOWN_ARROW) {
-        colour = red
-    }
-}
+// }
 
 // function mouseDragged() {
 //     circle(mouseX, mouseY, size);
