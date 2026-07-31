@@ -3,8 +3,6 @@ function setup() {
     background("#08bbecfe")
     noStroke();
     // noLoop();
-    let size
-    let circlecolour
 }
 
 function draw() {
