@@ -2,6 +2,7 @@
 // let showCircle = false;
 // let showSquare = false;
 // let showRect = false;
+let colour = 
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
