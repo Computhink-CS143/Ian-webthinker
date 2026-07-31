@@ -22,9 +22,10 @@ function draw() {
     //     rect(width/4, height/2, size, size+5);
     // }
     fill(colour)
-    if (showCircle){
-        circle(width/2, height/2, size);
-    }
+    // if (showCircle){
+    //     circle(width/2, height/2, size);
+    // }
+    
 }
 
 function keyPressed() {
