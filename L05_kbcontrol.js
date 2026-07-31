@@ -1,6 +1,6 @@
 let size = 50;
 function setup() {
-    createCanvas(800, 800);
+    createCanvas(600, 600);
     background("#08bbecfe")
     // noStroke();
     // noLoop();
