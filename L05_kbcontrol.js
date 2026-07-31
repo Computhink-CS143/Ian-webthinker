@@ -40,10 +40,10 @@ function keyPressed() {
     // print(key);
     // print(keyCode);
     if(keyCode === UP_ARROW) {
-        colour = green
+        colour = "green"
     }
     if(keyCode === DOWN_ARROW) {
-        colour = red
+        colour = red"
     }
 }
 
