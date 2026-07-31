@@ -48,7 +48,7 @@ function keyReleased() {
 // function mousePressed() {
 //     fill(random(1, 256), random(1, 256), random(1, 256));
 //     size = 5;
-    if(keyCode === UP_ARROW) {
+    if(keyCode === DOWN_ARROW) {
         colour = red
     }
 }
