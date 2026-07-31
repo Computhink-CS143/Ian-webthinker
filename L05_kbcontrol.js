@@ -4,7 +4,7 @@ function setup() {
     noStroke();
     // noLoop();
     let size
-    let circle
+    let circlecolour
 }
 
 function draw() {
