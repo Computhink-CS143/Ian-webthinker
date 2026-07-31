@@ -7,6 +7,7 @@ function setup() {
 }
 
 function draw() {
+    background("#08bbecfe")
     rect(width/2, height/2, size, size);
 }
 
