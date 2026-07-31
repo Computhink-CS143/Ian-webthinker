@@ -23,7 +23,7 @@ function keyPressed() {
         showCircle = !showCircle;
     }
     if (key === 's') {
-        showSquare = !showCircle;
+        showSquare = !showSquare;
     }
 }
 
