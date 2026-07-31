@@ -6,7 +6,6 @@ function setup() {
 }
 
 function draw() {
-
+    let 
 }
 
-mouse
