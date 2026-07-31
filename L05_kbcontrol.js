@@ -1,5 +1,5 @@
 let size = 50;
-let showCircle = false
+let showCircle = false;
 function setup() {
     createCanvas(600, 600);
     background("#08bbecfe")
