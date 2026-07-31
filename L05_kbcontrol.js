@@ -4,6 +4,7 @@ function setup() {
     noStroke();
     // noLoop();
     let size
+    let 
 }
 
 function draw() {
