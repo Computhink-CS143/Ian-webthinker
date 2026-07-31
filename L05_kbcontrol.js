@@ -13,7 +13,7 @@ function draw() {
 }
 
 function keyPressed() {
-    
+    if (key === 'c') 
 }
 
 // function keyReleased() {
