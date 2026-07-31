@@ -30,7 +30,7 @@ function keyPressed() {
         showSquare = !showSquare;
     }
     if (key === 'r') {
-        showSquare = !showSquare;
+        showRect = !showSquare;
     }
 }
 
