@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    
+    React(width)
 }
 
 function mousePressed() {
