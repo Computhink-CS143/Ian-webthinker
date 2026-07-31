@@ -20,7 +20,8 @@ function draw() {
     // if (showRect){
     //     rect(width/4, height/2, size, size+5);
     // }
-    print
+    print(key);
+    print()
 }
 
 // function keyPressed() {
