@@ -3,6 +3,7 @@ function setup() {
     background("#8908ec9a")
     noStroke();
     // noLoop();
+    let size
 }
 
 function draw() {
