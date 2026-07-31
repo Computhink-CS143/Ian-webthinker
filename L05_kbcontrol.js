@@ -25,6 +25,9 @@ function keyPressed() {
     if (key === 's') {
         showSquare = !showSquare;
     }
+    if (key === 'r') {
+        showSquare = !showSquare;
+    }
 }
 
 // function keyReleased() {
