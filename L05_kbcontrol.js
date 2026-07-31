@@ -28,7 +28,7 @@ function draw() {
     circle(xpos, height/2, size);
     if(keyIsDown(RIGHT_ARROW)){
         xpos += 1;
-        
+    
     }
 }
 
