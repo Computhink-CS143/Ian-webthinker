@@ -3,7 +3,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(400, 300);
+    createCanvas(400, 400);
     background("#eb08e7");
     rectMode(CENTER);
 }
