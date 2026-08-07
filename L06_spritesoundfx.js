@@ -19,8 +19,9 @@ function setup() {
 }
 
 function draw() {
+    background
     if(keyIsDown(LEFT_ARROW)){
-        
+
     }
 }
 
