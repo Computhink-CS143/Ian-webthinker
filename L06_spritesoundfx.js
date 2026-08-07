@@ -1,5 +1,6 @@
 let picoImg;
 let soundSFX;
+let 
 
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
