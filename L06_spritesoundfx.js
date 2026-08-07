@@ -13,4 +13,4 @@ function draw() {
     rect(width/2, height/2, 50, 50);
 }
 
-keyIsDown === UP_ARROW
+keyIsDown === UP_ARROW()
