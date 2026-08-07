@@ -16,5 +16,13 @@ function draw() {
     if(keyIsDown(RIGHT_ARROW)) {
         xpos += 3
     }
-
+    if(keyIsDown(RIGHT_ARROW)) {
+        xpos += 3
+    }
+    if(keyIsDown(RIGHT_ARROW)) {
+        xpos += 3
+    }
+    if(keyIsDown(RIGHT_ARROW)) {
+        xpos += 3
+    }
 }
