@@ -13,4 +13,4 @@ function draw() {
     rect(width/2, height/2, 50, 50);
 }
 
-key
+keyIsDown === UP
