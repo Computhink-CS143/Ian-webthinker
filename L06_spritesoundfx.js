@@ -18,7 +18,9 @@ function setup() {
     Image(picoImg, 0, 0, 100, 100);
 }
 
-function draw()
+function draw() {
+    
+}
 
 // function draw() {
 //     background("#eb08e7");
