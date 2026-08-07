@@ -1,5 +1,5 @@
 let picoImg;
-LET
+let sound
 
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
