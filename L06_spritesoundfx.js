@@ -1,9 +1,9 @@
 function preload() {
-    
+
 }
 
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(300, 300);
     background("#eb08e7")
 }
 
