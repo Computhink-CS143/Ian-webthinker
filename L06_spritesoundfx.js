@@ -3,6 +3,7 @@ let soundSFX;
 
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
+    sound
 }
 
 let xpos;
