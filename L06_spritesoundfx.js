@@ -10,7 +10,7 @@ function setup() {
     rectMode(CENTER);
 
     xpos = width/2
-    
+    ypos = height/2
 }
 
 function draw() {
