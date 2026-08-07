@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-    background("")
+    background("#222")
     if(keyIsDown(LEFT_ARROW)){
 
     }
