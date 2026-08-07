@@ -20,6 +20,7 @@ function setup() {
 
 function draw() {
     background("#eb08e7")
+    image()
     if(keyIsDown(LEFT_ARROW)){
 
     }
