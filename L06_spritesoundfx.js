@@ -21,13 +21,13 @@ function draw() {
     fill("black")
     rect(xpos, ypos, 50, 50);
     if(keyIsDown(RIGHT_ARROW)) {
-        xpos += 3;
+        xpos += 5;
     }
     else if(keyIsDown(LEFT_ARROW)) {
-        xpos -= 3;
+        xpos -= 5;
     }
     else if(keyIsDown(UP_ARROW)) {
-        ypos -= 3;
+        ypos -= 5;
     }
     else if(keyIsDown(DOWN_ARROW)) {
         ypos += 3;
