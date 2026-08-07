@@ -24,6 +24,15 @@ function draw() {
     if(keyIsDown(LEFT_ARROW)){
             xpos -= 4
     }
+    if(keyIsDown(LEFT_ARROW)){
+            xpos -= 4
+    }
+    if(keyIsDown(LEFT_ARROW)){
+            xpos -= 4
+    }
+    if(keyIsDown(LEFT_ARROW)){
+            xpos -= 4
+    }
 }
 
 // function draw() {
