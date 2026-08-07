@@ -42,7 +42,7 @@ function draw() {
 
 function keyPressed() {
     if(keyCode === 32) {
-        soundSFX.play
+        soundSFX.play();
     }
 }
 // function draw() {
