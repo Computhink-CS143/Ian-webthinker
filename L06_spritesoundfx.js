@@ -2,6 +2,8 @@ function preload() {
 
 }
 
+let xpos;
+
 function setup() {
     createCanvas(400, 400);
     background("#eb08e7");
