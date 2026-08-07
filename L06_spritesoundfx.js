@@ -1,7 +1,7 @@
-let picoIm
+let picoImg;
 
 function preload() {
-
+    pico
 }
 
 let xpos;
