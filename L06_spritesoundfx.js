@@ -5,7 +5,7 @@ let bN;
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
     soundSFX = loadSound('assets/pop.mp3');
-    bN = loadSound('ass')
+    bN = loadSound('assets/')
 }
 
 let xpos;
