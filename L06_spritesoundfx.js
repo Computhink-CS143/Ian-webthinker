@@ -2,7 +2,7 @@ function preload() {
 
 }
 
-let xpos = 300;
+let xpos;
 let ypos = 300;
 function setup() {
     createCanvas(400, 400);
