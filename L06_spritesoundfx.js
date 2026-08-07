@@ -13,7 +13,7 @@ function setup() {
 function draw() {
     background("#eb08e7");
     rect(width/2, height/2, 50, 50);
-    if(keyIsDown === RIGHT_ARROW) {
+    if(keyIsDown(RIGHT_ARROW)) {
     xpos += 3
     }
 
