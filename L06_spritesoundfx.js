@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
     background("#eb08e7");
-    fill
+    FileList("white")
     rect(xpos, ypos, 50, 50);
     if(keyIsDown(RIGHT_ARROW)) {
         xpos += 3;
