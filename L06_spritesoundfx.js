@@ -16,7 +16,7 @@ function setup() {
 function draw() {
     background("#eb08e7");
     fill("white")
-    rect(width/2, )
+    rect(width/2, height/2, )
     rect(xpos, ypos, 50, 50);
     if(keyIsDown(RIGHT_ARROW)) {
         xpos += 3;
