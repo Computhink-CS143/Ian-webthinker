@@ -34,7 +34,7 @@ function draw() {
     }
     if(keyIsDown(DOWN_ARROW)){
             ypos += 4
-            
+            bN.stop
     }
     if(keyIsDown(UP_ARROW)){
             ypos -= 4
