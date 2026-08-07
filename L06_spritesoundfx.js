@@ -7,7 +7,7 @@ function preload() {
 let xpos;
 let ypos;
 function setup() {
-    createCanvas(200, 200);
+    createCanvas(400, 400);
     background("#eb08e7");
     // rectMode(CENTER);
     // noStroke();
