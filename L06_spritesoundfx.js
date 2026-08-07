@@ -3,7 +3,7 @@ function preload() {
 }
 
 let xpos;
-let ypos = 300;
+let ypos;
 function setup() {
     createCanvas(400, 400);
     background("#eb08e7");
