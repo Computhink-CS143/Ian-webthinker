@@ -22,7 +22,7 @@ function draw() {
     if(keyIsDown(UP_ARROW)) {
         ypos -= 3
     }
-    if(keyIsDown(RIGHT_ARROW)) {
-        xpos += 3
+    if(keyIsDown(DOWN_ARROW)) {
+        ypos += 3
     }
 }
