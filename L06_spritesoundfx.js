@@ -19,7 +19,9 @@ function setup() {
 }
 
 function draw() {
-    
+    if(keyIsDown(LEFT_ARROW)){
+        
+    }
 }
 
 // function draw() {
