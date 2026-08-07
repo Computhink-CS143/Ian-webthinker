@@ -41,7 +41,7 @@ function draw() {
 }
 
 function keyPressed() {
-    
+    if(keyCode === 32) 
 }
 // function draw() {
 //     background("#eb08e7");
