@@ -9,7 +9,8 @@ function setup() {
     background("#eb08e7");
     rectMode(CENTER);
 
-    xpos
+    xpos = width/2
+    
 }
 
 function draw() {
