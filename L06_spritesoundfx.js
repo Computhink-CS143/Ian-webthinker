@@ -40,6 +40,7 @@ function draw() {
     ypos = constrain(ypos, 0, height-67);
 }
 
+function keyPressed() {}
 // function draw() {
 //     background("#eb08e7");
     // fill("white");
