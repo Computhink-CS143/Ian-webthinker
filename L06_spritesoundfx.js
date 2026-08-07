@@ -10,5 +10,5 @@ function setup() {
 
 function draw() {
     background("#eb08e7");
-    rect(widthl)
+    rect(width/2, heig)
 }
