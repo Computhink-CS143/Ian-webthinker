@@ -9,6 +9,6 @@ function setup() {
 }
 
 function draw() {
-    background("#eb08e7")
-
+    background("#eb08e7");
+    
 }
