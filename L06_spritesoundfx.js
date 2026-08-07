@@ -1,7 +1,7 @@
 let picoImg;
 
 function preload() {
-    picoImg = loadImage('assets/pico-a.png')
+    picoImg = loadImage('assets/pico-a.png');
 }
 
 let xpos;
@@ -14,6 +14,7 @@ function setup() {
 
     xpos = width/2
     ypos = height/2
+    
 }
 
 // function draw() {
