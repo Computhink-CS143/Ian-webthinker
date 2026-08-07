@@ -8,6 +8,7 @@ function setup() {
     createCanvas(400, 400);
     background("#eb08e7");
     rectMode(CENTER);
+    noStrok
 
     xpos = width/2
     ypos = height/2
