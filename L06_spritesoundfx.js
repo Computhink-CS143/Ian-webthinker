@@ -20,9 +20,9 @@ function setup() {
 
 function draw() {
     background("#eb08e7")
-    image(picoImg, xpos, ypos, )
+    image(picoImg, xpos, ypos, 110, 133)
     if(keyIsDown(LEFT_ARROW)){
-
+            
     }
 }
 
