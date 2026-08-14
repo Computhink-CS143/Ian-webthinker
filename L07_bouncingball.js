@@ -54,7 +54,7 @@ let ballSpeedX = 50;
 let ballSpeedY = 50;
 
 function setup() {
-    createCanvas(1000, 600);
+    createCanvas(1400, 800);
     background("#000000")
     noStroke()
 }
