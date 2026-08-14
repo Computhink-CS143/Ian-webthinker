@@ -11,7 +11,7 @@ let xpos;
 let ypos;
 
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(400, 400);
     background("#000000");
     noStroke()
     xpos = width/2;
