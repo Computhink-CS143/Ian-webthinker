@@ -58,3 +58,7 @@ function setup() {
     background("#000000")
     noStroke()
 }
+
+function draw() {
+    
+}
