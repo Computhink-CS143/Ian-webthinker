@@ -86,5 +86,8 @@ function keyPressed() {
     if (keyCode === UP_ARROW) {
         ballSpeedX *= 1.5
         ballSpeedY *= 1.5
+    }else if (keyCode === UP_ARROW) {
+        ballSpeedX *= 1.5
+        ballSpeedY *= 1.5
     }
 }
