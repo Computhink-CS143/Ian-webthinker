@@ -16,7 +16,7 @@ function setup() {
     noStroke()
     xpos = width/2;
     ypos = height/2;
-    pico
+    picoWidth = 133
 }
 
 function draw() {
