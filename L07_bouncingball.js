@@ -38,6 +38,6 @@ function draw() {
 function keyPressed() {
     if(keyCode === 32) {
         soundSFX.play();
-        image(picoImg, xpos, ypos, 110, 133)
+        image(picoImg, xpos, ypos, 50, 133)
     }
 }
