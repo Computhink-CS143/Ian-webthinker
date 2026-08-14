@@ -15,7 +15,11 @@ function setup() {
     createCanvas(500, 500);
     background("#000000");
     noStroke()
-    
+    xpos = width/2;
+    ypos = height/2;
+
+    image(picoImg, 0, 0, 110, 133);
+    imageMode(CENTER);
 }
 
 function draw() {
