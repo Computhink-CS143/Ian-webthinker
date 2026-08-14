@@ -28,12 +28,15 @@ function draw() {
     }
     if(keyIsDown(RIGHT_ARROW)){
             xpos += 4
+            picoWidth = 110
     }
     if(keyIsDown(DOWN_ARROW)){
             ypos += 4
+            picoWidth = 110
     }
     if(keyIsDown(UP_ARROW)){
             ypos -= 4
+            picoWidth = 110
     }
 }
 
