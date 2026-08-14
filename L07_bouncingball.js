@@ -10,7 +10,7 @@
 // let xpos;
 // let ypos;
 
-let 
+let ball
 
 // function setup() {
 //     createCanvas(400, 400);
