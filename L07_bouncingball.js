@@ -64,5 +64,6 @@ function draw() {
     circle(ballX, ballY, ballSize);
     ballX += ballSpeedX
     ballY += ballSpeedY
-    
+
+    clientInformation
 }
