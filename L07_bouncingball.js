@@ -60,6 +60,6 @@ function setup() {
 }
 
 function draw() {
-    background
+    background("#000000")
     circle(ballX, ballY, ballSize);
 }
