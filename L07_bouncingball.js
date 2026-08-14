@@ -62,5 +62,6 @@ function setup() {
 function draw() {
     background("#000000")
     circle(ballX, ballY, ballSize);
-    ballX += ball
+    ballX += ballSpeedX
+    ballY 
 }
