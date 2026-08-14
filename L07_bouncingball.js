@@ -65,5 +65,7 @@ function draw() {
     ballX += ballSpeedX
     ballY += ballSpeedY
 
-    clientInformation
+    if (ballX > (0 + 15)) {
+
+    }
 }
