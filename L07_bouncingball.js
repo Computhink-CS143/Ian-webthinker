@@ -10,10 +10,6 @@
 // let xpos;
 // let ypos;
 
-let ballX = 30
-let ballY = 20
-let
-
 // function setup() {
 //     createCanvas(400, 400);
 //     background("#000000");
@@ -50,3 +46,7 @@ let
 //         picoWidth = 55
 //     }
 // }
+
+let ballX = 30
+let ballY = 20
+let
