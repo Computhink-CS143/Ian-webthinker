@@ -8,7 +8,9 @@ function preload() {
     bN = loadSound('assets/bossaNova.mp3');
 }
 
-let xpos
+let xpos;
+let ypos;
+
 function setup() {
     createCanvas(500, 500);
     background("#000000");
