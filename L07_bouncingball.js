@@ -49,4 +49,4 @@
 
 let ballX = 30
 let ballY = 20
-let
+let ballSize = 30
