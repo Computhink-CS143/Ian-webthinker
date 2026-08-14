@@ -60,5 +60,5 @@ function setup() {
 }
 
 function draw() {
-    circle(ballX, ballY, )
+    circle(ballX, ballY, ballSize);
 }
