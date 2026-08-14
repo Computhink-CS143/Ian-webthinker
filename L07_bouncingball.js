@@ -1,4 +1,4 @@
 function setup() {
     canvas(500, 500);
-    background("#")
+    background("#f00cce")
 }
