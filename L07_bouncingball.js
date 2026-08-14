@@ -66,6 +66,6 @@ function draw() {
     ballY += ballSpeedY
 
     if (ballX > (0 + 15)) {
-            ballSpeedX
+            ballSpeedX = -1 *
     }
 }
