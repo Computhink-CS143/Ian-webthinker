@@ -12,6 +12,7 @@
 
 let ballX = 30
 let ballY = 20
+let
 
 // function setup() {
 //     createCanvas(400, 400);
