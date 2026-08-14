@@ -24,7 +24,7 @@ function draw() {
     image(picoImg, xpos, ypos, picoWidth, 133)
     if(keyIsDown(LEFT_ARROW)){
             xpos -= 4
-            picoWidth 
+            picoWidth = 133
     }
     if(keyIsDown(RIGHT_ARROW)){
             xpos += 4
