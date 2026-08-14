@@ -38,7 +38,7 @@ function draw() {
             ypos -= 4
             picoWidth = 55
     }
-    xpos = constrain(xpos, 0, width-55);
+    xpos = constrain(xpos, 0, width-40);
     ypos = constrain(ypos, 67, height-67);
 }
 
