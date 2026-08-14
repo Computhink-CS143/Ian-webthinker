@@ -1,6 +1,6 @@
 let picoImg;
 let soundSFX;
-let pico
+let picoWidth
 
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
@@ -16,6 +16,7 @@ function setup() {
     noStroke()
     xpos = width/2;
     ypos = height/2;
+    pico
 }
 
 function draw() {
