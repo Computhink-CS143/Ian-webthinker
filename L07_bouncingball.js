@@ -5,5 +5,5 @@ function setup() {
 }
 
 function draw() {
-    background("#040404")
+    background("#000000")
 }
