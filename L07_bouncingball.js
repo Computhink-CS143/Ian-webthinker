@@ -74,10 +74,10 @@ function draw() {
     }
     if (ballY < (0 + 15)) {
         ballSpeedY = -1 * ballSpeedY;
-        fill(random(255), random(255), random(255), random(55, 100))
+        fill(random(255), random(255), random(255), random(55, 150))
     }
     if (ballY > (height - 15)) {
         ballSpeedY = -1 * ballSpeedY;
-        fill(random(255), random(255), random(255), random(55, 100))
+        fill(random(255), random(255), random(255), random(55, 150))
     }
 }
