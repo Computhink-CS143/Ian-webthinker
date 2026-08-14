@@ -8,6 +8,7 @@ function preload() {
     bN = loadSound('assets/bossaNova.mp3');
 }
 
+let xpos
 function setup() {
     createCanvas(500, 500);
     background("#000000");
