@@ -24,7 +24,6 @@ function draw() {
     image(picoImg, xpos, ypos, picoWidth, 133)
     if(keyIsDown(LEFT_ARROW)){
             xpos -= 4
-            picoWidth = 55
     }
     if(keyIsDown(RIGHT_ARROW)){
             xpos += 4
@@ -44,6 +43,6 @@ function draw() {
 function keyPressed() {
     if(keyCode === 32) {
         soundSFX.play();
-        soundSFX.play()
+            picoWidth = 55
     }
 }
