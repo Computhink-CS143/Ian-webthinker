@@ -51,4 +51,6 @@ let ballX = 300
 let ballY = 200
 let ballSize = 30
 let ballSpeedX = 2
-let ballSpeed
+let ballSpeedY = 2
+
+function setup() 
