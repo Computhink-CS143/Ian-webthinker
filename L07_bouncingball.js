@@ -54,5 +54,5 @@ let ballSpeedX = 2
 let ballSpeedY = 2
 
 function setup() {
-    createCanv
+    createCanvas(600, 400)
 }
