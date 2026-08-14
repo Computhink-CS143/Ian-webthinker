@@ -72,9 +72,9 @@ function draw() {
         ballSpeedX = -1 * ballSpeedX;
     }
     if (ballY > (0 + 15)) {
-        ballSpeedX = -1 * ballSpeedX;
+        ballSpeedY = -1 * ballSpeedY;
     }
-    if (ballX > (height - 15)) {
+    if (ballY > (height - 15)) {
         ballSpeedX = -1 * ballSpeedX;
     }
 }
