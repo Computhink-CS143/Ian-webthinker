@@ -38,9 +38,9 @@ function draw() {
             ypos -= 4
             picoWidth = 55
     }
-}
-xpos = constrain(xpos, 55, width-55);
+    xpos = constrain(xpos, 55, width-55);
     ypos = constrain(ypos, 67, height-67);
+}
 
 function keyPressed() {
     if(keyCode === 32) {
