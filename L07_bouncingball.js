@@ -11,7 +11,7 @@
 // let ypos;
 
 let ballX = 30
-
+let ballY = 20
 
 // function setup() {
 //     createCanvas(400, 400);
