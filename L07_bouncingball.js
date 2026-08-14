@@ -40,6 +40,6 @@ function draw() {
 function keyPressed() {
     if(keyCode === 32) {
         soundSFX.play();
-        picoWidth =50
+        picoWidth =55
     }
 }
