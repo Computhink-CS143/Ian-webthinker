@@ -16,7 +16,7 @@ function setup() {
     noStroke()
     xpos = width/2;
     ypos = height/2;
-    picoWidth = 133
+    picoWidth = 110
 }
 
 function draw() {
@@ -24,7 +24,7 @@ function draw() {
     image(picoImg, xpos, ypos, picoWidth, 133)
     if(keyIsDown(LEFT_ARROW)){
             xpos -= 4
-            picoWidth = 133
+            picoWidth = 110
     }
     if(keyIsDown(RIGHT_ARROW)){
             xpos += 4
