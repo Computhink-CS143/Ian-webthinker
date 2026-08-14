@@ -53,4 +53,6 @@ let ballSize = 30
 let ballSpeedX = 2
 let ballSpeedY = 2
 
-function setup() 
+function setup() {
+    createCanv
+}
