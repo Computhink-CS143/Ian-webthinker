@@ -21,7 +21,7 @@ function setup() {
 
 function draw() {
     background("#000000");
-    image(picoImg, xpos, ypos, 110, picoWidth)
+    image(picoImg, xpos, ypos, picoWidth, 133)
     if(keyIsDown(LEFT_ARROW)){
             xpos -= 4
     }
