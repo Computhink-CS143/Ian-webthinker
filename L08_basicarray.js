@@ -28,4 +28,6 @@ function draw() {
     background("#000")
     // text("MOOOOOving text", width / 2, scrollingY)
     // scrollingY -= 0.6;
+    textSize(24);
+    textAlign(CENTER, CENTER);
 }
