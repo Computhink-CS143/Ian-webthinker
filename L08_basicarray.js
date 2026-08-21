@@ -1,4 +1,4 @@
-LE
+let 
 
 function setup() {
     createCanvas(400, 700)
