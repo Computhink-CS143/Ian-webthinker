@@ -1,7 +1,7 @@
 let scrollingY = 0;
 
 function setup() {
-    createCanvas(500, 700)
+    createCanvas(400, 700)
     background("#000000")
     noStroke()
     textSize(15)
