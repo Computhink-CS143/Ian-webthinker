@@ -1,4 +1,4 @@
-let 
+let scrollingY
 
 function setup() {
     createCanvas(400, 700)
