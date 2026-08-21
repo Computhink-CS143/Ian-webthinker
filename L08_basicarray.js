@@ -27,5 +27,5 @@ function setup() {
 function draw() {
     background("#000")
     text("MOOOOOving text", width / 2, scrollingY)
-    s
+    scrollingY -= 0.6
 }
