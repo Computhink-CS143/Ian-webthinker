@@ -13,6 +13,6 @@ function draw() {
     let ypos = 50
     let yummyFood = ["ice cream", "fried chicken", "burger"]
     for(let count = 0; count < yummyFood.length; count++) {
-        print(yummyFood[0])
+        // print(yummyFood[0])
     }
 }
