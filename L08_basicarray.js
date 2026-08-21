@@ -1,5 +1,5 @@
 let scrollingY = 0;
-lineGap
+let lineGap = 10
 
 function setup() {
     createCanvas(400, 700)
