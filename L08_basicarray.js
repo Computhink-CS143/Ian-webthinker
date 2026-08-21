@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(600, 600)
+    createCanvas(400, 800)
     background("#000000")
     noStroke()
 }
