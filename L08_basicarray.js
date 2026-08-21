@@ -12,5 +12,5 @@ function draw() {
     // text("I am 11 this year", 50, 100);
     // text("my favourite activity is playing badminton", 50, 150);
     let ypos = 50
-    let yummyFood = 
+    let yummyFood = [""]
 }
