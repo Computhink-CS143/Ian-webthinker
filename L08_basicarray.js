@@ -20,8 +20,8 @@ function setup() {
     //     ypos += 50
     // }
     scrollingY = height;
-    textSize(24)
-    textSize(CENTER, CENTER)
+    textSize(24);
+    textSize(CENTER, CENTER);
 }
 
 function draw() {
