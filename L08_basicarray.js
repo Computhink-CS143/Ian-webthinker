@@ -26,5 +26,5 @@ function setup() {
 
 function draw() {
     background("#000")
-    text("")
+    text("MOOOOOving text")
 }
