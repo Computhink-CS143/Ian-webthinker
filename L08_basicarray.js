@@ -9,11 +9,11 @@ function setup() {
     // text("my favourite activity is playing badminton", 50, 150);
     let ypos = 50
     let yummyFood = ["ice cream", "fried chicken", "burger", "pasta", "pizza"]
-    for(let count = 0; count < yummyFood.length; count++) {
-        // print(yummyFood[count])
-        text(yummyFood[count] + " x" + width, 50, ypos);
-        ypos += 50
-    }
+    // for(let count = 0; count < yummyFood.length; count++) {
+    //     print(yummyFood[count])
+    //     text(yummyFood[count] + " x" + width, 50, ypos);
+    //     ypos += 50
+    // }
 }
 
 function draw() {
