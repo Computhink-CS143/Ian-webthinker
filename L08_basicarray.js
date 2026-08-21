@@ -7,6 +7,6 @@ function setup() {
 
 function draw() {
     background("#000000")
-    text("my name is Ian", 50, 100)
-    text("I am 11 this year", 50, 100)
+    text("my name is Ian", 50, 50);
+    text("I am 11 this year", 50, 100);
 }
