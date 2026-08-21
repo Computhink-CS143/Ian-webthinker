@@ -36,4 +36,5 @@ function draw() {
         let sentence = storytext[count]
         text(sentence, width/2, scrollingY+ count * lineGap);
     }
+    scrollingY
 }
