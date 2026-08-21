@@ -6,7 +6,7 @@ function setup() {
     noStroke()
     textSize(15)
     fill("#faff00")
-    
+    // task 2
     // text("my name is Ian", 50, 50);
     // text("I am 11 this year", 50, 100);
     // text("my favourite activity is playing badminton", 50, 150);
