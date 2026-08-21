@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
     background("#000000")
-    fill("#")
+    fill("#faff00")
     text("my name is Ian", 50, 50);
     text("I am 11 this year", 50, 100);
     text("my favourite activity is playing badminton", 50, 150);
