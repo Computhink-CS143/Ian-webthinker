@@ -7,6 +7,7 @@ function setup() {
     // text("my name is Ian", 50, 50);
     // text("I am 11 this year", 50, 100);
     // text("my favourite activity is playing badminton", 50, 150);
+    textAlign(RIGHT, TOP)
     let ypos = 100
     let yummyFood = ["ice cream", "fried chicken", "burger", "pasta", "pizza"]
     text("I want:", 50, 50)
