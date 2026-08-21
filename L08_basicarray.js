@@ -34,6 +34,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     for (let count = 0; count < storytext.length; count++) {
         let sentence = storytext[count]
-        text(sentence, width/2, scrollingY+ count * lineap)
+        text(sentence, width/2, scrollingY+ count * lineGap);
     }
 }
