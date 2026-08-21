@@ -37,5 +37,5 @@ function draw() {
         text(sentence, width/2, scrollingY+ count * lineGap);
     }
     scrollingY -= 0.6;
-    
+    console.log
 }
