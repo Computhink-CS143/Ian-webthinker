@@ -38,7 +38,7 @@ function draw() {
         let sentence = storytext[count]
         text(sentence, width/2, scrollingY+ count * lineGap);
     }
-    scrollingY -= 0.6;
+    scrollingY -= 1;
     console.log(scrollingY);
     if(scrollingY < -storytext.length * (lineGap/5)) {
         scrollingY = height
