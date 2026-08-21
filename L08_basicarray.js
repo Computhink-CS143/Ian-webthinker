@@ -10,7 +10,7 @@ function setup() {
     let ypos = 50
     let yummyFood = ["ice cream", "fried chicken", "burger", "pasta", "pizza"]
     for(let count = 0; count < yummyFood.length; count++) {
-        print(yummyFood[count])
+        // print(yummyFood[count])
         text(yummyFood[count] + " x" + width, 50, ypos);
         ypos += 50
     }
