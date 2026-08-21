@@ -39,6 +39,6 @@ function draw() {
     scrollingY -= 0.6;
     console.log(scrollingY);
     if(scrollingY < -storytext.length * (lineGap/5)) {
-        
+        scrollingY = height
     }
 }
