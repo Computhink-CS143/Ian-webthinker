@@ -13,5 +13,5 @@ function draw() {
     // text("my favourite activity is playing badminton", 50, 150);
     let ypos = 50
     let yummyFood = ["ice cream", "fried chicken", "burger"]
-    
+    for(let count = 0; count < yummyFood.length; count++) 
 }
