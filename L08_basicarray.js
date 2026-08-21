@@ -9,7 +9,7 @@ function setup() {
     // text("my favourite activity is playing badminton", 50, 150);
     let ypos = 100
     let yummyFood = ["ice cream", "fried chicken", "burger", "pasta", "pizza"]
-    text("my favourite foods are:", 50, 50)
+    text("I want:", 50, 50)
     for(let count = 0; count < yummyFood.length; count++) {
         // print(yummyFood[count])
         text((count + 1) + ". " +yummyFood[count] + " x" + width, 50, ypos);
