@@ -7,5 +7,5 @@ function setup() {
 
 function draw() {
     background("#000000")
-    text("")
+    text("my name is ")
 }
