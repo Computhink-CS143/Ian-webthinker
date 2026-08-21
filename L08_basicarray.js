@@ -15,6 +15,7 @@ function setup() {
     //     ypos += 50
     // }
     textAlign(RIGHT, TOP)
+    
 }
 
 function draw() {
