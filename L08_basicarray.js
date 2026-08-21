@@ -6,7 +6,7 @@ function setup() {
     noStroke()
     textSize(15)
     fill("#faff00")
-    // task 2
+    // task 1
     // text("my name is Ian", 50, 50);
     // text("I am 11 this year", 50, 100);
     // text("my favourite activity is playing badminton", 50, 150);
@@ -31,5 +31,5 @@ function draw() {
     fill("#faff00")
     textSize(24);
     textAlign(CENTER, CENTER);
-    
+
 }
