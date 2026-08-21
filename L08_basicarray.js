@@ -2,7 +2,7 @@ function setup() {
     createCanvas(400, 700)
     background("#000000")
     noStroke()
-    textSize(20)
+    textSize(15)
 }
 
 function draw() {
