@@ -14,7 +14,7 @@ function setup() {
     //     text(yummyFood[count] + " x" + width, 50, ypos);
     //     ypos += 50
     // }
-    textAlign
+    textAlign(RIG)
 }
 
 function draw() {
