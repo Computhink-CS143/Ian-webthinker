@@ -14,6 +14,6 @@ function draw() {
     let yummyFood = ["ice cream", "fried chicken", "burger"]
     for(let count = 0; count < yummyFood.length; count++) {
         // print(yummyFood[count])
-        text(yummyFood[count])
+        text(yummyFood[count] + "")
     }
 }
