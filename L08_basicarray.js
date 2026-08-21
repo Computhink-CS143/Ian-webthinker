@@ -32,5 +32,7 @@ function draw() {
     fill("#faff00")
     textSize(24);
     textAlign(CENTER, CENTER);
-
+    for (let count = 0; count < storytext.length; count++) {
+        
+    }
 }
