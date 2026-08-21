@@ -25,5 +25,6 @@ function setup() {
 }
 
 function draw() {
-    background("")
+    background("#000")
+    
 }
