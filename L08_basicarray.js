@@ -21,7 +21,7 @@ function setup() {
     // }
     scrollingY = height;
     textSize(24)
-    textSize()
+    textSize(CENTER, CENTER)
 }
 
 function draw() {
