@@ -2,7 +2,7 @@ let scrollingY = 0;
 let lineGap = 100
 
 function setup() {
-    createCanvas(400, 700)
+    createCanvas(400, 1000)
     background("#000000")
     noStroke()
     textSize(15)
