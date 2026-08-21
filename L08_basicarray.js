@@ -19,7 +19,8 @@ function setup() {
     //     text((count + 1) + ". " +yummyFood[count] + " x" + width, 50, ypos);
     //     ypos += 50
     // }
-    scrollingY = height
+    scrollingY = height;
+    
 }
 
 function draw() {
