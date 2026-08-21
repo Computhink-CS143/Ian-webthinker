@@ -13,7 +13,6 @@ function setup() {
         // print(yummyFood[count])
         text((count + 1) +yummyFood[count] + width, 50, ypos);
         ypos += 50
-        
     }
 }
 
