@@ -9,7 +9,7 @@ function draw() {
     background("#222");
     let xhour = nf( hour(), 2);
     let minute = nf( minute(), 2);
-    let seconds = nf( seconds);
+    let seconds = nf( second());
     let timeString = "toatally real clock"
 }
 
