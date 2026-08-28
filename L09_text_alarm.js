@@ -12,5 +12,5 @@ function setup() {
 
 function draw() {
     background("#ffffff")
-    text("BOUNCE!", )
+    text("BOUNCE!", xpos, height/2)
 }
