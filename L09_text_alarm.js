@@ -14,6 +14,7 @@ function draw() {
     background("#5d5757")
     text("BOUNCE!", xpos, height/2);
     xpos = xpos + speed;
+
     if (xpos > speed) {
         speed = speed * -1
     }
