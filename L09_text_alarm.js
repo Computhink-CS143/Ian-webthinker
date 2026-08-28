@@ -1,7 +1,7 @@
 function setup(){
     createCanvas(400, 400);
     background("#222");
-    textSize(25)
+    textSize(35)
     textAlign(CENTER, CENTER);
 }
 
