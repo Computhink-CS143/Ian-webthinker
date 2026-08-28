@@ -10,7 +10,7 @@ function draw() {
     fill("white")
     let xhour = nf( hour(), 6);
     let xminute = nf( minute(), 4);
-    let xseconds = nf( second(), 4);
+    let xseconds = nf( second(), 1);
     let timeString = xhour + ":" + xminute + ":" + xseconds;
 
     text(timeString, width/2, height/2)
