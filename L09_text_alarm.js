@@ -2,11 +2,12 @@ function setup(){
     createCanvas(400, 400);
     background("#222");
     textSize(25)
-    textAlign(CENTER, CENTR);
+    textAlign(CENTER, CENTER);
 }
 
 function draw() {
     background("#222");
+    F
     let xhour = nf( hour(), 2);
     let xminute = nf( minute(), 2);
     let xseconds = nf( second(), 2);
