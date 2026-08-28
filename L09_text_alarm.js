@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-    background("#666161")
+    background("#5d5757")
     text("BOUNCE!", xpos, height/2);
     xpos = xpos + speed
 }
