@@ -33,7 +33,7 @@ function draw() {
     fill("#faff00")
     textSize(24);
     textAlign(CENTER, CENTER);
-    let storytext = ["I am Ian", "I like pizza", "pizza...", "PIZZA...", "PIZZA = CHEESE", "I NEED CHEESE", "I want some pizza", "I will go get pizza now", "I also want some fries", "IAN ALSO WANT ICE CREAM", "THE END"]
+    text("BOUNCE!", width/2, height/2)
     for (let count = 0; count < storytext.length; count++) {
         let sentence = storytext[count]
         text(sentence, width/2, scrollingY+ count * lineGap);
