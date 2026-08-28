@@ -9,7 +9,7 @@ function draw() {
     let hour;
     let minute;
     let seconds;
-    let timeString = "toatally real clo"
+    let timeString = "toatally real clock"
 }
 
 
