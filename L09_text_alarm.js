@@ -15,7 +15,7 @@ function draw() {
     text("BOUNCE!", xpos, height/2);
     xpos = xpos + speed;
 
-    if (xpos > speed) {
+    if (xpos > width) {
         speed = speed * -1
     }
     if (xpos < 0){
