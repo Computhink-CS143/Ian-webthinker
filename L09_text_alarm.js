@@ -7,7 +7,7 @@ function setup(){
 
 function draw() {
     background("#222");
-    F
+    fill("")
     let xhour = nf( hour(), 2);
     let xminute = nf( minute(), 2);
     let xseconds = nf( second(), 2);
