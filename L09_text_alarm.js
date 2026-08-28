@@ -6,7 +6,7 @@ function setup(){
 }
 
 function draw() {
-    
+    background("#222");
     let hour;
     let minute;
     let seconds;
