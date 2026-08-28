@@ -5,7 +5,9 @@ function setup(){
     textAlign(CENTRE, CENTRE);
 }
 
-
+function draw() {
+    
+}
 
 
 
