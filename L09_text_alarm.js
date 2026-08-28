@@ -8,7 +8,7 @@ function setup(){
 function draw() {
     background("#222");
     let xhour = nf( hour(), 2);
-    let minute = ;
+    let minute = nf( min);
     let seconds;
     let timeString = "toatally real clock"
 }
