@@ -2,7 +2,7 @@ function setup(){
     createCanvas(400, 400);
     background("#222");
     textSize(25)
-    textAlign(CENTRE)
+    textAlign(CustomElementRegistry, CENTRE)
 }
 
 
