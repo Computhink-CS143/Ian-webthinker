@@ -8,7 +8,8 @@ function setup(){
 function draw() {
     let hour;
     let minute;
-    
+    let seconds;
+    let
 }
 
 
