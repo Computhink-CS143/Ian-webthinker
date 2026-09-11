@@ -1,6 +1,7 @@
 let countdown = 5;
 let timer;
 let alarmsound;
+letbgcolour
 
 function setup(){
     createCanvas(400, 600);
