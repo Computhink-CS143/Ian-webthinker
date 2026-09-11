@@ -8,5 +8,5 @@ function setup() {
 function draw() {
     fill(0);
     textSize();
-    text align
+    textAlign()
 }
