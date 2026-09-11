@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-    background
+    background("")
     fill(0);
     textSize();
     textAlign(CENTER, CENTER);
