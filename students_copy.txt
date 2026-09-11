@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-    
+    back
     fill(0);
     textSize();
     textAlign(CENTER, CENTER);
