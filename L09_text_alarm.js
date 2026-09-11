@@ -8,10 +8,11 @@ function setup(){
 function draw() {
     background("#222");
     fill("white")
-    let xhour = nf( hour(), 2);
-    let xminute = nf( minute(), 2);
-    let xseconds = nf( second(), 2);
-    let timeString = xhour + ":" + xminute + ":" + xseconds;
+    // let xhour = nf( hour(), 2);
+    // let xminute = nf( minute(), 2);
+    // let xseconds = nf( second(), 2);
+    // let timeString = xhour + ":" + xminute + ":" + xseconds;
+    
 
     text(timeString, width/2, height/2)
 }
