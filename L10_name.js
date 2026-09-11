@@ -1,8 +1,8 @@
 
 let userText = "ENTER YOUR TEXT HERE";
 let input;
-let ageText = "ENTER YOUR AGE"
-let ageInput
+let ageText = "ENTER YOUR AGE";
+let ageInput;
 function setup() {
     createCanvas(800, 800);
     background("skyblue");
