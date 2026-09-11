@@ -40,7 +40,7 @@
 // }
 
 let colourPicker;
-let 
+let createColourPicker;
 function setup() {
     createCanvas(600, 600)
     colourPicker = createColourPicker("#222")
