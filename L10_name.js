@@ -8,6 +8,9 @@ function setup() {
     input = createInput("");
     input.position(160, 520);
     input.input(updateText);
+    input = createInput("");
+    input.position(160, 520);
+    input.input(updateText);
 }
 
 function draw() {
