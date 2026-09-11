@@ -10,7 +10,7 @@ function setup() {
     input = createInput("");
     input.position(160, 520);
     input.input(updateText);
-    input = createInput("");
+    ageInputinput = createInput("");
     input.position(160, 550);
     input.input(updateText);
 }
