@@ -19,8 +19,8 @@ function draw() {
     textSize(60)
     text(countdown, 180, 300);
     let xhour = nf( hour(), 2);
-    let xminute = nf( minute(), 2);
-    let xseconds = nf( second(), 2);
+    let xminute = nf( minute(), 4);
+    let xseconds = nf( second(), 6);
     let timeString = xhour + ":" + xminute + ":" + xseconds;
     text(timeString, 190, 200)
     textSize(10)
