@@ -39,4 +39,7 @@
 //     ageText = this.value();
 // }
 
-let colour
+let colourPicker;
+function setup() {
+    
+}
