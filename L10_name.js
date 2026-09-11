@@ -9,7 +9,7 @@ function setup() {
     input.position(160, 520);
     input.input(updateText);
     input = createInput("");
-    input.position(160, 520);
+    input.position(160, 550);
     input.input(updateText);
 }
 
