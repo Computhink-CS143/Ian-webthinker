@@ -20,7 +20,7 @@ function draw() {
     fill(0);
     textSize(24);
     textAlign(CENTER, CENTER);
-    text(userText, width/2, height/2);
+    text(userText, width/2 + 50, height/2 + 50);
 
     textSize(24);
     textAlign(CENTER, CENTER);
