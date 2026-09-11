@@ -37,6 +37,7 @@ function countDown() {
         countdown--;
     }else{
         clearInterval(timer)
+        
     }
 }
 
