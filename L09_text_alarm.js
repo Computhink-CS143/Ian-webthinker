@@ -4,7 +4,7 @@ let alarmsound;
 let bgcolour;
 
 function preload() {
-    
+    alarmsound = 
 }
 function setup(){
     createCanvas(400, 600);
