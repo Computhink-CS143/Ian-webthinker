@@ -9,7 +9,7 @@ function preload() {
 }
 function setup(){
     createCanvas(400, 600);
-    
+    bgcolour = color(220);
     textAlign(200, 200);
 }
 
