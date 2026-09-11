@@ -20,7 +20,8 @@ function draw() {
 
 function mousePressed() {
     countdown = 5;
-    clearInterval()
+    clearInterval(timer);
+    
 }
 
 
