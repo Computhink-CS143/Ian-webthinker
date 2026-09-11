@@ -9,11 +9,12 @@ function preload() {
 }
 function setup(){
     createCanvas(400, 600);
+    
     textAlign(200, 200);
 }
 
 function draw() {
-    background("#222");
+    background();
     fill("white")
     textSize(60)
     text(countdown, 180, 200);
