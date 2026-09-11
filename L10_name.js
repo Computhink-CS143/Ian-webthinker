@@ -43,7 +43,7 @@ let colourPicker;
 function setup() {
     createCanvas(600, 600)
     colourPicker = createColorPicker("#222")
-    colourPicker.position(250, 500)
+    colourPicker.position(250, 520)
 }
 function draw() {
     background(colourPicker.value())
