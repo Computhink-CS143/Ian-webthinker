@@ -40,7 +40,9 @@ function countDown() {
         alarmtimer = setInterval(alarmsound, 500);
     }
 }
-
+function alarm() {
+    bg
+}
 
 
 
