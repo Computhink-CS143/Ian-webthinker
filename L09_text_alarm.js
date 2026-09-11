@@ -1,4 +1,5 @@
-let countdown = 5
+let countdown = 5;
+let timer;
 function setup(){
     createCanvas(400, 600);
     textAlign(200, 200);
