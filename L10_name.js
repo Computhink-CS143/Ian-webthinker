@@ -1,5 +1,5 @@
 
-let userText = "ENTER YOUR NAME HERE";
+let userText = "ENTER YOUR NAME";
 let input;
 let ageText = "ENTER YOUR AGE";
 let ageInput;
