@@ -6,7 +6,7 @@ function setup() {
 
     input = createInput("")
     input.position(160, 520)
-    input.input()
+    input.input(update)
 }
 
 function draw() {
