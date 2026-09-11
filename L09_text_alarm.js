@@ -21,10 +21,10 @@ function draw() {
 function mousePressed() {
     countdown = 5;
     clearInterval(timer);
-    timer = setInterval(countdown, 1000);
+    timer = setInterval(countDown, 1000);
 }
 
-function countdown() {
+function countDown() {
     if(countdown >0){
         countdown--;
     }else{
