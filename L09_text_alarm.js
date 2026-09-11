@@ -1,6 +1,7 @@
 let countdown = 5;
 let timer;
 let alarmsound;
+let alarmtimer;
 let bgcolour;
 
 function preload() {
