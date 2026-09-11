@@ -42,7 +42,7 @@ function countDown() {
 }
 function alarm() {
     bgcolour = color(random(255),random(255),random(255),random(255))
-    alarmsound
+    alarmsound.loop()
 }
 
 
