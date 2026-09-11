@@ -49,7 +49,7 @@ function draw() {
     background(colourPicker.value())
     rect(100, 100, 400, 200)
     textSize(14);
-//     textAlign(LEFT);
-//     text("Enter name here:", 50, 530)
+    textAlign(LEFT);
+    text("Enter name here:", 50, 530)
 
 }
