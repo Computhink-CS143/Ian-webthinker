@@ -10,10 +10,10 @@ function setup() {
     background("skyblue");
 
     input = createInput("");
-    input.position(160, 520);
+    input.position(270, 520);
     input.input(updateText);
     ageInput= createInput("");
-    ageInput.position(160, 550);
+    ageInput.position(270, 550);
     ageInput.input(updateText);
 
     colourPicker = createColorPicker("#222")
