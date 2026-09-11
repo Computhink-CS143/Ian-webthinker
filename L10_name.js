@@ -19,7 +19,7 @@ function draw() {
 
     textSize(14);
     textAlign(LEFT);
-    text("Enter name here:", 50, 520)
+    text("Enter name here:", 50, 530)
 
 }
 function updateText() {
