@@ -10,7 +10,7 @@ function preload() {
 function setup(){
     createCanvas(400, 600);
     bgcolour = color(220);
-    textAlign(CENTER, 200);
+    textAlign(CENTER, CENTER);
 }
 
 function draw() {
