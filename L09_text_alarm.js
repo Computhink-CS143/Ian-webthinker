@@ -15,7 +15,7 @@ function setup(){
 
 function draw() {
     background(bgcolour);
-    fill("white")
+    fill("black")
     textSize(60)
     text(countdown, 180, 200);
     // let xhour = nf( hour(), 2);
