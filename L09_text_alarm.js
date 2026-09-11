@@ -14,7 +14,7 @@ function setup(){
 }
 
 function draw() {
-    background();
+    background(bgcolour);
     fill("white")
     textSize(60)
     text(countdown, 180, 200);
