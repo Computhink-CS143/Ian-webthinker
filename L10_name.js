@@ -36,7 +36,7 @@ function draw() {
 
     textSize(24);
     textAlign(CENTER, CENTER);
-    text(ageText, 330, 200);
+    text(ageText, 330, 220);
 
     textSize(14);
     textAlign(LEFT);
