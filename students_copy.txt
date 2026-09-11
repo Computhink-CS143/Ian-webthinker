@@ -1,5 +1,5 @@
-let userText = "ENTER YOUR TEXT HERE"
-
+let userText = "ENTER YOUR TEXT HERE";
+let input;
 function setup() {
     createCanvas(600, 600);
     background("skyblue");
