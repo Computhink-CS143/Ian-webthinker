@@ -4,9 +4,9 @@ function setup() {
     createCanvas(600, 600);
     background("skyblue");
 
-    input = createInput("")
-    input.position(160, 520)
-    input.input(update)
+    input = createInput("");
+    input.position(160, 520);
+    input.input(updateText);
 }
 
 function draw() {
