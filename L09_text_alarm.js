@@ -1,183 +1,33 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let countdown = 5;
-// let timer;
-// let alarmsound;
-// let alarmtimer;
-// let bgcolour;
-
-// function preload() {
-//     alarmsound = loadSound("assets/bossaNova.mp3");
-// }
-// function setup(){
-//     createCanvas(400, 600);
-//     bgcolour = color(220);
-//     textAlign(CENTER, CENTER);
-// }
-
-// function draw() {
-//     background(bgcolour);
-//     fill("black")
-//     textSize(60)
-//     text(countdown, 180, 300);
-//     let xhour = nf( hour(), 2);
-//     let xminute = nf( minute(), 2);
-//     let xseconds = nf( second(), 2);
-//     let timeString = xhour + ":" + xminute + ":" + xseconds;
-//     text(timeString, 190, 200)
-//     textSize(10)
-//     text("click me to start a timer", 180, 350)
-// }
+let countdown = 5;
+let timer;
+let alarmsound;
+let alarmtimer;
+let bgcolour;
+
+function preload() {
+    alarmsound = loadSound("assets/bossaNova.mp3");
+}
+function setup(){
+    createCanvas(400, 600);
+    bgcolour = color(220);
+    textAlign(CENTER, CENTER);
+}
+
+function draw() {
+    background(bgcolour);
+    fill("black")
+    textSize(60)
+    text(countdown, 180, 300);
+    let xhour = nf( hour(), 2);
+    let xminute = nf( minute(), 2);
+    let xseconds = nf( second(), 2);
+    let timeString = xhour + ":" + xminute + ":" + xseconds;
+    text(timeString, 190, 200)
+    textSize(10)
+    text("click me to start a timer", 180, 350)
+}
 
 // function mousePressed() {
 //     countdown = 5;
