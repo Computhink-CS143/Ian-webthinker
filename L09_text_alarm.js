@@ -1,7 +1,7 @@
 let countdown = 5
 function setup(){
-    createCanvas(400, 400);
-    textAlign(CENTER, CENTER);
+    createCanvas(400, 600);
+    textAlign(200, 200);
 }
 
 function draw() {
