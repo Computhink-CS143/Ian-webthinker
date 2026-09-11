@@ -3,6 +3,8 @@ let userText = "ENTER YOUR TEXT HERE";
 let input;
 let ageText = "ENTER YOUR AGE";
 let ageInput;
+let colourPicker;
+
 function setup() {
     createCanvas(800, 800);
     background("skyblue");
@@ -13,6 +15,9 @@ function setup() {
     ageInput= createInput("");
     ageInput.position(160, 550);
     ageInput.input(updateText);
+
+    colourPicker = createColorPicker("#222")
+    colourPicker.position(270, 560)
 }
 
 function draw() {
