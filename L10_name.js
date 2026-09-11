@@ -47,5 +47,5 @@ function setup() {
 }
 function draw() {
     background(colourPicker.value())
-    rect()
+    rect(100, 200, )
 }
