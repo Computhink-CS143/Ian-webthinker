@@ -26,6 +26,7 @@ function draw() {
     rect(100, 100, 400, 200)
     textSize(14);
     textAlign(LEFT);
+    fill(0)
     text("change background colour here:", 50, 610)
 
     fill(0);
