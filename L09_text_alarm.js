@@ -24,7 +24,7 @@ function draw() {
     let timeString = xhour + ":" + xminute + ":" + xseconds;
     text(timeString, 180, 200)
     textSize(10)
-    text("click me to start a timer", 180, 300)
+    text("click me to start a timer", 180, 350)
 }
 
 function mousePressed() {
