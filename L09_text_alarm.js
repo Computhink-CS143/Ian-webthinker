@@ -17,14 +17,14 @@ function draw() {
     background(bgcolour);
     fill("black")
     textSize(60)
-    text(countdown, 180, 200);
+    text(countdown, 180, 300);
     let xhour = nf( hour(), 2);
     let xminute = nf( minute(), 2);
     let xseconds = nf( second(), 2);
     let timeString = xhour + ":" + xminute + ":" + xseconds;
     text(timeString, 180, 200)
     textSize(10)
-    text("click me to start a timer", 100, 300)
+    text("click me to start a timer", 180, 300)
 }
 
 function mousePressed() {
