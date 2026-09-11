@@ -18,13 +18,13 @@ function draw() {
     fill("black")
     textSize(60)
     text(countdown, 180, 200);
-    // let xhour = nf( hour(), 2);
-    // let xminute = nf( minute(), 2);
-    // let xseconds = nf( second(), 2);
-    // let timeString = xhour + ":" + xminute + ":" + xseconds;
+    let xhour = nf( hour(), 2);
+    let xminute = nf( minute(), 2);
+    let xseconds = nf( second(), 2);
+    let timeString = xhour + ":" + xminute + ":" + xseconds;
     textSize(10)
     text("click me to start a timer", 100, 300)
-    // text(timeString, width/2, height/2)
+    text(timeString, width/2, height/2)
 }
 
 function mousePressed() {
