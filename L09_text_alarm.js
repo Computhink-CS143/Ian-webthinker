@@ -14,7 +14,7 @@ function draw() {
     // let xseconds = nf( second(), 2);
     // let timeString = xhour + ":" + xminute + ":" + xseconds;
     textSize(10)
-    text("click me to start a timer")
+    text("click me to start a timer", 100, 300)
     // text(timeString, width/2, height/2)
 }
 
