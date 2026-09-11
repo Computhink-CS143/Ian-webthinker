@@ -21,7 +21,12 @@ function setup() {
 }
 
 function draw() {
-    background("skyblue")
+     background(colourPicker.value())
+    rect(100, 100, 400, 200)
+    textSize(14);
+    textAlign(LEFT);
+    text("change background colour here:", 50, 610)
+
     fill(0);
     textSize(24);
     textAlign(CENTER, CENTER);
