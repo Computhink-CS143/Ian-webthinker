@@ -32,7 +32,7 @@ function draw() {
     textAlign(LEFT);
     fill(0)
     text("change background colour here:", 50, 610)
-    text("change rectangle colour here:", 50, 610)
+    text("change rectangle colour here:", 50, 640)
 
     fill(0);
     textSize(24);
