@@ -1,4 +1,4 @@
-let userText = "ENTER YOUR TEXT YOUR 
+let userText = "ENTER YOUR TEXT HERE"
 
 function setup() {
     createCanvas(600, 600);
@@ -6,5 +6,5 @@ function setup() {
 }
 
 function draw() {
-
+    
 }
