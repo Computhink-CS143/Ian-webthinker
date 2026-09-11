@@ -9,5 +9,5 @@ function draw() {
     fill(0);
     textSize();
     textAlign(CENTER, CENTER);
-    TEXT(userText, width/2, height/2)
+    TEXT(userText, width/2, height/2);
 }
