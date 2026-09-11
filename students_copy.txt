@@ -5,7 +5,7 @@ function setup() {
     background("skyblue");
 
     input = createInput("")
-    input.
+    input.position
 }
 
 function draw() {
