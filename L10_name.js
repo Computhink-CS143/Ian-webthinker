@@ -39,12 +39,7 @@ function updateageText() {
     ageText = this.value();
 }
 
-let colourPicker;
-function setup() {
-    createCanvas(600, 600)
-    colourPicker = createColorPicker("#222")
-    colourPicker.position(270, 560)
-}
+
 function draw() {
     background(colourPicker.value())
     rect(100, 100, 400, 200)
