@@ -17,7 +17,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     text(userText, width/2, height/2);
 
-    textsize
+    textSize(14)
 }
 function updateText() {
     userText = this.value();
