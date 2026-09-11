@@ -29,7 +29,7 @@ function draw() {
     textSize(14);
     textAlign(LEFT);
     text("Enter name here:", 50, 530)
-    text("Enter age here:", 50, 530)
+    text("Enter age here:", 50, 560)
 
 }
 function updateText() {
