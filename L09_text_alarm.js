@@ -37,7 +37,7 @@ function countDown() {
         countdown--;
     }else{
         clearInterval(timer)
-        alarmtimer = setInterval(alarmsound, 500);
+        alarmtimer = setInterval(alarm, 500);
     }
 }
 function alarm() {
