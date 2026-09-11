@@ -3,7 +3,9 @@ let timer;
 let alarmsound;
 let bgcolour;
 
-
+function preload() {
+    
+}
 function setup(){
     createCanvas(400, 600);
     textAlign(200, 200);
