@@ -38,3 +38,5 @@
 // function updateageText() {
 //     ageText = this.value();
 // }
+
+let colour
