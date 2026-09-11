@@ -4,7 +4,7 @@ let alarmsound;
 let bgcolour;
 
 function preload() {
-    alarmsound = loadSound(assets/boss)
+    alarmsound = loadSound(assets/bossaNova.m)
 }
 function setup(){
     createCanvas(400, 600);
