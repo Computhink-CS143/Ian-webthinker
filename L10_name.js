@@ -2,7 +2,7 @@
 let userText = "ENTER YOUR TEXT HERE";
 let input;
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(800, 800);
     background("skyblue");
 
     input = createInput("");
