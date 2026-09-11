@@ -22,7 +22,7 @@ function draw() {
     let xminute = nf( minute(), 2);
     let xseconds = nf( second(), 2);
     let timeString = xhour + ":" + xminute + ":" + xseconds;
-    text(timeString, width/2, height/2)
+    text(timeString, 180, height/2)
     textSize(10)
     text("click me to start a timer", 100, 300)
 }
