@@ -16,5 +16,5 @@ function draw() {
     TEXT(userText, width/2, height/2);
 }
 function updateText() {
-    
+    userText = t
 }
