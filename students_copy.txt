@@ -3,6 +3,8 @@ let input;
 function setup() {
     createCanvas(600, 600);
     background("skyblue");
+
+    input = 
 }
 
 function draw() {
