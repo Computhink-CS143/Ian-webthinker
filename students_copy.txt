@@ -1,4 +1,4 @@
-let userText = "
+let userText = "ENTER YOUR TEXT YOUR 
 
 function setup() {
     createCanvas(600, 600);
