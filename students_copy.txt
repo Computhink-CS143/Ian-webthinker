@@ -15,4 +15,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     TEXT(userText, width/2, height/2);
 }
-function 
+function updateText() {
+    
+}
