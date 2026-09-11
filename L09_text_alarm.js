@@ -1,6 +1,6 @@
 let countdown = 5;
 let timer;
-let a
+let alarmsound;
 function setup(){
     createCanvas(400, 600);
     textAlign(200, 200);
