@@ -12,7 +12,7 @@ function setup() {
     input.input(updateText);
     ageInput= createInput("");
     ageInput.position(160, 550);
-    input.input(updateText);
+    ageInput.input(updateText);
 }
 
 function draw() {
