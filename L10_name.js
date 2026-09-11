@@ -43,4 +43,5 @@ let colourPicker;
 function setup() {
     createCanvas(600, 600)
     colourPicker = createColourPicker
+    colourPicker
 }
