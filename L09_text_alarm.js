@@ -14,7 +14,7 @@ function draw() {
     // let xseconds = nf( second(), 2);
     // let timeString = xhour + ":" + xminute + ":" + xseconds;
     textSize(10)
-    text
+    text("")
     // text(timeString, width/2, height/2)
 }
 
