@@ -4,7 +4,7 @@ function setup() {
     createCanvas(600, 600);
     background("skyblue");
 
-    input = 
+    input = createinput
 }
 
 function draw() {
