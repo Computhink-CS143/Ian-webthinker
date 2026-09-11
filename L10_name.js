@@ -45,4 +45,7 @@ function setup() {
     createCanvas(600, 600)
     colourPicker = createColourPicker("#222")
     colourPicker.position(300, 300)
-}function draw() 
+}
+function draw() {
+
+}
