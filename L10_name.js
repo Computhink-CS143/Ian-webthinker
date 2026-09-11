@@ -36,5 +36,5 @@ function updateText() {
     userText = this.value();
 }
 function updateageText() {
-    userText = this.value();
+    ageText = this.value();
 }
