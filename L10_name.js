@@ -32,7 +32,7 @@ function draw() {
     fill(0);
     textSize(24);
     textAlign(CENTER, CENTER);
-    text(userText, 200, 150);
+    text(userText, 280, 150);
 
     textSize(24);
     textAlign(CENTER, CENTER);
