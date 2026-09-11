@@ -41,7 +41,7 @@ function countDown() {
     }
 }
 function alarm() {
-    bgcolour = color(random)
+    bgcolour = color(random(255))
 }
 
 
