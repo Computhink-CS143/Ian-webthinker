@@ -1,6 +1,7 @@
 
 let userText = "ENTER YOUR TEXT HERE";
 let input;
+let age
 function setup() {
     createCanvas(800, 800);
     background("skyblue");
