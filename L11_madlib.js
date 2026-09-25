@@ -38,6 +38,7 @@ function setup() {
 }
 
 function draw() {
+    back
     textAlign(RIGHT, CENTER);
     fill("black")
     textSize(18)
