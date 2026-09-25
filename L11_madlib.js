@@ -48,7 +48,7 @@ function draw() {
 
     textAlign(CENTER, CENTER);
     fill(red);
-    myStory
+    text(myStory, width/2, height/2+200);
 }
 
 function updateText() {
