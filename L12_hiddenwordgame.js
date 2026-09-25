@@ -12,6 +12,6 @@ function draw(){
     guessButton.position(width/2 + 200, height/2)
     guessButton.mousePressed(updateText)
 
-    nounInput = createInput()
+    guessInput = createInput()
     nounInput.position(width/2+20, 30)
 }
