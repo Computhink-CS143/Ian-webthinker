@@ -38,7 +38,7 @@ function setup() {
 }
 
 function draw() {
-    background()
+    background("skyblue")
     textAlign(RIGHT, CENTER);
     fill("black")
     textSize(18)
