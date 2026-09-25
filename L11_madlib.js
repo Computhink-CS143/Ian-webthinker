@@ -39,7 +39,7 @@ function setup() {
 
 function draw() {
     textAlign(RIGHT, CENTER);
-    fill(black)
+    fill("black")
     textSize(18)
     text("Enter a noun (e.g. dog):", width/2, 40)
     text("Enter a verb (e.g. runs):", width/2, 80)
