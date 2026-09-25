@@ -28,7 +28,7 @@ function setup() {
     placeInput.position(width/2+20, 190)
 
     storyTemplates = [
-        "The {adj} {noun} decided to {verb} {adv} on the {place}.", 
+        "The {adj} {noun} decided to {verb} {adv} in the {place}.", 
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.", 
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?",
         "Legend says that a {adj} {noun} will {verb} {adv} atop the {place}.",
