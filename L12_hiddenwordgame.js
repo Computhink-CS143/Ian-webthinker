@@ -15,7 +15,7 @@ function setup(){
 
 function draw(){
     background("lightblue");
-    textAlign()
+    textAlign(CustomElementRegistry, CENTER)
 }
 
 function updateText() {
