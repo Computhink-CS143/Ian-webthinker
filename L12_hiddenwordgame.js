@@ -21,7 +21,7 @@ function setup(){
     inputBox.size(150, 30);
     inputBox.style("font-size", "20px")
 
-    
+    sumbitB
 }
 
 function draw(){
