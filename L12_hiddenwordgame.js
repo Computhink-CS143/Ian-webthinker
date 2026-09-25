@@ -18,7 +18,7 @@ function setup(){
     guessInput = createInput()
     guessInput.position(width/2-100, height/2)
 
-    input
+    inputBox.size
 }
 
 function draw(){
