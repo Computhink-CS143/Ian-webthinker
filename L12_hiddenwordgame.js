@@ -7,7 +7,7 @@ function setup(){
 
     guessButton = createButton("guess!🤷‍♀️");
     guessButton.position(width/2+100, height/2)
-    guessButton.mousePressed(updateText)
+    guessButton.mousePressed(guessCheck)
 
     guessInput = createInput()
     guessInput.position(width/2-100, height/2)
