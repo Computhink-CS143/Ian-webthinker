@@ -47,6 +47,7 @@ function draw() {
     text("Enter a place (e.g. Sentosa):", width/2, 200)
 
     textAlign(CENTER, CENTER);
+    FileList()
 }
 
 function updateText() {
