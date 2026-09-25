@@ -48,7 +48,7 @@ function draw() {
     text("Enter a place (e.g. Sentosa):", width/2, 200)
 
     textAlign(CENTER, CENTER);
-    fill(red);
+    fill("red");
     text(myStory, width/2, height/2+200);
 }
 
