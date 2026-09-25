@@ -19,7 +19,7 @@ function draw(){
 }
 
 function updateText() {
-    print(gInput.value());
+    print(guessInput.value());
 
     print("story is generated!😁")
     print(myStory)
