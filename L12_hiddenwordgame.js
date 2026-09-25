@@ -22,5 +22,4 @@ function updateText() {
     print(guessInput.value());
 
     print("story is generated!😁")
-    print(myStory)
 }
