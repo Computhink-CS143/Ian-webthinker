@@ -19,9 +19,8 @@ function draw(){
 }
 
 function updateText() {
-    print(placeInput.value());
+    print(gInput.value());
 
     print("story is generated!😁")
     print(myStory)
-}
 }
