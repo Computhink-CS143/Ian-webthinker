@@ -26,8 +26,8 @@ function draw(){
     fill("black")
     text("GUESS THE WORD!!!", width/2, 200);
 
-    text("attempts:" + attempts, width/2, 300);
-    text("hint:"+ hints, width/2, 400);
+    text("attempts:" + attempts, width/2, 250);
+    text("hint:"+ hints, width/2, 300);
 }
 
 function guessCheck() {
