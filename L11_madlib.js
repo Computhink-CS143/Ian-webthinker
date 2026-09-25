@@ -31,7 +31,7 @@ function setup() {
         "The {adj} {noun} decided to {verb} {adv} on the {place}.", 
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.", 
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?",
-        "The {adj} {noun} decided to {verb} {adv} on the {place}.",
+        "Legend says that a {adj} {noun} will {verb} {adv} atop the {place}.",
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
     ];
