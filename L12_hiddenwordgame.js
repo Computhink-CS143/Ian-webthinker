@@ -20,3 +20,4 @@ function draw(){
 
 function updateText() {
 
+}
