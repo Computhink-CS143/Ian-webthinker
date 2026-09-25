@@ -1,5 +1,5 @@
 let guessButton;
-let nounInput;
+let guessInput;
 
 function setup(){
     createCanvas(800, 700);
