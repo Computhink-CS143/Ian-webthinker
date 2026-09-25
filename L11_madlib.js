@@ -46,7 +46,7 @@ function draw() {
     text("Enter a adverb (e.g. angrily):", width/2, 160)
     text("Enter a place (e.g. Sentosa):", width/2, 200)
 
-    textAlign(CENTER, CENETR)
+    textAlign(CENTER, CENTER);
 }
 
 function updateText() {
