@@ -11,7 +11,7 @@ function setup(){
     wordlist = ["Angel","Angry","Badge","Baking","Basic","Brave","Bridge","Brief","Broom","Cable","Camel","Candy","Cargo","Chest","Chief","Crown","Cycle","Daily","Dairy","Delay","Desk","Diary","Doubt","Eagle","Elbow","Extra","Faith","False","Fancy","Fault","Final","Flute","Funny","Giant","Glove","Grape","Honey","Index","Input","Joint","Judge","Logic","Lucky","Magic","Major","March","Model","Motor","Mouth","Movie",];
     background("lightblue");
 
-    hidden
+    hiddenWord = random
 
     guessButton = createButton("guess!🤷‍♀️");
     guessButton.position(width/2+100, height/2)
