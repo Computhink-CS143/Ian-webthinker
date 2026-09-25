@@ -10,7 +10,7 @@ let storyText= "";
 let myStory
 
 function setup() {
-    createCanvas(600, 700);
+    createCanvas(800, 700);
     background("skyblue");
     storyButton = createButton("Generate Story!📖");
     storyButton.position(width/2+45, 220)
