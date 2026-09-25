@@ -1,4 +1,5 @@
-let guessButton
+let guessButton;
+let nounInput;
 
 function setup(){
     createCanvas(800, 700);
@@ -11,5 +12,5 @@ function draw(){
     guessButton.position(width/2 + 200, height/2)
     guessButton.mousePressed(updateText)
 
-    
+
 }
