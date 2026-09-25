@@ -33,7 +33,7 @@ function setup() {
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?",
         "Legend says that a {adj} {noun} will {verb} {adv} atop the {place}.",
         "Believe it or not, a {adj} {noun} actually {verb} {adv} through the {place}.",
-        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+        "Years later, we discovered a {adj} {noun} that used to {verb} {adv} inside that {place}."
     ];
 }
 
