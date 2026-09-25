@@ -17,7 +17,6 @@ function setup(){
 
     guessInput = createInput()
     guessInput.position(width/2-100, height/2)
-
     inputBox.size(150, 30);
     inputBox.style("font-size", "20px")
 
