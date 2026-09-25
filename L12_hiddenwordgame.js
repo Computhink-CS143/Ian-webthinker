@@ -16,7 +16,7 @@ function setup(){
 function draw(){
     background("lightblue");
     textAlign(CENTER, CENTER);
-    
+    textSize()
 }
 
 function updateText() {
