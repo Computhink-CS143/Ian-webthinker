@@ -42,7 +42,7 @@ function draw() {
     fill("black")
     textSize(18)
     text("Enter a noun (e.g. dog):", width/2, 40)
-    text("Enter a verb (e.g. runs):", width/2, 80)
+    text("Enter a verb (e.g. run):", width/2, 80)
     text("Enter a adjective (e.g. happy):", width/2, 120)
     text("Enter a adverb (e.g. angrily):", width/2, 160)
     text("Enter a place (e.g. Sentosa):", width/2, 200)
