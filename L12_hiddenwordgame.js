@@ -9,5 +9,5 @@ function draw(){
     background("lightblue");
     guessButton = createButton("guess!🤷‍♀️");
     guessButton.position(width/2 + 200, height/2)
-    storyButton.mousePressed(updateText)
+    guessButton.mousePressed(updateText)
 }
