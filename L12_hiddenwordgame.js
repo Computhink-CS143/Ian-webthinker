@@ -15,12 +15,13 @@ function setup(){
     guessButton.position(width/2+100, height/2)
     guessButton.mousePressed(guessCheck)
 
+    
     guessInput = createInput()
     guessInput.position(width/2-100, height/2)
     guessInput.size(150, 30);
-    inputBox.style("font-size", "20px")
+    guessInput.style("font-size", "20px")
 
-    sumbitButton
+    
 }
 
 function draw(){
