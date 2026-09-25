@@ -32,5 +32,5 @@ function draw(){
 
 function guessCheck() {
     print(guessInput.value());
-    attempt++
+    attempts++
 }
