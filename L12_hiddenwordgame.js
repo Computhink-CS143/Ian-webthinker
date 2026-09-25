@@ -19,7 +19,7 @@ function setup(){
     guessInput.position(width/2-100, height/2)
 
     inputBox.size(150, 30);
-    inputBox.st
+    inputBox.style("")
 }
 
 function draw(){
