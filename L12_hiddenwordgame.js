@@ -2,8 +2,8 @@ let guessButton;
 let guessInput;
 
 function setup(){
+    wordlist[]
 
-    
     createCanvas(800, 700);
     background("lightblue");
 
