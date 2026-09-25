@@ -17,7 +17,7 @@ function draw(){
     background("lightblue");
     textAlign(CENTER, CENTER);
     textSize(22);
-    text("GUESS THE WORD!!!", width/2, );
+    text("GUESS THE WORD!!!", width/2, 200);
 }
 
 function updateText() {
