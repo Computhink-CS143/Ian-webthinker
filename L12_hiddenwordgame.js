@@ -7,7 +7,7 @@ function setup(){
 
 function draw(){
     background("lightblue");
-    toryButton = createButton("guess!🤷‍♀️");
+    guessButton = createButton("guess!🤷‍♀️");
     storyButton.position(width/2 + 200, height/2)
     storyButton.mousePressed(updateText)
 }
