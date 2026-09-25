@@ -19,9 +19,6 @@ function draw(){
     textSize(22);
     fill("black")
     text("GUESS THE WORD!!!", width/2, 200);
-
-    fill("red");
-    text(myStory, width/2, height/2+200);
 }
 
 function updateText() {
