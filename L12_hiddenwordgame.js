@@ -1,4 +1,4 @@
-let g
+let guessButton
 
 function setup(){
     createCanvas(800, 700);
