@@ -2,7 +2,7 @@ let guessButton;
 let guessInput;
 
 function setup(){
-    wordlist[]
+    wordlist[Abyss,Ample,BakerBingeBlimpBluntBraidBrineBuxomCaperChasmChideClerkClompCoveyCrankCynicDeltaDelveDingoDitchDrollDuvetEjectEludeEpoxyEquipExileFableFetchFjordFlailFlukeFrockFudgeGavelGazerGirthGlyphGnashGourdGraphGrimeHaremHavelHoardHoundHydroImbueIonicIvoryJauntJellyJumboJurorKhakiKioskKnackKnollLapseLatchLeeryLemurLitheLlamaLurchLyricMacroMirthMucusMurkyNadirNylonNymphOmegaOpiumOxidePhialPiquePlazaPluckProwlQuailQuirkQuotaRadarRajahRhinoRulerRustyScubaShackSonicSpeltSquibSwillTackyThiefThumpToxic]
 
     createCanvas(800, 700);
     background("lightblue");
