@@ -17,3 +17,6 @@ function draw(){
     background("lightblue");
     
 }
+
+function updateText() {
+
