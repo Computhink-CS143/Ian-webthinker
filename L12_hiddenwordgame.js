@@ -70,7 +70,7 @@ function guessCheck() {
     }
 }
 
-function getCorrectLetters(guess, hiddenword) {
+function getCorrectLetters(inputvalue, hiddenword) {
     let matchedletters = "";
     for (let aletter of inputvalue) {
         if (hiddenword.includes(aletter)) {
