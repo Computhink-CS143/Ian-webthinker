@@ -8,7 +8,7 @@ let hints = "S_ _ _ _"
 
 function setup(){
     createCanvas(800, 700)
-    wordlist = ["Angel","Angry","Badge","Baking","Basic","Brave","Bridge","Brief","Broom","Cable","Camel","Candy","Cargo","Chest","Chief","Crown","Cycle","Daily","Dairy","Delay","Desk","Diary","Doubt","Eagle","Elbow","Extra","Faith","False","Fancy","Fault","Final","Flute","Funny","Giant","Glove","Grape","Honey","Index","Input","Joint","Judge","Logic","Lucky","Magic","Major","March","Model","Motor","Mouth","Movie"];
+    wordlist = ["angel", "angry", "badge", "baking", "basic", "brave", "bridge", "brief", "broom", "cable", "camel", "candy", "cargo", "chest", "chief", "crown", "cycle", "daily", "dairy", "delay", "desk", "diary", "doubt", "eagle", "elbow", "extra", "faith", "false", "fancy", "fault", "final", "flute", "funny", "giant", "glove", "grape", "honey", "index", "input", "joint", "judge", "logic", "lucky", "magic", "major", "march", "model", "motor", "mouth", "movie"];
     background("lightblue");
 
     hiddenword = random(wordlist)
