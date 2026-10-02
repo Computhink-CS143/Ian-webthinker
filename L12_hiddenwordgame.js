@@ -13,7 +13,7 @@ function setup(){
 
     hiddenword = random(wordlist)
     hiddenword = hiddenword.toUpperCase();
-    print("the hidden word is:" + hiddenword)
+    print("the hidden word is:" + hiddenword);
 
     hints=generateHint(hiddenword);
 
@@ -41,6 +41,7 @@ function draw(){
     text("attempts:" + attempts, width/2, 250);
     text("hint:"+ hints, width/2, 300);
 }
+
 
 function guessCheck() {
     print(guessInput.value());
