@@ -57,6 +57,7 @@ function guessCheck() {
     guess = guess.toUpperCase();
     if (guess === hiddenword){
         message = "you won!!!👍 PLAY AGAIN!";
+        attempts++;
     }
     else{
         attempts++;
