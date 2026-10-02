@@ -44,7 +44,7 @@ function draw(){
 
     textSize(18);
    text(message, width/2, height/2+150) ;
-   text(correctletters, )
+   text(correctletters, width/2)
 }
 
 function generateHint(aWord) {
