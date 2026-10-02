@@ -12,7 +12,7 @@ function setup(){
     background("lightblue");
 
     hiddenword = random(wordlist)
-    hiddenword = 
+    hiddenword = hiddenword.
     print("the hidden word is:" + hiddenword)
 
     guessButton = createButton("guess!🤷‍♀️");
