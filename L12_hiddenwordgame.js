@@ -52,7 +52,7 @@ function guessCheck() {
     // print("hello");
     let guess = guessInput.value()
     guess = guess.toUpperCase();
-    if (guessInput === hiddenword){
+    if (guess === hiddenword){
         message = "you won!!!👍 PLAY AGAIN!"
     }
     else{
