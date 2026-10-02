@@ -65,7 +65,7 @@ function guessCheck() {
         attempts++;
     }
     else if (guess.length>5){
-            correctletters = "5-LETTERS"
+            correctletters = "5-LETTERS!"
     }
     else{
         attempts++;
