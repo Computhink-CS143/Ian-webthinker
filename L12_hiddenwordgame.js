@@ -2,16 +2,16 @@ let guessButton;
 let guessInput;
 let wordlist;
 let hiddenword
-let message = ""
-let attempts = 0
+let message = "";
+let attempts = 0;
 let hints = "S_ _ _ _"
 
 function setup(){
-    createCanvas(800, 700)
+    createCanvas(800, 700);
     wordlist = ["angel", "angry", "badge", "baking", "basic", "brave", "bridge", "brief", "broom", "cable", "camel", "candy", "cargo", "chest", "chief", "crown", "cycle", "daily", "dairy", "delay", "desk", "diary", "doubt", "eagle", "elbow", "extra", "faith", "false", "fancy", "fault", "final", "flute", "funny", "giant", "glove", "grape", "honey", "index", "input", "joint", "judge", "logic", "lucky", "magic", "major", "march", "model", "motor", "mouth", "movie"];
     background("lightblue");
 
-    hiddenword = random(wordlist)
+    hiddenword = random(wordlist);
     hiddenword = hiddenword.toUpperCase();
     print("the hidden word is:" + hiddenword);
 
