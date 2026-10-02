@@ -43,6 +43,7 @@ function draw(){
 }
 
 function generateHint(aWord) {
+    print
     return aWord[0];
 }
 function guessCheck() {
