@@ -75,5 +75,5 @@ function getCorrectLetters(guess, hiddenword) {
     for (let aletter of inputvalue) {
         // 
     }
-    return mat
+    return matchedletters
 }
