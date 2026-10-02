@@ -79,5 +79,5 @@ function getCorrectLetters(inputvalue, randomword) {
             }
         }
     }
-    return "WRONG!" + matchedletters
+    return "WRONG! these are the letters " + matchedletters
 }
