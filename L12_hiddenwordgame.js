@@ -2,7 +2,7 @@ let guessButton;
 let guessInput;
 let wordlist;
 let hiddenword
-let message;
+let message = ""
 let attempts = 0
 let hints = "S_ _ _ _"
 
