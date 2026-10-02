@@ -41,7 +41,8 @@ function draw(){
     text("attempts:" + attempts, width/2, 250);
     text("hint:"+ hints, width/2, 300);
 
-    text
+    textSize(18);
+    
 }
 
 function generateHint(aWord) {
