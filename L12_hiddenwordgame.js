@@ -71,5 +71,8 @@ function guessCheck() {
 }
 
 function getCorrectLetters(guess, hiddenword) {
-    let matchedletters = ""
+    let matchedletters = "";
+    for (let aletter of inputvalue) {
+        
+    }
 }
