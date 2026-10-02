@@ -71,5 +71,5 @@ function guessCheck() {
 }
 
 function getCorrectLetters(guess, hiddenword) {
-    // abcdefghijklmnopqrstuvwxyz
+    let match
 }
