@@ -54,5 +54,6 @@ function guessCheck() {
     if (guessInput === hiddenword){
         message = "you won!!!👍 PLAY AGAIN!"
     }
+    else{}
     attempts++
 }
