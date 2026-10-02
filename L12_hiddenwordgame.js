@@ -55,7 +55,6 @@ function guessCheck() {
         message = "you won!!!👍 PLAY AGAIN!"
     }
     else{
-        
+        attempts++
     }
-    attempts++
 }
