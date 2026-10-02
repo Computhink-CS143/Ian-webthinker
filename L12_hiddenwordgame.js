@@ -74,7 +74,9 @@ function getCorrectLetters(guess, hiddenword) {
     let matchedletters = "";
     for (let aletter of inputvalue) {
         if (hiddenword.includes(aletter)) {
-            
+            if(!matchedletters.includes(aletter)) {
+                
+            }
         }
     }
     return matchedletters
