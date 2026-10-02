@@ -64,3 +64,6 @@ function guessCheck() {
     }
 }
 
+function getCorrectLetters(guess, hiddenword) {
+
+}
