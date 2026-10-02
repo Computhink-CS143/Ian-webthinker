@@ -35,20 +35,20 @@ function draw(){
     background("lightblue");
     textAlign(CENTER, CENTER);
     textSize(22);
-    fill("black")
+    fill("black");
     text("GUESS THE WORD!!!", width/2, 200);
 
     text("attempts:" + attempts, width/2, 250);
     text("hint:"+ hints, width/2, 300);
 
     textSize(18);
-   text(message, width/2, height/2+150) 
+   text(message, width/2, height/2+150) ;
 }
 
 function generateHint(aWord) {
     print("word length = " + aWord.length);
     let partial = " _".repeat(aWord.length-1);
-    print("the partial is " + partial)
+    print("the partial is " + partial);
     return aWord[0] + partial;
 }
 function guessCheck() {
