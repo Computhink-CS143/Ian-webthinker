@@ -61,7 +61,7 @@ function guessCheck() {
     }
     else{
         attempts++;
-        getCorrectLetters()
+        getCorrectLetters(guess, hiddenword);
     }
 }
 
