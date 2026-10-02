@@ -42,7 +42,7 @@ function draw(){
     text("hint:"+ hints, width/2, 300);
 }
 
-
+function generateHint() 
 function guessCheck() {
     print(guessInput.value());
     attempts++
