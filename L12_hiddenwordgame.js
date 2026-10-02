@@ -61,6 +61,7 @@ function guessCheck() {
     }
     else{
         attempts++;
+        get 
     }
 }
 
