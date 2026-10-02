@@ -66,5 +66,5 @@ function guessCheck() {
 }
 
 function getCorrectLetters(guess, hiddenword) {
-    // k
+    // abcdefghi
 }
