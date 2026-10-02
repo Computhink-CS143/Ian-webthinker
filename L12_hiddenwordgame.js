@@ -43,7 +43,7 @@ function draw(){
 }
 
 function generateHint(aWord) {
-    print("word length")
+    print("word length = " + aw)
     return aWord[0];
 }
 function guessCheck() {
