@@ -50,7 +50,7 @@ function generateHint(aWord) {
 }
 function guessCheck() {
     // print("hello");
-    let guess = guessCheck
+    let guess = guessInput.()
     guess = guess.toUpperCase();
     if (guessInput === hiddenword){
         message = "you won!!!👍 PLAY AGAIN!"
