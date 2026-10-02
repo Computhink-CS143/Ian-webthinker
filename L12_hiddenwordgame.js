@@ -42,7 +42,7 @@ function draw(){
     text("hint:"+ hints, width/2, 300);
 
     textSize(18);
-   text(message, width/2, height/2) 
+   text(message, width/2, height/2-100) 
 }
 
 function generateHint(aWord) {
