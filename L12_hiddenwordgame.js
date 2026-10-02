@@ -5,7 +5,7 @@ let hiddenword
 let message = "";
 let attempts = 0;
 let hints = "S_ _ _ _";
-let correct
+let correctletters
 
 function setup(){
     createCanvas(800, 700);
