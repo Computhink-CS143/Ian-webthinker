@@ -50,6 +50,7 @@ function generateHint(aWord) {
 }
 function guessCheck() {
     print(guessInput.value());
-    if (guessInput === hidd)
+    
+    if (guessInput === hiddenword)
     attempts++
 }
