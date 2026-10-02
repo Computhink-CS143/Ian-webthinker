@@ -15,7 +15,7 @@ function setup(){
     hiddenword = hiddenword.toUpperCase();
     print("the hidden word is:" + hiddenword)
 
-    hin
+    hints=
 
     guessButton = createButton("guess!🤷‍♀️");
     guessButton.position(width/2+100, height/2)
