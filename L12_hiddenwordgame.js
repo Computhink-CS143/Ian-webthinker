@@ -61,7 +61,7 @@ function guessCheck() {
     }
     else{
         attempts++;
-        get 
+        getCorrectLetters()
     }
 }
 
