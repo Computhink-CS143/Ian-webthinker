@@ -44,7 +44,7 @@ function draw(){
 
 function generateHint(aWord) {
     print("word length = " + aWord.length)
-    let partial = "_".repeat(aWord.length-1)
+    let partial = " _".repeat(aWord.length-1)
     return aWord[0];
 }
 function guessCheck() {
