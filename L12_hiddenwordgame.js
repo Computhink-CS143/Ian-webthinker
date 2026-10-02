@@ -53,6 +53,8 @@ function generateHint(aWord) {
     print("the partial is " + partial);
     return aWord[0] + partial;
 }
+
+
 function guessCheck() {
     // print("hello");
     let guess = guessInput.value();
