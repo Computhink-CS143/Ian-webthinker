@@ -63,9 +63,6 @@ function guessCheck() {
         message = "you won!!!👍 PLAY AGAIN!";
         attempts++;
     }
-    else if (guess.length>5){
-            correctletters = "5-LETTERS!"
-    }
     else{
         attempts++;
         correctletters = getCorrectLetters(guess, hiddenword);
