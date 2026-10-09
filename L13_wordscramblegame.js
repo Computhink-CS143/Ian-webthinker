@@ -37,7 +37,7 @@ function setup() {
 
 }
 function shuffleWord(someWord) {
-    let arrChars = someWord.split()
+    let arrChars = someWord.split("");
     return "";
 }
 function pickNewWord() {
