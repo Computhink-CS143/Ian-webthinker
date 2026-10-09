@@ -19,8 +19,6 @@ function setup() {
     hiddenword = hiddenword.toUpperCase();
     print("the hidden word is:" + hiddenword);
 
-    hints=generateHint(hiddenword);
-
     guessButton = createButton("sumbit");
     guessButton.position(width/2+100, height/2);
     guessButton.mousePressed(guessCheck);
