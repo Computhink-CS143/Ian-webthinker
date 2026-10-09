@@ -9,10 +9,11 @@ let hints ;
 let correctletters = "";
 let messedup
 
+
+
 function setup() {
     createCanvas(800, 700);
-    wordlist = [ "Absolute", "Building", "Calendar", "Database", "Elephant", "Flexible", "Grateful", "Horizon", "Identity", "Journalist", "Kingdom", "Language", "Mountain", "Navigator", "Obstacle", "Paragraph", "Qualified", "Radiation", "Signature", "Triangle", "Universal", "Vacation", "Wonderful", "Yesterday", "Zodiac", "Adventure", "Beautiful", "Celebration", "Discovery", "Education", "Furniture", "Geography", "Happiness", "Important", "Knowledge", "Landscape", "Magnitude", "Neighborhood", "Operation", "Passenger", "Questions", "Rectangle", "Satellite", "Telephone", "Universe", "Vegetable", "Yesterday", "Zookeeper", "Atmosphere", "Background", "Collection", "Department", "Experience", "Government", "Historical", "Investment", "Leadership", "Management", "Philosophy", "Psychology", "Revolution", "Technology", "University", "Vocabulary", "Achievement", "Environment", "Information", "Measurement", "Nationality", "Observation", "Personality", "Significant"]
-    background("gray")
+    
 
     
 
@@ -33,7 +34,7 @@ function setup() {
     scramblebutton.size(150, 30);
     scramblebutton.style("font-size", "20px");
 
-    
+
 }
 function shuffleWord(someWord) {
     let arrChars = someWord.split("");
