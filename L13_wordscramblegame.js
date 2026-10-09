@@ -43,7 +43,7 @@ function shuffleWords(someWord) {
 }
 function pickNewWord() {
     hiddenword = random(WORDS)
-    
+    hiddenword = hiddenword.to
 }
 
 function draw() {
