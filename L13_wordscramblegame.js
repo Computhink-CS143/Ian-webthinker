@@ -74,7 +74,6 @@ function guessCheck() {
         score++;
     }
     else{
-        score++;
         correctletters = getCorrectLetters(guess, hiddenword);
     }
 }
