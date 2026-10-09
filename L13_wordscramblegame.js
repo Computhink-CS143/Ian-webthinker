@@ -74,7 +74,7 @@ function guessCheck() {
         score++;
     }
     else{
-        message
+        message = "WRONG"
     }
 }
 
