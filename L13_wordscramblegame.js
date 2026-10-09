@@ -18,7 +18,7 @@ function setup() {
 
     hints=generateHint(hiddenword);
 
-    guessButton = createButton("guess!🤷‍♀️");
+    guessButton = createButton("sumbit");
     guessButton.position(width/2+100, height/2);
     guessButton.mousePressed(guessCheck);
     guessButton.size(150, 30);
