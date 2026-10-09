@@ -9,6 +9,7 @@ let hints ;
 let correctletters = "";
 let streak;
 let streakInput;
+let messedup
 
 function setup() {
     createCanvas(800, 700);
