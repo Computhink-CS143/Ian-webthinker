@@ -77,8 +77,6 @@ function guessCheck() {
     // print("hello");
     let guess = guessInput.value();
     guess = guess.toUpperCase();
-    let streak = streakInput.value();
-    streak = streak.toUpperCase();
     if (guess === hiddenword){
         correctletters = "";
         message = "you won!!!👍 PLAY AGAIN!";
