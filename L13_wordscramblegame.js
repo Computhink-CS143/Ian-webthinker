@@ -68,6 +68,8 @@ function guessCheck() {
     // print("hello");
     let guess = guessInput.value();
     guess = guess.toUpperCase();
+    let guess = guessInput.value();
+    guess = guess.toUpperCase();
     if (guess === hiddenword){
         correctletters = "";
         message = "you won!!!👍 PLAY AGAIN!";
