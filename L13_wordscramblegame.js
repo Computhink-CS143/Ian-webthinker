@@ -42,7 +42,8 @@ function shuffleWords(someWord) {
 
 }
 function pickNewWord() {
-    hiddenword = random
+    hiddenword = random(WORDS)
+    
 }
 
 function draw() {
