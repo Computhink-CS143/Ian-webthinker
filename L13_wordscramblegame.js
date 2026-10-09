@@ -12,7 +12,7 @@ function setup() {
     wordlist = [ "Absolute", "Building", "Calendar", "Database", "Elephant"]
     background("gray")
 
-    iddenword = random(wordlist);
+    hiddenword = random(wordlist);
     hiddenword = hiddenword.toUpperCase();
     print("the hidden word is:" + hiddenword);
 
