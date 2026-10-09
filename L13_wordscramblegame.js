@@ -7,6 +7,7 @@ let message = "";
 let score = 0;
 let hints ;
 let correctletters = "";
+let streak
 
 function setup() {
     createCanvas(800, 700);
@@ -71,7 +72,7 @@ function guessCheck() {
         correctletters = "";
         message = "you won!!!👍 PLAY AGAIN!";
         score++;
-        
+
     }
     else{
         message = "WRONG!!❌"
