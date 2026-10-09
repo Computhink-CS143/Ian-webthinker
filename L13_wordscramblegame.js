@@ -61,10 +61,10 @@ function guessCheck() {
     if (guess === hiddenword){
         correctletters = "";
         message = "you won!!!👍 PLAY AGAIN!";
-        attempts++;
+        score++;
     }
     else{
-        attempts++;
+        score++;
         correctletters = getCorrectLetters(guess, hiddenword);
     }
 }
