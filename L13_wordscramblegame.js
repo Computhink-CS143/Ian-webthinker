@@ -39,10 +39,10 @@ function setup() {
 
 }
 function shuffleWord(someWord) {
-
+    
 }
 function pickNewWord() {
-    hiddenword = random(WORDS);
+    hiddenword = random(wordlist);
     hiddenword = hiddenword.toUpperCase();
     messedup = shuffleWord(hiddenword);
 }
