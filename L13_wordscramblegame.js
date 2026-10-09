@@ -47,7 +47,7 @@ function draw() {
     text("WORD SCRAMBLE GAME!!!", width/2, 200);
 
     text("Score:" + score, width/2, 500);
-    text("word:NOTEBOOK", width/2, 300);
+    text("word: " + hiddenword, width/2, 300);
 
     textSize(25);
    text(message, width/2, height/2+250) ;
