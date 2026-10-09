@@ -7,8 +7,6 @@ let message = "";
 let score = 0;
 let hints ;
 let correctletters = "";
-let streak;
-let streakInput;
 let messedup
 
 function setup() {
