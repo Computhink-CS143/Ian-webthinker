@@ -30,8 +30,8 @@ function setup() {
     guessInput.size(150, 30);
     guessInput.style("font-size", "20px");
 
-    guessButton = createButton("sumbit");
-    guessButton.position(width/2+100, height/2);
+    scramblebutton = createButton("sumbit");
+    scramblebutton.position(width/2+100, height/2);
     guessButton.mousePressed(guessCheck);
     guessButton.size(150, 30);
     guessButton.style("font-size", "20px");
