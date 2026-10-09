@@ -79,7 +79,6 @@ function guessCheck() {
         correctletters = "";
         message = "you won!!!👍 PLAY AGAIN!";
         score++;
-        streak++;
 
     }
     else{
