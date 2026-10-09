@@ -3,7 +3,7 @@ let guessInput;
 let wordlist;
 let hiddenword
 let message = "";
-let attempts = 0;
+let score = 0;
 let hints ;
 let correctletters = "";
 
