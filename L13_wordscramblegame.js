@@ -8,7 +8,7 @@ let hints = "S_ _ _ _";
 let correctletters = "";
 
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(800, 700);
     wordlist = [ "Absolute", "Building", "Calendar", "Database", "Elephant"]
     background("gray")
 
