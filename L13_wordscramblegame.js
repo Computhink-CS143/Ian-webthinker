@@ -14,9 +14,7 @@ function setup() {
     wordlist = [ "Absolute", "Building", "Calendar", "Database", "Elephant", "Flexible", "Grateful", "Horizon", "Identity", "Journalist", "Kingdom", "Language", "Mountain", "Navigator", "Obstacle", "Paragraph", "Qualified", "Radiation", "Signature", "Triangle", "Universal", "Vacation", "Wonderful", "Yesterday", "Zodiac", "Adventure", "Beautiful", "Celebration", "Discovery", "Education", "Furniture", "Geography", "Happiness", "Important", "Knowledge", "Landscape", "Magnitude", "Neighborhood", "Operation", "Passenger", "Questions", "Rectangle", "Satellite", "Telephone", "Universe", "Vegetable", "Yesterday", "Zookeeper", "Atmosphere", "Background", "Collection", "Department", "Experience", "Government", "Historical", "Investment", "Leadership", "Management", "Philosophy", "Psychology", "Revolution", "Technology", "University", "Vocabulary", "Achievement", "Environment", "Information", "Measurement", "Nationality", "Observation", "Personality", "Significant"]
     background("gray")
 
-    hiddenword = random(wordlist);
-    hiddenword = hiddenword.toUpperCase();
-    print("the hidden word is:" + hiddenword);
+    
 
     guessButton = createButton("sumbit");
     guessButton.position(width/2+100, height/2);
