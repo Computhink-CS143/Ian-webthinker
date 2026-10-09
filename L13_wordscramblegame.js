@@ -37,6 +37,7 @@ function setup() {
 
 }
 function shuffleWord(someWord) {
+    let
     return "";
 }
 function pickNewWord() {
