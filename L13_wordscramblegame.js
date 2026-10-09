@@ -39,7 +39,7 @@ function setup() {
 
 }
 function shuffleWord(someWord) {
-    
+    return "";
 }
 function pickNewWord() {
     hiddenword = random(wordlist);
