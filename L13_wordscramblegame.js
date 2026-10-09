@@ -50,7 +50,7 @@ function pickNewWord() {
     hiddenword = random(wordlist);
     hiddenword = hiddenword.toUpperCase();
     messedup = shuffleWord(hiddenword);
-    return hiddenword
+    return hiddenword;
 }
 
 function draw() {
