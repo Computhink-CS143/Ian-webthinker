@@ -38,13 +38,13 @@ function setup() {
     scramblebutton.style("font-size", "20px");
 
 }
-function shuffleWords(someWord) {
+function shuffleWord(someWord) {
 
 }
 function pickNewWord() {
     hiddenword = random(WORDS)
     hiddenword = hiddenword.toUpperCase()
-    messedup = shuffleWords
+    messedup = shuffleWord(hiddenword)
 }
 
 function draw() {
