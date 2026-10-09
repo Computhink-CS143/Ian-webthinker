@@ -52,7 +52,7 @@ function draw() {
    text(message,        width/2, height/2+150) ;
    text(correctletters, width/2, height/2+150)
 
-   text("streak: 0(max: 0)", width/2, 500)
+   text("streak: 0(max: 0)", width/2, 600)
 }
 
 function generateHint(aWord) {
