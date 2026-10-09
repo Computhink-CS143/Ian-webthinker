@@ -39,7 +39,7 @@ function draw() {
     text("WORD SCRAMBLE GAME!!!", width/2, 200);
 
     text("score:" + score, width/2, 500);
-    text("hint:"+ hints, width/2, 300);
+    text("hint:NOTEBOOK", width/2, 300);
 
     textSize(18);
    text(message,        width/2, height/2+150) ;
