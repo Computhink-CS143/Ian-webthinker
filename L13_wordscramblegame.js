@@ -37,6 +37,9 @@ function setup() {
     scramblebutton.style("font-size", "20px");
 
 }
+function shuffleWords() {
+    
+}
 
 function draw() {
     background("lightblue");
