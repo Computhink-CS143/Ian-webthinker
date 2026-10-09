@@ -41,9 +41,8 @@ function shuffleWord(someWord) {
     for (let i = arrChars.length-1; i> 0; i--) {
         let j = floor(random(i-1));
     }
-    
+    return "";
 }
-return "";
 function pickNewWord() {
     hiddenword = random(wordlist);
     hiddenword = hiddenword.toUpperCase();
