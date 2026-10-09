@@ -87,5 +87,5 @@ function getCorrectLetters(inputvalue, randomword) {
             }
         }
     }
-    return "WRONG!❌      " 
+    return "WRONG!❌" 
 }
