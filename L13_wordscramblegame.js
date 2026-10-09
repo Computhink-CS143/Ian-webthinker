@@ -37,7 +37,7 @@ function setup() {
 
 }
 function shuffleWord(someWord) {
-    let
+    let arrChars = someword
     return "";
 }
 function pickNewWord() {
