@@ -41,6 +41,9 @@ function setup() {
 function shuffleWords(someWord) {
 
 }
+function pickNewWord() {
+    
+}
 
 function draw() {
     background("lightblue");
