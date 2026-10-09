@@ -45,14 +45,14 @@ function draw() {
     fill("black");
     text("WORD SCRAMBLE GAME!!!", width/2, 200);
 
-    text("score:" + score, width/2, 500);
+    text("Score:" + score, width/2, 500);
     text("word:NOTEBOOK", width/2, 300);
 
     textSize(25);
    text(message,        width/2, height/2+250) ;
 
    textSize(22);
-    text("Streak: 0(max: 0)", width/2, 550)
+    text("Streak: 0(Max: 0)", width/2, 550)
 }
 
 function generateHint(aWord) {
