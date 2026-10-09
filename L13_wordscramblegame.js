@@ -9,7 +9,7 @@ let correctletters = "";
 
 function setup() {
     createCanvas(600, 600);
-    word
+    wordlist = []
     background("gray")
 }
 
