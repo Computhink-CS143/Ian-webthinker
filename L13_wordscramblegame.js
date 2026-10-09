@@ -7,7 +7,7 @@ let message = "";
 let score = 0;
 let hints ;
 let correctletters = "";
-let streak
+let streak;
 
 function setup() {
     createCanvas(800, 700);
