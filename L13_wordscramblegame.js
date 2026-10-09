@@ -71,6 +71,7 @@ function guessCheck() {
         correctletters = "";
         message = "you won!!!👍 PLAY AGAIN!";
         score++;
+        
     }
     else{
         message = "WRONG!!❌"
