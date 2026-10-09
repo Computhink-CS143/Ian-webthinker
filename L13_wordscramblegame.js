@@ -78,14 +78,3 @@ function guessCheck() {
     }
 }
 
-function getCorrectLetters(inputvalue, randomword) {
-    let matchedletters = "";
-    for (let aletter of inputvalue) {
-        if (hiddenword.includes(aletter)) {
-            if(!matchedletters.includes(aletter)) {
-                matchedletters = matchedletters + "  " + aletter;
-            }
-        }
-    }
-    return "WRONG!❌" 
-}
