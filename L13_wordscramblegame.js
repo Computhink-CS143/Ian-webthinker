@@ -49,7 +49,7 @@ function draw() {
     text("word:NOTEBOOK", width/2, 300);
 
     textSize(18);
-   text(message,        width/2, height/2+150) ;
+   text(message,        width/2, height/2+250) ;
    text(correctletters, width/2, height/2+150)
 
    textSize(22);
