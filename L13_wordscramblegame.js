@@ -38,7 +38,7 @@ function draw() {
     fill("black");
     text("WORD SCRAMBLE GAME!!!", width/2, 200);
 
-    text("attempts:" + attempts, width/2, 250);
+    text("score:" + score, width/2, 250);
     text("hint:"+ hints, width/2, 300);
 
     textSize(18);
