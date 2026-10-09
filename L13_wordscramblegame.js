@@ -42,9 +42,9 @@ function shuffleWord(someWord) {
 
 }
 function pickNewWord() {
-    hiddenword = random(WORDS)
-    hiddenword = hiddenword.toUpperCase()
-    messedup = shuffleWord(hiddenword)
+    hiddenword = random(WORDS);
+    hiddenword = hiddenword.toUpperCase();
+    messedup = shuffleWord(hiddenword);
 }
 
 function draw() {
