@@ -48,9 +48,8 @@ function draw() {
     text("score:" + score, width/2, 500);
     text("word:NOTEBOOK", width/2, 300);
 
-    textSize(18);
+    textSize(25);
    text(message,        width/2, height/2+250) ;
-   text(correctletters, width/2, height/2+150)
 
    textSize(22);
     text("streak: 0(max: 0)", width/2, 550)
