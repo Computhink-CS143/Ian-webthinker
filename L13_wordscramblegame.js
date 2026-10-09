@@ -43,7 +43,8 @@ function shuffleWords(someWord) {
 }
 function pickNewWord() {
     hiddenword = random(WORDS)
-    hiddenword = hiddenword.to
+    hiddenword = hiddenword.toUpperCase()
+    
 }
 
 function draw() {
