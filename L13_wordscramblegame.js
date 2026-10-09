@@ -38,6 +38,7 @@ function setup() {
 }
 function shuffleWord(someWord) {
     let arrChars = someWord.split("");
+    for (let i = arrChars.length-1; i> 0; i--)
     return "";
 }
 function pickNewWord() {
