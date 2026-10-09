@@ -42,7 +42,7 @@ function shuffleWord(someWord) {
         let j = floor(random(i-1));
         let memory = arrChars[j];
         arrChars[j] = arrChars[i];
-        arrChars[i] = memory
+        arrChars[i] = memory;
     }
     return arrChars.join("");
 }
