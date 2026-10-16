@@ -80,7 +80,6 @@ function draw() {
     text("word: " + messedup, width/2, 300);
 
     textSize(25);
-   text(message, width/2, height/2+250) ;
 
    textSize(22);
     text("Streak: 0 (Max: 0)", width/2, 550)
