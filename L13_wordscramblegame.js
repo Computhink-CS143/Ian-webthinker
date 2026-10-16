@@ -2,7 +2,6 @@ let guessButton;
 let guessInput;
 let scramblebutton;
 let hiddenword
-let message = "";
 let score = 0;
 let hints ;
 let correctletters = "";
