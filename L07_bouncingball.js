@@ -48,7 +48,7 @@
 // }
 
 let ballX = 300;
-let ballY = 0;
+let ballY = 200;
 let ballSize = 30;
 let ballSpeedX = 5;
 let ballSpeedY = 5;
@@ -66,7 +66,7 @@ function draw() {
 
     if (ballX < (0 + 15)) {
         ballSpeedX = -1 * ballSpeedX;
-        fill(random(255), random(255), random(255), random(55, 150))
+        fill(random(255), random(255), random(255),)
     }
     if (ballX > (width - 15)) {
         ballSpeedX = -1 * ballSpeedX;
