@@ -24,7 +24,7 @@ function setup() {
     guessButton.mousePressed(guessCheck);
     guessButton.size(150, 30);
     guessButton.style("font-size", "20px");
-    guessButton.mousePressed(ch)
+    guessButton.mousePressed(guessCheck)
 
     guessInput = createInput();
     guessInput.position(width/2-100, height/2);
@@ -57,6 +57,8 @@ function pickNewWord() {
     messedup = shuffleWord(hiddenword);
     return hiddenword;
 }
+
+
 
 function draw() {
     background("lightblue");
