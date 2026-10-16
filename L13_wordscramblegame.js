@@ -24,12 +24,12 @@ function setup() {
     guessButton.mousePressed(guessCheck);
     guessButton.size(150, 30);
     guessButton.style("font-size", "20px");
+    guessButton.
 
     guessInput = createInput();
     guessInput.position(width/2-100, height/2);
     guessInput.size(150, 30);
     guessInput.style("font-size", "20px");
-    guessButton.
 
     scramblebutton = createButton("rescramble");
     scramblebutton.position(width/2-280, height/2);
