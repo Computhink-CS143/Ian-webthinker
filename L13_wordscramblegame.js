@@ -36,7 +36,8 @@ function setup() {
     scramblebutton.size(150, 30);
     scramblebutton.style("font-size", "20px");
 
-    hiddenword = pickNewWord()
+    hiddenword = pickNewWord();
+    print()
 }
 function shuffleWord(someWord) {
     let arrChars = someWord.split("");
