@@ -104,8 +104,5 @@ function guessCheck() {
         score++;
 
     }
-    else{
-        message = "WRONG!!❌"
-    }
 }
 
