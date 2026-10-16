@@ -35,7 +35,7 @@ function setup() {
     scramblebutton.mousePressed(guessCheck);
     scramblebutton.size(150, 30);
     scramblebutton.style("font-size", "20px");
-    scramblebutton.mousePressed()
+    scramblebutton.mousePressed(scramble)
 
     hiddenword = pickNewWord();
     print("the secret is " + hiddenword)
