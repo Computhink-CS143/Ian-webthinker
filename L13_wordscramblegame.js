@@ -59,6 +59,7 @@ function pickNewWord() {
 }
 
 function scrambleWord() {
+    let arrChars = someWord.split("");
     for (let i = arrChars.length-1; i > 0; i--) {
         let j = floor(random(i-1));
         let memory = arrChars[j];
