@@ -1,7 +1,6 @@
 let guessButton;
 let guessInput;
 let scramblebutton;
-let wordlist;
 let hiddenword
 let message = "";
 let score = 0;
