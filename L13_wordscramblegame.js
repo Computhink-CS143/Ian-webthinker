@@ -58,7 +58,9 @@ function pickNewWord() {
     return hiddenword;
 }
 
-
+function scrambleWord() {
+    
+}
 
 function draw() {
     background("lightblue");
