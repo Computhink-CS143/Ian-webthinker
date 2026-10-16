@@ -100,7 +100,7 @@ function guessCheck() {
     let guess = guessInput.value();
     guess = guess.toUpperCase();
     if (guess === hiddenword){
-        ("you won!!!👍 PLAY AGAIN!");
+        console.log("you won!!!👍 PLAY AGAIN!");
         score++;
 
     }
