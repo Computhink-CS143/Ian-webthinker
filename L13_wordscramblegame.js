@@ -36,7 +36,7 @@ function setup() {
     scramblebutton.size(150, 30);
     scramblebutton.style("font-size", "20px");
     scramblebutton.mousePressed(scrambleWord)
-
+;
     hiddenword = pickNewWord();
     print("the secret is " + hiddenword)
 }
