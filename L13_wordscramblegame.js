@@ -16,7 +16,7 @@ function setup() {
     
     background("gray")
 
-    
+
     
 
     guessButton = createButton("sumbit");
@@ -36,7 +36,7 @@ function setup() {
     scramblebutton.size(150, 30);
     scramblebutton.style("font-size", "20px");
 
-
+    hiddenword
 }
 function shuffleWord(someWord) {
     let arrChars = someWord.split("");
