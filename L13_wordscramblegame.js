@@ -48,7 +48,7 @@ function shuffleWord(someWord) {
 }
 function pickNewWord() {
     hiddenword = random(wordlist);
-    print()
+    print("hiddenword")
     hiddenword = hiddenword.toUpperCase();
     messedup = shuffleWord(hiddenword);
     return hiddenword;
