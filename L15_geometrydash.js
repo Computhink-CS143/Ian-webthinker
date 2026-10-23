@@ -44,7 +44,9 @@ function draw() {
     for (let count = 0; count<3; count++){
         spikeX[count] -= spikespeed;
 
-        if (spikeX[count] < 0-ski)
+        if (spikeX[count] < 0-spikewidth) {
+            
+        }
         
         triangle(
             spikeX[count], height,
