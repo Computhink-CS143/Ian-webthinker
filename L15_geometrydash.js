@@ -16,7 +16,7 @@ function draw() {
     fill("green");
     rect(100, playerY, 50, 50);
 
-    velo
+    velocity+=
     fill("white");
     textSize(20)
     textAlign(CENTER, CENTER);
