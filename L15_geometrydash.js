@@ -31,3 +31,9 @@ function draw() {
     textAlign(CENTER, CENTER);
     text("Press 'SPACE' to jump!", width/2, 50)
 }
+
+function keyPressed() {
+    if(keycode === 32 && isgrounded) {
+        
+    }
+}
