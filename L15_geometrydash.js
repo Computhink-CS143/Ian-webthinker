@@ -7,7 +7,7 @@ let isgrounded = false;
 let spikeX = []
 let spikewidth = 30;
 let spikeHeight = 50;
-let spikespeed = 9;
+let spikespeed = 8;
 
 let gameOver = false;
 
