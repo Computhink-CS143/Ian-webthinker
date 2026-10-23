@@ -23,7 +23,9 @@ function draw() {
         playerY = height - playersize;
         isgrounded = true;
         velocity = 0;
-    } else 
+    } else {
+        isgrounded = false
+    }
     fill("white");
     textSize(20)
     textAlign(CENTER, CENTER);
