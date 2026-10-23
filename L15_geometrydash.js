@@ -4,6 +4,8 @@ let playersize = 50;
 let velocity = 0;
 let isgrounded = false;
 
+let spikeX
+
 function setup() {
     createCanvas(800, 600);
     background("black");
