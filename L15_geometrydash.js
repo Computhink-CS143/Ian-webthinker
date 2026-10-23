@@ -34,6 +34,6 @@ function draw() {
 
 function keyPressed() {
     if(keycode === 32 && isgrounded) {
-        velocity
+        velocity = -12
     }
 }
