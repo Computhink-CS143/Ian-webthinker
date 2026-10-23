@@ -1,7 +1,8 @@
 let playerX;
 let playerY;
 let playersize = 50;
-let v
+let velocity = 0;
+
 
 function setup() {
     createCanvas(800, 600);
