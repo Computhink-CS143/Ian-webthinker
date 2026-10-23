@@ -24,6 +24,10 @@ function setup() {
 
 function draw() {
     background("black");
+
+    
+
+
     fill("green");
     rect(100, playerY, 50, 50);
 
