@@ -2,14 +2,14 @@ let playerX = 100;
 let playerY;
 let playersize = 50;
 let velocity = 0;
-let isgrounded = true;
+let isgrounded = false;
 
 let spikeX = []
 let spikewidth = 30;
 let spikeHeight = 50;
 let spikespeed = 9;
 
-let gameOver = false;
+let gameOver = true;
 
 function setup() {
     createCanvas(800, 600);
