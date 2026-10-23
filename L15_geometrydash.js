@@ -4,7 +4,8 @@ let playersize = 50;
 let velocity = 0;
 let isgrounded = false;
 
-let spikeX
+let spikeX = []
+spike
 
 function setup() {
     createCanvas(800, 600);
