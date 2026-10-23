@@ -19,8 +19,8 @@ function draw() {
     velocity+=0.8;
     playerY+=velocity;
 
-    if(playerY >= height - player) {
-
+    if(playerY >= height - playersize) {
+        pl
     }
     fill("white");
     textSize(20)
