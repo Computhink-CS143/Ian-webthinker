@@ -26,7 +26,8 @@ function draw() {
     background("black");
 
     if (gameOver) {
-        fill("")
+        fill("red");
+        textSize
     }
 
 
