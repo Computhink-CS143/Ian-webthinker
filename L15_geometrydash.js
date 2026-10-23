@@ -66,7 +66,7 @@ function draw() {
             spikeX[count] + spikewidth, height
         );
 
-        if (playerX &&
+        if (playerX +playersize &&
             B &&
             playerY + playersize < height - spikeHeight
         ){
