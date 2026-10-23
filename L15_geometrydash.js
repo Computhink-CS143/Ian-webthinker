@@ -25,7 +25,7 @@ function setup() {
 function draw() {
     background("black");
 
-    
+    if (gameOver) 
 
 
     fill("green");
