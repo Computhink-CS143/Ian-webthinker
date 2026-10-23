@@ -45,7 +45,7 @@ function draw() {
         spikeX[count] -= spikespeed;
 
         if (spikeX[count] < 0-spikewidth) {
-            
+            spikeX[count]
         }
         
         triangle(
