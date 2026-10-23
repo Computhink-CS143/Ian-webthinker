@@ -7,7 +7,8 @@ let isground = false;
 function setup() {
     createCanvas(800, 600);
     background("black");
-    rectMode(CENTER);
+    // rectMode(CENTER);
+    player
 }
 
 function draw() {
