@@ -9,7 +9,7 @@ let spikewidth = 30;
 let spikeHeight = 50;
 let spikespeed = 9;
 
-let gameOver = true;
+let gameOver = false;
 
 function setup() {
     createCanvas(800, 600);
@@ -66,7 +66,7 @@ function draw() {
             spikeX[count] + spikewidth, height
         );
 
-        if (A &&
+        if (playerX &&
             B &&
             playerY + playersize < height - spikeHeight
         ){
