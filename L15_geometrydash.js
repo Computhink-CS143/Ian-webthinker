@@ -28,7 +28,8 @@ function draw() {
     if (gameOver) {
         fill("red");
         textSize(44);
-        textAlign(CENTER, CENTER)
+        textAlign(CENTER, CENTER);
+        text
     }
 
 
