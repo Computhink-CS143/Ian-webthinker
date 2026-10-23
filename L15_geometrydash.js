@@ -1,3 +1,4 @@
+let playerX;
 let player
 
 function setup() {
