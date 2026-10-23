@@ -47,7 +47,7 @@ function draw() {
         triangle(
             pt1X, height,
             pt2X, pt2Y,
-            spikeX[count] +
+            spikeX[count] + spikewidth, height
         )
     }
 }
