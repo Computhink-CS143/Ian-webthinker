@@ -8,7 +8,7 @@ function setup() {
     createCanvas(800, 600);
     background("black");
     // rectMode(CENTER);
-    playerY = height
+    playerY = height -75;
 }
 
 function draw() {
