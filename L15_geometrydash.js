@@ -7,5 +7,5 @@ function setup() {
 function draw() {
     background("black");
     fill("green");
-    rect(100, height-25, 50, 50);
+    rect(100, height-50, 50, 50);
 }
