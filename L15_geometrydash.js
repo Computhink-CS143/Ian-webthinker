@@ -6,7 +6,8 @@ let isgrounded = false;
 
 let spikeX = []
 let spikewidth = 20;
-let spikeHeight = 30
+let spikeHeight = 30;
+let spikespeed 
 
 function setup() {
     createCanvas(800, 600);
