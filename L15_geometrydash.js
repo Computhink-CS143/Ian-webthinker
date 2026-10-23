@@ -30,6 +30,7 @@ function draw() {
         textSize(44);
         textAlign(CENTER, CENTER);
         text("GAME OVER!❌", width/2, height/2)
+        return;
     }
 
 
