@@ -11,6 +11,6 @@ function draw() {
 
     fill("white");
     textsize(18)
-    
+    textAlign()
     
 }
