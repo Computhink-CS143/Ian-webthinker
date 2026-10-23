@@ -2,7 +2,7 @@ let playerX = 100;
 let playerY;
 let playersize = 50;
 let velocity = 0;
-let isgrounded = false;
+let isgrounded = true;
 
 let spikeX = []
 let spikewidth = 30;
