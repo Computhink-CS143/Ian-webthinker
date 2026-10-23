@@ -29,7 +29,7 @@ function draw() {
         fill("red");
         textSize(44);
         textAlign(CENTER, CENTER);
-        text("GAME OVER!❌", width)
+        text("GAME OVER!❌", width/2, height/2)
     }
 
 
