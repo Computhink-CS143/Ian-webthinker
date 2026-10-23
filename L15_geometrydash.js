@@ -2,7 +2,7 @@ let playerX = 100;
 let playerY;
 let playersize = 50;
 let velocity = 0;
-let isground = false;
+let isgrounded = false;
 
 function setup() {
     createCanvas(800, 600);
@@ -21,7 +21,7 @@ function draw() {
 
     if(playerY >= height - playersize) {
         playerY = height - playersize;
-        isground
+        isgrounded = true
     }
     fill("white");
     textSize(20)
