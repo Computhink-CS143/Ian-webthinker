@@ -40,7 +40,10 @@ function draw() {
     textAlign(CENTER, CENTER);
     text("Press 'SPACE' to jump!", width/2, 50)
 
-    fill
+    fill("red");
+    for (let count = 0; count<3; count++){
+        
+    }
 }
 
 function keyPressed() {
