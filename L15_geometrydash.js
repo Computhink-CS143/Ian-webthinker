@@ -5,5 +5,5 @@ function setup() {
 
 function draw() {
     background("black");
-    FileList("green");
+    fill("green");
 }
