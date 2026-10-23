@@ -46,7 +46,8 @@ function draw() {
         
         triangle(
             pt1X, height,
-            pt2X, pt2
+            pt2X, pt2Y,
+            spi
         )
     }
 }
