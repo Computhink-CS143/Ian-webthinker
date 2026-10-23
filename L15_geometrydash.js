@@ -14,6 +14,10 @@ function setup() {
     background("black");
     // rectMode(CENTER);
     playerY = height-75;
+
+    for (let count = 0; count <3; count++) {
+        
+    }
 }
 
 function draw() {
