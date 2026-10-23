@@ -10,7 +10,7 @@ function draw() {
     rect(100, height-50, 50, 50);
 
     fill("white");
-    textSize()
+    textSize(20)
     textAlign(CENTER, CENTER);
     text("Press 'SPACE' to jump!", width/2, 50)
 }
