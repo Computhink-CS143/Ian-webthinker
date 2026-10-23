@@ -1,6 +1,7 @@
 let playerX;
 let playerY;
-let playersize = 
+let playersize = 50;
+let v
 
 function setup() {
     createCanvas(800, 600);
