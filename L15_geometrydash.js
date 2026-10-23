@@ -64,7 +64,14 @@ function draw() {
             spikeX[count], height,
             spikeX[count] + spikewidth/2, height - spikeHeight,
             spikeX[count] + spikewidth, height
-        )
+        );
+
+        if (A &&
+            B &&
+            playerY + playersize < height - spikeHeight
+        ){
+            gameo
+        }
     }
 }
 
