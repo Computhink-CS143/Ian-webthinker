@@ -21,7 +21,7 @@ function draw() {
 
     if(playerY >= height - playersize) {
         playerY = height - playersize;
-        isgrounded = true
+        isgrounded = true;
     }
     fill("white");
     textSize(20)
