@@ -17,7 +17,7 @@ function draw() {
     rect(100, playerY, 50, 50);
 
     velocity+=0.8
-    playerY
+    playerY+=velocity
     fill("white");
     textSize(20)
     textAlign(CENTER, CENTER);
