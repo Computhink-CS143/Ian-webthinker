@@ -43,6 +43,8 @@ function draw() {
     fill("red");
     for (let count = 0; count<3; count++){
         spikeX[count] -= spikespeed;
+
+        if (spike)
         
         triangle(
             spikeX[count], height,
