@@ -10,6 +10,7 @@ function draw() {
     rect(100, height-50, 50, 50);
 
     fill("white");
-    textsize(18
-    )
+    textsize(18)
+    
+    
 }
