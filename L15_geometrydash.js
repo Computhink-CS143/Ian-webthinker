@@ -44,7 +44,9 @@ function draw() {
     for (let count = 0; count<3; count++){
         spikeX[count] -= spikespeed;
         
-        triangle
+        triangle(
+            
+        )
     }
 }
 
