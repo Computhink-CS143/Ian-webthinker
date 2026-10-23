@@ -9,5 +9,6 @@ function draw() {
     fill("green");
     rect(100, height-50, 50, 50);
 
-    fill("")
+    fill("white");
+    textsize()
 }
