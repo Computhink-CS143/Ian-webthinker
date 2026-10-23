@@ -12,5 +12,5 @@ function draw() {
     fill("white");
     textsize(18)
     textAlign(CENTER, CENTER);
-    text("Press 'SPACE' to jump!")
+    text("Press 'SPACE' to jump!", width/2, 50)
 }
