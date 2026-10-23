@@ -70,7 +70,7 @@ function draw() {
             B &&
             playerY + playersize < height - spikeHeight
         ){
-            gameo
+            gameOver = true
         }
     }
 }
