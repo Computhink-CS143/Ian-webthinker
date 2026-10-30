@@ -510,11 +510,18 @@ function drawTitle() {
 function updateGame(dt) {
   if (level === 1) {
     updatePlayer(dt);
-  } else {
+  } else if (level === 2) {
     updateYardPlayer(dt);
+  } else {
+    updateRoadPlayer(dt);
   }
-  updateGuards(dt);
-  updateAlarm(dt);
+  if (level < 3) {
+    updateGuards(dt);
+    updateAlarm(dt);
+  } else {
+    updateRoadTraffic(dt);
+    checkRoadTraffic();
+  }
   checkTraps();
 
   if (messageTime > 0) {
@@ -538,7 +545,38 @@ function updatePlayer(dt) {
 function updateYardPlayer(dt) {
   movePlayer(dt);
   if (yardGateOpen && dist(playerModel.x, playerModel.y, 890, 302) < 34) {
+    beginRoadLevel();
+  }
+}
+
+function updateRoadPlayer(dt) {
+  movePlayer(dt);
+  if (dist(playerModel.x, playerModel.y, 890, 300) < 38) {
     gameState = 'won';
+    roadEscaped = true;
+  }
+}
+
+function updateRoadTraffic(dt) {
+  for (const car of roadTraffic) {
+    car.y += car.speed * car.direction * dt;
+    if (car.direction > 0 && car.y - car.h / 2 > 570) {
+      car.y = 78 - car.h / 2;
+    } else if (car.direction < 0 && car.y + car.h / 2 < 78) {
+      car.y = 570 + car.h / 2;
+    }
+  }
+}
+
+function checkRoadTraffic() {
+  if (playerModel.x < 265 || playerModel.x > 685) return;
+  for (const car of roadTraffic) {
+    const vehicle = { x: car.x - car.w / 2, y: car.y - car.h / 2, w: car.w, h: car.h };
+    if (circleTouchesRect(playerModel.x, playerModel.y, PLAYER_RADIUS, vehicle)) {
+      gameState = 'lost';
+      message = 'A car swept through the crossing. Wait for a gap or use the median.';
+      return;
+    }
   }
 }
 
