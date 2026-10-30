@@ -477,9 +477,9 @@ function nearestInteraction() {
   const candidates = [];
   if (!firstDoorOpen) candidates.push({ x: 315, y: 300, hint: keyCollected ? 'unlock gate' : 'locked gate' });
   if (!secondDoorOpen) candidates.push({ x: 635, y: 300, hint: puzzleProgress === 3 ? 'unlock gate' : 'locked gate' });
-  for (let index = 0; index < switches.length; index += 1) {
-    if (index === puzzleProgress && puzzleProgress < switches.length) {
-      candidates.push({ x: switches[index].x, y: switches[index].y + 32, hint: 'flip ' + switches[index].label });
+  if (puzzleProgress < switches.length) {
+    for (const item of switches) {
+      candidates.push({ x: item.x, y: item.y + 32, hint: 'flip ' + item.label });
     }
   }
   let closest = null;
