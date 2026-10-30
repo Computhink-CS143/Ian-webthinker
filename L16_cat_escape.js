@@ -665,12 +665,17 @@ function drawEndScreen() {
 
 function nearestInteraction() {
   const candidates = [];
-  if (!firstDoorOpen) candidates.push({ x: 315, y: 300, hint: keyCollected ? 'unlock gate' : 'locked gate' });
-  if (!secondDoorOpen) candidates.push({ x: 635, y: 300, hint: puzzleProgress === 3 ? 'unlock gate' : 'locked gate' });
-  if (puzzleProgress < switches.length) {
-    for (const item of switches) {
-      candidates.push({ x: item.x, y: item.y + 32, hint: 'flip ' + item.label });
+  if (level === 1) {
+    if (!firstDoorOpen) candidates.push({ x: 315, y: 300, hint: keyCollected ? 'unlock gate' : 'locked gate' });
+    if (!secondDoorOpen) candidates.push({ x: 635, y: 300, hint: puzzleProgress === 3 ? 'unlock gate' : 'locked gate' });
+    if (puzzleProgress < switches.length) {
+      for (const item of switches) {
+        candidates.push({ x: item.x, y: item.y + 32, hint: 'flip ' + item.label });
+      }
     }
+  } else {
+    if (!cuttersCollected) candidates.push({ id: 'cutters', x: 271, y: 500, hint: 'take cutters' });
+    if (!yardGateOpen) candidates.push({ id: 'yardGate', x: 610, y: 300, hint: cuttersCollected ? 'cut fence lock' : 'locked fence' });
   }
   let closest = null;
   let closestDistance = 38;
@@ -688,6 +693,21 @@ function interact() {
   const target = nearestInteraction();
   if (!target) {
     showMessage('Nothing close enough to interact with.');
+    return;
+  }
+
+  if (level === 2) {
+    if (target.id === 'cutters') {
+      cuttersCollected = true;
+      showMessage('Bolt cutters found. Get to the fence gate.');
+    } else if (target.id === 'yardGate') {
+      if (cuttersCollected) {
+        yardGateOpen = true;
+        showMessage('Fence cut. Make a run for the road!');
+      } else {
+        showMessage('The fence lock needs bolt cutters.');
+      }
+    }
     return;
   }
 
