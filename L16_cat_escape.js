@@ -82,7 +82,11 @@ function draw() {
   const dt = min((now - lastFrameTime) / 1000, 0.05);
   lastFrameTime = now;
 
-  drawPrison();
+  if (level === 1) {
+    drawPrison();
+  } else {
+    drawYard();
+  }
   if (gameState === 'title') {
     drawTitle();
     return;
@@ -127,6 +131,135 @@ function drawPrison() {
   drawDoors();
   drawExit();
   drawPrisonLabels();
+}
+
+function drawYard() {
+  background('#142326');
+  noStroke();
+  fill('#29383a');
+  rect(0, 0, GAME_WIDTH, 74);
+  fill('#59695b');
+  rect(28, 78, 904, 490, 8);
+  fill('#718064');
+  rect(40, 90, 880, 466, 4);
+  fill('#65745f');
+  rect(40, 252, 880, 98);
+  fill('#73816a');
+  rect(276, 90, 174, 466);
+  fill('#64735f');
+  rect(528, 90, 165, 466);
+
+  drawYardShed();
+  drawYardFence();
+  drawYardHidingSpots();
+  drawTraps(yardTraps);
+  drawYardCrate();
+  drawYardExit();
+  drawYardLabels();
+}
+
+function drawYardShed() {
+  noStroke();
+  fill('#3d4940');
+  rect(112, 121, 160, 112, 5);
+  fill('#263638');
+  triangle(102, 128, 192, 91, 282, 128);
+  fill('#78816c');
+  rect(171, 166, 42, 67, 3);
+  fill('#d0b76e');
+  circle(204, 200, 4);
+  fill('#e0d9c2');
+  textAlign(CENTER, CENTER);
+  textSize(10);
+  text('SUPPLY SHED', 192, 146);
+  fill('#46524b');
+  rect(445, 120, 88, 78, 5);
+  fill('#283638');
+  rect(455, 131, 68, 55, 3);
+  fill('#d0b76e');
+  textSize(9);
+  text('GENERATOR', 489, 158);
+}
+
+function drawYardFence() {
+  stroke('#c1c4a4');
+  strokeWeight(3);
+  for (let fenceY = 88; fenceY <= 244; fenceY += 18) {
+    line(602, fenceY, 618, fenceY);
+  }
+  for (let fenceY = 356; fenceY <= 560; fenceY += 18) {
+    line(602, fenceY, 618, fenceY);
+  }
+  line(602, 88, 602, 244);
+  line(618, 88, 618, 244);
+  line(602, 88 + 268, 602, 560);
+  line(618, 88 + 268, 618, 560);
+  noStroke();
+  drawDoor(610, 300, yardGateOpen, 'FENCE GATE');
+}
+
+function drawYardHidingSpots() {
+  for (const spot of yardHidingSpots) {
+    noStroke();
+    fill('#344a3c');
+    ellipse(spot.x + spot.w / 2, spot.y + spot.h / 2, spot.w, spot.h);
+    fill('#71815d');
+    ellipse(spot.x + spot.w / 2 - 12, spot.y + spot.h / 2 - 5, spot.w * 0.55, spot.h * 0.48);
+    fill('#e0dec4');
+    textAlign(CENTER, CENTER);
+    textSize(9);
+    text('BUSHES', spot.x + spot.w / 2, spot.y + spot.h - 8);
+  }
+}
+
+function drawYardCrate() {
+  noStroke();
+  fill(cuttersCollected ? '#485249' : '#896b42');
+  rect(242, 478, 58, 42, 4);
+  stroke('#c4a36a');
+  strokeWeight(3);
+  line(247, 484, 295, 514);
+  line(295, 484, 247, 514);
+  noStroke();
+  if (!cuttersCollected) {
+    stroke('#e8cf81');
+    strokeWeight(3);
+    line(261, 495, 281, 495);
+    circle(260, 495, 8);
+    line(278, 495, 278, 502);
+    noStroke();
+  }
+  fill('#f1ead4');
+  textAlign(CENTER, CENTER);
+  textSize(9);
+  text(cuttersCollected ? 'EMPTY' : 'CUTTERS', 271, 532);
+}
+
+function drawYardExit() {
+  noStroke();
+  fill(yardGateOpen ? '#73bd88' : '#53615a');
+  rect(875, 254, 31, 92, 5);
+  fill('#172326');
+  rect(881, 260, 19, 80, 3);
+  fill(yardGateOpen ? '#f0d47a' : '#9a9b88');
+  circle(895, 303, 4);
+  fill('#f2ead4');
+  textAlign(CENTER, CENTER);
+  textSize(10);
+  text('ROAD', 890, 240);
+}
+
+function drawYardLabels() {
+  noStroke();
+  fill('#34453b');
+  textAlign(LEFT, CENTER);
+  textSize(10);
+  text('PRISON YARD', 54, 111);
+  text('Keep to the bushes. The floodlights sweep the open ground.', 330, 545);
+  fill('#c4c6a9');
+  textAlign(CENTER, CENTER);
+  textSize(9);
+  text('FENCE', 610, 229);
 }
 
 function drawCell() {
