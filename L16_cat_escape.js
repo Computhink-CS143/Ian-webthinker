@@ -611,6 +611,7 @@ function movePlayerAxis(dx, dy) {
 }
 
 function hitsWall(x, y) {
+  if (level === 3) return false;
   if (level === 2) {
     for (const obstacle of yardObstacles) {
       if (circleTouchesRect(x, y, PLAYER_RADIUS, obstacle)) return true;
@@ -659,7 +660,7 @@ function updateAlarm(dt) {
 }
 
 function checkTraps() {
-  const activeTraps = level === 1 ? traps : yardTraps;
+  const activeTraps = level === 1 ? traps : level === 2 ? yardTraps : [];
   for (const trap of activeTraps) {
     if (circleTouchesRect(playerModel.x, playerModel.y, PLAYER_RADIUS - 2, trap) && jumpTime <= 0) {
       gameState = 'lost';
@@ -670,9 +671,33 @@ function checkTraps() {
 }
 
 function drawGameWorld() {
-  drawGuards();
+  if (level === 3) {
+    drawRoadTraffic();
+  } else {
+    drawGuards();
+  }
   drawPlayer();
   drawInteractionHint();
+}
+
+function drawRoadTraffic() {
+  push();
+  rectMode(CENTER);
+  for (const car of roadTraffic) {
+    noStroke();
+    fill(car.color);
+    rect(car.x, car.y, car.w, car.h, 9);
+    fill('#b8c2bd');
+    rect(car.x, car.y - car.direction * 12, car.w - 10, 22, 5);
+    fill('#e9d8a1');
+    rect(car.x - 13, car.y - car.direction * 30, 7, 5, 2);
+    rect(car.x + 13, car.y - car.direction * 30, 7, 5, 2);
+    fill('#e67a59');
+    rect(car.x - 13, car.y + car.direction * 31, 7, 5, 2);
+    rect(car.x + 13, car.y + car.direction * 31, 7, 5, 2);
+  }
+  pop();
+  rectMode(CORNER);
 }
 
 function drawGuards() {
