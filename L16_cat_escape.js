@@ -788,6 +788,13 @@ function movePlayerAxis(dx, dy) {
 }
 
 function hitsWall(x, y) {
+  if (level === 4) {
+    for (const obstacle of dockObstacles) {
+      if (circleTouchesRect(x, y, PLAYER_RADIUS, obstacle)) return true;
+    }
+    if (!ferryUnlocked && circleTouchesRect(x, y, PLAYER_RADIUS, { x: 690, y: 266, w: 20, h: 68 })) return true;
+    return false;
+  }
   if (level === 3) return false;
   if (level === 2) {
     for (const obstacle of yardObstacles) {
