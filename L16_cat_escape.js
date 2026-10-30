@@ -14,6 +14,8 @@ let secondDoorOpen = false;
 let cuttersCollected = false;
 let yardGateOpen = false;
 let roadEscaped = false;
+let dockPassCollected = false;
+let ferryUnlocked = false;
 let puzzleProgress = 0;
 let alarm = 0;
 let jumpTime = 0;
@@ -65,6 +67,17 @@ const roadTraffic = [
   { x: 405, y: 430, w: 44, h: 72, speed: 112, direction: -1, color: '#d3b655' },
   { x: 555, y: 245, w: 48, h: 78, speed: 138, direction: -1, color: '#668cb0' },
   { x: 615, y: 500, w: 44, h: 72, speed: 118, direction: 1, color: '#879b70' }
+];
+
+const dockHidingSpots = [
+  { x: 300, y: 330, w: 84, h: 58 },
+  { x: 635, y: 430, w: 92, h: 62 }
+];
+
+const dockObstacles = [
+  { x: 130, y: 125, w: 150, h: 92 },
+  { x: 390, y: 405, w: 124, h: 70 },
+  { x: 555, y: 125, w: 108, h: 92 }
 ];
 
 function setup() {
