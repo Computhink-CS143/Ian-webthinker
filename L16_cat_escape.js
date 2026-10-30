@@ -107,8 +107,10 @@ function draw() {
     drawPrison();
   } else if (level === 2) {
     drawYard();
-  } else {
+  } else if (level === 3) {
     drawRoad();
+  } else {
+    drawDock();
   }
   if (gameState === 'title') {
     drawTitle();
@@ -352,6 +354,158 @@ function drawRoadsideDetails() {
   textSize(9);
   text('WAIT FOR A GAP', 155, 340);
   text('SAFE MEDIAN', 480, 530);
+}
+
+function drawDock() {
+  background('#142326');
+  noStroke();
+  fill('#29383a');
+  rect(0, 0, GAME_WIDTH, 74);
+  fill('#31545a');
+  rect(28, 78, 904, 490, 8);
+  fill('#172f37');
+  rect(730, 90, 190, 466);
+  stroke('#547178');
+  strokeWeight(2);
+  for (let waveY = 108; waveY < 550; waveY += 34) {
+    line(750, waveY, 908, waveY + 5);
+  }
+  noStroke();
+
+  fill('#5d6654');
+  rect(40, 90, 690, 466);
+  fill('#73694f');
+  rect(40, 262, 650, 88);
+  fill('#806c4e');
+  rect(682, 230, 238, 140);
+  stroke('#a48a61');
+  strokeWeight(2);
+  for (let plankY = 240; plankY < 365; plankY += 18) {
+    line(688, plankY, 916, plankY);
+  }
+  noStroke();
+
+  drawDockBuildings();
+  drawDockHidingSpots();
+  drawDockPass();
+  drawDockGate();
+  drawFerry();
+  drawDockLabels();
+}
+
+function drawDockBuildings() {
+  noStroke();
+  fill('#3d4943');
+  rect(120, 115, 170, 110, 4);
+  fill('#27383a');
+  triangle(108, 124, 205, 87, 302, 124);
+  fill('#78806c');
+  rect(174, 158, 50, 67, 3);
+  fill('#ddc879');
+  circle(214, 193, 4);
+  fill('#e0d9c2');
+  textAlign(CENTER, CENTER);
+  textSize(10);
+  text('HARBOR OFFICE', 205, 141);
+
+  fill('#485147');
+  rect(380, 397, 140, 80, 5);
+  fill('#313c3b');
+  rect(392, 409, 116, 56, 3);
+  fill('#d0b76e');
+  textSize(9);
+  text('CARGO', 450, 435);
+
+  fill('#374843');
+  rect(550, 120, 120, 98, 4);
+  fill('#2b3b3d');
+  rect(563, 133, 94, 72, 3);
+  fill('#d0b76e');
+  text('FUEL STORE', 610, 168);
+}
+
+function drawDockHidingSpots() {
+  for (const spot of dockHidingSpots) {
+    noStroke();
+    fill('#354b3c');
+    ellipse(spot.x + spot.w / 2, spot.y + spot.h / 2, spot.w, spot.h);
+    fill('#71815d');
+    ellipse(spot.x + spot.w / 2 - 12, spot.y + spot.h / 2 - 5, spot.w * 0.55, spot.h * 0.48);
+    fill('#e0dec4');
+    textAlign(CENTER, CENTER);
+    textSize(9);
+    text('NETS', spot.x + spot.w / 2, spot.y + spot.h - 8);
+  }
+}
+
+function drawDockPass() {
+  noStroke();
+  fill('#796044');
+  rect(188, 468, 62, 42, 4);
+  fill('#ad9062');
+  rect(193, 474, 52, 30, 2);
+  if (!dockPassCollected) {
+    fill('#e8d79b');
+    rect(209, 482, 24, 15, 2);
+    fill('#41545a');
+    rect(213, 486, 9, 2);
+    rect(213, 490, 15, 2);
+  }
+  fill('#f1ead4');
+  textAlign(CENTER, CENTER);
+  textSize(9);
+  text(dockPassCollected ? 'EMPTY' : 'PASS', 219, 521);
+}
+
+function drawDockGate() {
+  stroke('#c1c4a4');
+  strokeWeight(3);
+  for (let gateY = 92; gateY <= 246; gateY += 18) {
+    line(690, gateY, 710, gateY);
+  }
+  for (let gateY = 354; gateY <= 558; gateY += 18) {
+    line(690, gateY, 710, gateY);
+  }
+  line(690, 92, 690, 246);
+  line(710, 92, 710, 246);
+  line(690, 354, 690, 558);
+  line(710, 354, 710, 558);
+  noStroke();
+  drawDoor(700, 300, ferryUnlocked, 'BOARDING');
+}
+
+function drawFerry() {
+  push();
+  rectMode(CENTER);
+  noStroke();
+  fill('#26383b');
+  triangle(827, 300, 872, 278, 872, 322);
+  fill('#d8d0b6');
+  rect(866, 300, 46, 60, 8);
+  fill('#68838a');
+  rect(865, 288, 29, 18, 3);
+  fill('#dfc36e');
+  circle(853, 300, 5);
+  pop();
+  rectMode(CORNER);
+  fill('#f1ead4');
+  textAlign(CENTER, CENTER);
+  textSize(9);
+  text(ferryUnlocked ? 'FERRY READY' : 'PASS REQUIRED', 865, 258);
+}
+
+function drawDockLabels() {
+  noStroke();
+  fill('#374941');
+  textAlign(LEFT, CENTER);
+  textSize(10);
+  text('OLD HARBOR', 54, 108);
+  fill('#e0d9c2');
+  textAlign(CENTER, CENTER);
+  textSize(9);
+  text('Stay behind the cargo and nets while guards patrol.', 385, 535);
+  fill('#d3c9a9');
+  text('PIER', 800, 390);
 }
 
 function drawCell() {
