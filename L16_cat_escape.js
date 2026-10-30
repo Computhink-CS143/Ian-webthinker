@@ -429,7 +429,11 @@ function drawTitle() {
 }
 
 function updateGame(dt) {
-  updatePlayer(dt);
+  if (level === 1) {
+    updatePlayer(dt);
+  } else {
+    updateYardPlayer(dt);
+  }
   updateGuards(dt);
   updateAlarm(dt);
   checkTraps();
@@ -440,6 +444,26 @@ function updateGame(dt) {
 }
 
 function updatePlayer(dt) {
+  movePlayer(dt);
+
+  if (!keyCollected && dist(playerModel.x, playerModel.y, 205, 164) < 27) {
+    keyCollected = true;
+    showMessage('Cell key collected. Use E beside the first gate.');
+  }
+
+  if (secondDoorOpen && dist(playerModel.x, playerModel.y, 890, 302) < 34) {
+    beginYardLevel();
+  }
+}
+
+function updateYardPlayer(dt) {
+  movePlayer(dt);
+  if (yardGateOpen && dist(playerModel.x, playerModel.y, 890, 302) < 34) {
+    gameState = 'won';
+  }
+}
+
+function movePlayer(dt) {
   let moveX = 0;
   let moveY = 0;
   if (keyIsDown(LEFT_ARROW) || keyIsDown(65)) moveX -= 1;
@@ -458,15 +482,6 @@ function updatePlayer(dt) {
   playerModel.y = constrain(playerModel.y, 94 + PLAYER_RADIUS, 554 - PLAYER_RADIUS);
   jumpTime = max(0, jumpTime - dt);
   jumpCooldown = max(0, jumpCooldown - dt);
-
-  if (!keyCollected && dist(playerModel.x, playerModel.y, 205, 164) < 27) {
-    keyCollected = true;
-    showMessage('Cell key collected. Use E beside the first gate.');
-  }
-
-  if (secondDoorOpen && dist(playerModel.x, playerModel.y, 890, 302) < 34) {
-    gameState = 'won';
-  }
 }
 
 function movePlayerAxis(dx, dy) {
