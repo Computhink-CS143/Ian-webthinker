@@ -13,6 +13,7 @@ let firstDoorOpen = false;
 let secondDoorOpen = false;
 let cuttersCollected = false;
 let yardGateOpen = false;
+let roadEscaped = false;
 let puzzleProgress = 0;
 let alarm = 0;
 let jumpTime = 0;
@@ -57,6 +58,13 @@ const yardHidingSpots = [
 const yardObstacles = [
   { x: 120, y: 130, w: 145, h: 98 },
   { x: 450, y: 125, w: 78, h: 68 }
+];
+
+const roadTraffic = [
+  { x: 345, y: 150, w: 48, h: 78, speed: 126, direction: 1, color: '#bd604c' },
+  { x: 405, y: 430, w: 44, h: 72, speed: 112, direction: -1, color: '#d3b655' },
+  { x: 555, y: 245, w: 48, h: 78, speed: 138, direction: -1, color: '#668cb0' },
+  { x: 615, y: 500, w: 44, h: 72, speed: 118, direction: 1, color: '#879b70' }
 ];
 
 function setup() {
