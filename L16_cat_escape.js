@@ -776,16 +776,21 @@ function mousePressed() {
 }
 
 function restartGame() {
+  level = 1;
   playerModel.x = 90;
   playerModel.y = 300;
-  for (let index = 0; index < guards.length; index += 1) {
-    guards[index].model.x = index === 0 ? 420 : 765;
-    guards[index].direction = index === 0 ? 1 : -1;
-  }
+  guards[0].model.x = 420;
+  guards[0].model.y = 300;
+  Object.assign(guards[0], { minX: 350, maxX: 600, speed: 82, direction: 1, range: 88 });
+  guards[1].model.x = 765;
+  guards[1].model.y = 365;
+  Object.assign(guards[1], { minX: 690, maxX: 865, speed: 68, direction: -1, range: 78 });
   gameState = 'playing';
   keyCollected = false;
   firstDoorOpen = false;
   secondDoorOpen = false;
+  cuttersCollected = false;
+  yardGateOpen = false;
   puzzleProgress = 0;
   alarm = 0;
   jumpTime = 0;
@@ -799,7 +804,26 @@ function showMessage(nextMessage) {
 }
 
 function isPlayerHidden() {
-  return hidingSpots.some((spot) => pointInsideRect(playerModel.x, playerModel.y, spot));
+  const activeHidingSpots = level === 1 ? hidingSpots : yardHidingSpots;
+  return activeHidingSpots.some((spot) => pointInsideRect(playerModel.x, playerModel.y, spot));
+}
+
+function beginYardLevel() {
+  level = 2;
+  playerModel.x = 72;
+  playerModel.y = 300;
+  guards[0].model.x = 370;
+  guards[0].model.y = 285;
+  Object.assign(guards[0], { minX: 340, maxX: 540, speed: 76, direction: 1, range: 86 });
+  guards[1].model.x = 760;
+  guards[1].model.y = 390;
+  Object.assign(guards[1], { minX: 680, maxX: 840, speed: 70, direction: -1, range: 80 });
+  cuttersCollected = false;
+  yardGateOpen = false;
+  alarm = 0;
+  jumpTime = 0;
+  jumpCooldown = 0;
+  showMessage('Level 2: Find bolt cutters, then open the yard gate.');
 }
 
 function pointInsideRect(x, y, rect) {
