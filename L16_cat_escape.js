@@ -1144,6 +1144,8 @@ function restartGame() {
   secondDoorOpen = false;
   cuttersCollected = false;
   yardGateOpen = false;
+  dockPassCollected = false;
+  ferryUnlocked = false;
   puzzleProgress = 0;
   alarm = 0;
   jumpTime = 0;
@@ -1158,7 +1160,7 @@ function showMessage(nextMessage) {
 
 function isPlayerHidden() {
   if (level === 3) return false;
-  const activeHidingSpots = level === 1 ? hidingSpots : yardHidingSpots;
+  const activeHidingSpots = level === 1 ? hidingSpots : level === 2 ? yardHidingSpots : dockHidingSpots;
   return activeHidingSpots.some((spot) => pointInsideRect(playerModel.x, playerModel.y, spot));
 }
 
@@ -1198,6 +1200,24 @@ function beginRoadLevel() {
   jumpCooldown = 0;
   resetRoadTraffic();
   showMessage('Level 3: Cross the road safely and reach the park.');
+}
+
+function beginDockLevel() {
+  level = 4;
+  playerModel.x = 72;
+  playerModel.y = 300;
+  guards[0].model.x = 350;
+  guards[0].model.y = 300;
+  Object.assign(guards[0], { minX: 330, maxX: 520, speed: 78, direction: 1, range: 88 });
+  guards[1].model.x = 590;
+  guards[1].model.y = 360;
+  Object.assign(guards[1], { minX: 545, maxX: 665, speed: 72, direction: -1, range: 82 });
+  dockPassCollected = false;
+  ferryUnlocked = false;
+  alarm = 0;
+  jumpTime = 0;
+  jumpCooldown = 0;
+  showMessage('Level 4: Find the ferry pass, then reach the boat.');
 }
 
 function pointInsideRect(x, y, rect) {
