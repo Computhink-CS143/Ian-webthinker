@@ -762,9 +762,12 @@ function drawHud() {
     text('OVERRIDE ' + (puzzleProgress === 3 ? 'READY' : puzzleProgress + '/3'), 360, 27);
     text('GATE 1 ' + (firstDoorOpen ? 'OPEN' : 'LOCKED'), 510, 27);
     text('GATE 2 ' + (secondDoorOpen ? 'OPEN' : 'LOCKED'), 640, 27);
-  } else {
+  } else if (level === 2) {
     text('CUTTERS ' + (cuttersCollected ? 'FOUND' : 'MISSING'), 270, 27);
     text('FENCE ' + (yardGateOpen ? 'OPEN' : 'LOCKED'), 420, 27);
+  } else {
+    text('CROSSING: WATCH TRAFFIC', 270, 27);
+    text('PARK EXIT', 465, 27);
   }
   text('R RESTART', 860, 27);
 
@@ -791,7 +794,7 @@ function drawHud() {
   fill('#e2ddcb');
   textAlign(CENTER, CENTER);
   textSize(10);
-  text('WASD / ARROWS MOVE     SPACE HOP OVER TRAPS     E INTERACT     HIDE IN SHADOWS', 480, 590);
+  text(level === 3 ? 'WASD / ARROWS MOVE     WAIT FOR GAPS     USE THE MEDIAN AS A SAFE ISLAND' : 'WASD / ARROWS MOVE     SPACE HOP OVER TRAPS     E INTERACT     HIDE IN SHADOWS', 480, 590);
 }
 
 function drawEndScreen() {
@@ -804,7 +807,7 @@ function drawEndScreen() {
   text(gameState === 'won' ? 'FREEDOM!' : 'CAUGHT!', 480, 225);
   fill('#f2ead4');
   textSize(16);
-  text(gameState === 'won' ? 'The cat slipped beyond the outer fence and into the night.' : message, 480, 285);
+  text(gameState === 'won' ? 'The cat reached the park and disappeared into the night.' : message, 480, 285);
   fill('#f0d27e');
   textSize(18);
   text('Press R to try again', 480, 365);
