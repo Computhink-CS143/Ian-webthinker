@@ -820,7 +820,7 @@ function nearestInteraction() {
         candidates.push({ x: item.x, y: item.y + 32, hint: 'flip ' + item.label });
       }
     }
-  } else {
+  } else if (level === 2) {
     if (!cuttersCollected) candidates.push({ id: 'cutters', x: 271, y: 500, hint: 'take cutters' });
     if (!yardGateOpen) candidates.push({ id: 'yardGate', x: 610, y: 300, hint: cuttersCollected ? 'cut fence lock' : 'locked fence' });
   }
