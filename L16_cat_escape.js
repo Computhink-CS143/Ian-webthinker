@@ -92,8 +92,10 @@ function draw() {
 
   if (level === 1) {
     drawPrison();
-  } else {
+  } else if (level === 2) {
     drawYard();
+  } else {
+    drawRoad();
   }
   if (gameState === 'title') {
     drawTitle();
@@ -268,6 +270,75 @@ function drawYardLabels() {
   textAlign(CENTER, CENTER);
   textSize(9);
   text('FENCE', 610, 229);
+}
+
+function drawRoad() {
+  background('#142326');
+  noStroke();
+  fill('#29383a');
+  rect(0, 0, GAME_WIDTH, 74);
+  fill('#52694d');
+  rect(28, 78, 904, 490, 8);
+  fill('#718163');
+  rect(40, 90, 225, 466, 4);
+  rect(685, 90, 235, 466, 4);
+
+  fill('#363d40');
+  rect(265, 90, 420, 466);
+  fill('#b4b49a');
+  rect(265, 90, 8, 466);
+  rect(677, 90, 8, 466);
+
+  stroke('#8d9280');
+  strokeWeight(3);
+  for (let laneY = 108; laneY < 550; laneY += 48) {
+    line(365, laneY, 365, laneY + 24);
+    line(585, laneY, 585, laneY + 24);
+  }
+  noStroke();
+
+  fill('#62785a');
+  rect(455, 90, 50, 466);
+  fill('#87906c');
+  rect(463, 100, 34, 446, 5);
+  fill('#e0c970');
+  circle(480, 300, 10);
+
+  fill('#eee9d6');
+  for (let stripeY = 278; stripeY <= 318; stripeY += 10) {
+    rect(280, stripeY, 166, 4, 1);
+    rect(514, stripeY, 148, 4, 1);
+  }
+
+  drawRoadsideDetails();
+}
+
+function drawRoadsideDetails() {
+  noStroke();
+  fill('#34453b');
+  ellipse(115, 145, 94, 50);
+  ellipse(202, 488, 112, 58);
+  fill('#405e43');
+  ellipse(137, 140, 62, 36);
+  ellipse(225, 482, 74, 40);
+
+  fill('#3c4941');
+  rect(760, 150, 88, 52, 4);
+  fill('#d2c49c');
+  rect(769, 159, 70, 5, 2);
+  fill('#35473b');
+  rect(748, 429, 122, 18, 5);
+  rect(758, 447, 7, 26, 3);
+  rect(853, 447, 7, 26, 3);
+
+  fill('#a9c77b');
+  textAlign(CENTER, CENTER);
+  textSize(10);
+  text('PARK', 880, 270);
+  fill('#d8d1b8');
+  textSize(9);
+  text('WAIT FOR A GAP', 155, 340);
+  text('SAFE MEDIAN', 480, 530);
 }
 
 function drawCell() {
