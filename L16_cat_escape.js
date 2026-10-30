@@ -133,6 +133,19 @@ function drawCell() {
   }
 }
 
+function drawKey(x, y) {
+  push();
+  translate(x, y);
+  noFill();
+  stroke('#f0d27e');
+  strokeWeight(4);
+  circle(-5, 0, 12);
+  line(1, 0, 15, 0);
+  line(10, 0, 10, 5);
+  line(15, 0, 15, 4);
+  pop();
+}
+
 function drawHidingSpots() {
   for (const spot of hidingSpots) {
     noStroke();
