@@ -494,6 +494,16 @@ function movePlayerAxis(dx, dy) {
 }
 
 function hitsWall(x, y) {
+  if (level === 2) {
+    for (const obstacle of yardObstacles) {
+      if (circleTouchesRect(x, y, PLAYER_RADIUS, obstacle)) return true;
+    }
+    if (circleTouchesRect(x, y, PLAYER_RADIUS, { x: 602, y: 82, w: 16, h: 166 })) return true;
+    if (circleTouchesRect(x, y, PLAYER_RADIUS, { x: 602, y: 352, w: 16, h: 212 })) return true;
+    if (!yardGateOpen && circleTouchesRect(x, y, PLAYER_RADIUS, { x: 598, y: 266, w: 24, h: 68 })) return true;
+    return false;
+  }
+
   for (const wall of walls) {
     if (circleTouchesRect(x, y, PLAYER_RADIUS, wall)) return true;
   }
