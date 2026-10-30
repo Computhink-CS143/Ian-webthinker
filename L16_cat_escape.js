@@ -679,15 +679,19 @@ function updateGame(dt) {
     updatePlayer(dt);
   } else if (level === 2) {
     updateYardPlayer(dt);
-  } else {
+  } else if (level === 3) {
     updateRoadPlayer(dt);
-  }
-  if (level < 3) {
-    updateGuards(dt);
-    updateAlarm(dt);
   } else {
+  }
+  if (level === 4) {
+    updateDockPlayer(dt);
+  }
+  if (level === 3) {
     updateRoadTraffic(dt);
     checkRoadTraffic();
+  } else {
+    updateGuards(dt);
+    updateAlarm(dt);
   }
   checkTraps();
 
@@ -719,8 +723,14 @@ function updateYardPlayer(dt) {
 function updateRoadPlayer(dt) {
   movePlayer(dt);
   if (dist(playerModel.x, playerModel.y, 890, 300) < 38) {
+    beginDockLevel();
+  }
+}
+
+function updateDockPlayer(dt) {
+  movePlayer(dt);
+  if (ferryUnlocked && dist(playerModel.x, playerModel.y, 865, 300) < 35) {
     gameState = 'won';
-    roadEscaped = true;
   }
 }
 
