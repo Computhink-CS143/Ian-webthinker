@@ -341,8 +341,8 @@ function drawSwitches() {
   }
 }
 
-function drawTraps() {
-  for (const trap of traps) {
+function drawTraps(trapList = traps) {
+  for (const trap of trapList) {
     noStroke();
     fill('#3d3430');
     rect(trap.x, trap.y, trap.w, trap.h, 4);
@@ -542,7 +542,8 @@ function updateAlarm(dt) {
 }
 
 function checkTraps() {
-  for (const trap of traps) {
+  const activeTraps = level === 1 ? traps : yardTraps;
+  for (const trap of activeTraps) {
     if (circleTouchesRect(playerModel.x, playerModel.y, PLAYER_RADIUS - 2, trap) && jumpTime <= 0) {
       gameState = 'lost';
       message = 'The floor alarm caught you. Try hopping over the marked strip.';
