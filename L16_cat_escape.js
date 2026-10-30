@@ -7,9 +7,12 @@ let playerModel;
 let guardModels = [];
 let guards = [];
 let gameState = 'title';
+let level = 1;
 let keyCollected = false;
 let firstDoorOpen = false;
 let secondDoorOpen = false;
+let cuttersCollected = false;
+let yardGateOpen = false;
 let puzzleProgress = 0;
 let alarm = 0;
 let jumpTime = 0;
@@ -39,6 +42,21 @@ const traps = [
 const hidingSpots = [
   { x: 355, y: 105, w: 80, h: 66 },
   { x: 555, y: 465, w: 62, h: 62 }
+];
+
+const yardTraps = [
+  { x: 420, y: 430, w: 105, h: 32 },
+  { x: 745, y: 230, w: 90, h: 32 }
+];
+
+const yardHidingSpots = [
+  { x: 325, y: 335, w: 82, h: 55 },
+  { x: 685, y: 465, w: 102, h: 54 }
+];
+
+const yardObstacles = [
+  { x: 120, y: 130, w: 145, h: 98 },
+  { x: 450, y: 125, w: 78, h: 68 }
 ];
 
 function setup() {
