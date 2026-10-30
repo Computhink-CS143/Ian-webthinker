@@ -922,6 +922,8 @@ function mousePressed() {
 
 function restartGame() {
   level = 1;
+  roadEscaped = false;
+  resetRoadTraffic();
   playerModel.x = 90;
   playerModel.y = 300;
   guards[0].model.x = 420;
@@ -949,8 +951,16 @@ function showMessage(nextMessage) {
 }
 
 function isPlayerHidden() {
+  if (level === 3) return false;
   const activeHidingSpots = level === 1 ? hidingSpots : yardHidingSpots;
   return activeHidingSpots.some((spot) => pointInsideRect(playerModel.x, playerModel.y, spot));
+}
+
+function resetRoadTraffic() {
+  const startPositions = [150, 430, 245, 500];
+  for (let index = 0; index < roadTraffic.length; index += 1) {
+    roadTraffic[index].y = startPositions[index];
+  }
 }
 
 function beginYardLevel() {
@@ -965,10 +975,23 @@ function beginYardLevel() {
   Object.assign(guards[1], { minX: 680, maxX: 840, speed: 70, direction: -1, range: 80 });
   cuttersCollected = false;
   yardGateOpen = false;
+  roadEscaped = false;
   alarm = 0;
   jumpTime = 0;
   jumpCooldown = 0;
   showMessage('Level 2: Find bolt cutters, then open the yard gate.');
+}
+
+function beginRoadLevel() {
+  level = 3;
+  playerModel.x = 72;
+  playerModel.y = 300;
+  roadEscaped = false;
+  alarm = 0;
+  jumpTime = 0;
+  jumpCooldown = 0;
+  resetRoadTraffic();
+  showMessage('Level 3: Cross the road safely and reach the park.');
 }
 
 function pointInsideRect(x, y, rect) {
