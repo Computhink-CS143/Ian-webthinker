@@ -611,14 +611,19 @@ function drawInteractionHint() {
 function drawHud() {
   fill('#f0d27e');
   textAlign(LEFT, CENTER);
-  textSize(18);
-  text('CAT ESCAPE', 28, 27);
+  textSize(16);
+  text('CAT ESCAPE  /  LEVEL ' + level, 28, 27);
   fill('#e9e2d0');
   textSize(11);
-  text('KEY ' + (keyCollected ? (firstDoorOpen ? 'USED' : 'FOUND') : 'MISSING'), 180, 27);
-  text('OVERRIDE ' + (puzzleProgress === 3 ? 'READY' : puzzleProgress + '/3'), 300, 27);
-  text('GATE 1 ' + (firstDoorOpen ? 'OPEN' : 'LOCKED'), 444, 27);
-  text('GATE 2 ' + (secondDoorOpen ? 'OPEN' : 'LOCKED'), 566, 27);
+  if (level === 1) {
+    text('KEY ' + (keyCollected ? (firstDoorOpen ? 'USED' : 'FOUND') : 'MISSING'), 235, 27);
+    text('OVERRIDE ' + (puzzleProgress === 3 ? 'READY' : puzzleProgress + '/3'), 360, 27);
+    text('GATE 1 ' + (firstDoorOpen ? 'OPEN' : 'LOCKED'), 510, 27);
+    text('GATE 2 ' + (secondDoorOpen ? 'OPEN' : 'LOCKED'), 640, 27);
+  } else {
+    text('CUTTERS ' + (cuttersCollected ? 'FOUND' : 'MISSING'), 270, 27);
+    text('FENCE ' + (yardGateOpen ? 'OPEN' : 'LOCKED'), 420, 27);
+  }
   text('R RESTART', 860, 27);
 
   fill('#263437');
@@ -657,7 +662,7 @@ function drawEndScreen() {
   text(gameState === 'won' ? 'FREEDOM!' : 'CAUGHT!', 480, 225);
   fill('#f2ead4');
   textSize(16);
-  text(gameState === 'won' ? 'The cat slipped through the last gate and vanished into the night.' : message, 480, 285);
+  text(gameState === 'won' ? 'The cat slipped beyond the outer fence and into the night.' : message, 480, 285);
   fill('#f0d27e');
   textSize(18);
   text('Press R to try again', 480, 365);
