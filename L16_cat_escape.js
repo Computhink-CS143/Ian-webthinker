@@ -299,6 +299,10 @@ function updatePlayer(dt) {
     keyCollected = true;
     showMessage('Cell key collected. Use E beside the first gate.');
   }
+
+  if (secondDoorOpen && dist(playerModel.x, playerModel.y, 890, 302) < 34) {
+    gameState = 'won';
+  }
 }
 
 function movePlayerAxis(dx, dy) {
@@ -538,8 +542,8 @@ function keyPressed() {
     return false;
   }
   if (key === ' ' && gameState === 'playing' && jumpCooldown <= 0) {
-    jumpTime = 0.62;
-    jumpCooldown = 0.82;
+    jumpTime = 0.9;
+    jumpCooldown = 1.1;
     return false;
   }
   if (key === 'r' || key === 'R') {
