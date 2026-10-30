@@ -1010,6 +1010,9 @@ function nearestInteraction() {
   } else if (level === 2) {
     if (!cuttersCollected) candidates.push({ id: 'cutters', x: 271, y: 500, hint: 'take cutters' });
     if (!yardGateOpen) candidates.push({ id: 'yardGate', x: 610, y: 300, hint: cuttersCollected ? 'cut fence lock' : 'locked fence' });
+  } else if (level === 4) {
+    if (!dockPassCollected) candidates.push({ id: 'dockPass', x: 219, y: 490, hint: 'take ferry pass' });
+    if (!ferryUnlocked) candidates.push({ id: 'ferryGate', x: 700, y: 300, hint: dockPassCollected ? 'show pass' : 'pass required' });
   }
   let closest = null;
   let closestDistance = 38;
@@ -1040,6 +1043,21 @@ function interact() {
         showMessage('Fence cut. Make a run for the road!');
       } else {
         showMessage('The fence lock needs bolt cutters.');
+      }
+    }
+    return;
+  }
+
+  if (level === 4) {
+    if (target.id === 'dockPass') {
+      dockPassCollected = true;
+      showMessage('Ferry pass collected. Get to the boarding gate.');
+    } else if (target.id === 'ferryGate') {
+      if (dockPassCollected) {
+        ferryUnlocked = true;
+        showMessage('Pass accepted. Board the ferry!');
+      } else {
+        showMessage('The harbor guard needs to see a ferry pass.');
       }
     }
     return;
