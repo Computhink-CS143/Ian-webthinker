@@ -682,8 +682,6 @@ function updateGame(dt) {
   } else if (level === 3) {
     updateRoadPlayer(dt);
   } else {
-  }
-  if (level === 4) {
     updateDockPlayer(dt);
   }
   if (level === 3) {
