@@ -44,11 +44,11 @@ const hidingSpots = [
 function setup() {
   createCanvas(GAME_WIDTH, GAME_HEIGHT);
   textFont('Georgia');
-  playerModel = new Sprite(90, 300, 24, 24, 'n');
+  playerModel = new Sprite(90, 300, 24, 24, 'none');
   playerModel.visible = false;
 
-  const firstGuard = new Sprite(420, 300, 24, 28, 'n');
-  const secondGuard = new Sprite(765, 365, 24, 28, 'n');
+  const firstGuard = new Sprite(420, 300, 24, 28, 'none');
+  const secondGuard = new Sprite(765, 365, 24, 28, 'none');
   firstGuard.visible = false;
   secondGuard.visible = false;
   guardModels = [firstGuard, secondGuard];
